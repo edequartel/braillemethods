@@ -1,0 +1,8 @@
+//22_1_relatie_erbij_analogie.ps
+//22_1_relatie_erbij_analogie.ps from: 5 span: 20 maxanswer: 20 spreiding: 3 step: 1
+5+5=10 dus 10-5#4,5,6#5
+6+6=12 dus 12-6#5,6,7#6
+7+7=14 dus 14-7#5,6,7#7
+8+8=16 dus 16-8#8,9,10#8
+9+9=18 dus 18-9#8,9,10#9
+10+10=20 dus 20-10#8,9,10#10

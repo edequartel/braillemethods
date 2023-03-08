@@ -1,0 +1,7 @@
+//21_1_halveren.ps
+//21_1_halveren.ps from: 1 span: 10 maxanswer: 10 spreiding: 3 step: 1
+2-1#1,2,3#1
+4-2#2,3,4#2
+6-3#2,3,4#3
+8-4#4,5,6#4
+10-5#4,5,6#5

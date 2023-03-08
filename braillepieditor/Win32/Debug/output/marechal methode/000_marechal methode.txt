@@ -1,0 +1,162 @@
+;=== abkl ===
+abkl
+;lees letters abkl
+l   a   b   k
+l a b k
+b a l k b b l b k k a k l k
+;zoek letters abkl
+l#k   l   a   b
+b#b   l   b   k   k   b   b   b   k   l
+l#b l a k
+k#l a b l b k a a b b k l k b
+;lees woorden abkl
+kaal   aak   bak   aal   ba   lal   balk
+kaak kaal klak la kalk lal aal balk baal
+lal aal aal bal balk bal lal kalk balk
+;zoek woorden abkl
+kalk#kalk   klak   ba   aak   bak   aal
+aak#aak   lak   klak   aal   kaal   al
+baal#lal bal baal bak kaak kalk aal balk
+lal#kalk aal lal la aak kaak kaak aal
+;type letters abkl
+$l   k   a   b
+$k l a b
+$a b k l k a l l
+;type woorden abkl
+$kaal
+$bal bak ba
+;=== abklcgop ===
+abcgklop
+;lees letters abklcgop
+a   k   g   o   l   c   b   p
+k g c o b p l a
+g l a l l k a g l o c b o c
+;zoek letters abklcgop
+c#k   o   g   l   p   a   c   b
+l#k   b   c   o   a   c   b   a   o   l
+l#a b o p c k l g
+b#p b g l c c b l a a p c p a
+;lees woorden abklcgop
+blok   kop   oppak   ga   la   po   kok
+pak klap kaak oplap klop bob oploop po
+lol opa pa bal loog kopbal oppak klap
+;zoek woorden abklcgop
+polo#klaag   goal   pook   polo   oppak
+kaak#plak   baal   koop   kaak   kook
+kop#kop bob log laag opkoop ba lak klok
+polo#polo oog kaap op lol kaak gok lak
+;type letters abklcgop
+$b   o   g   c   p   k   a   l
+$g b p c o k a l
+$k k k c a b a c
+;type woorden abklcgop
+$gal
+$oppak blok log
+;=== efmvabklcgop ===
+abcefgklmopv
+;lees letters efmvabklcgop
+p   g   v   e   f   m   b   k   a   l
+k e p b f c g o a m l v
+p o m o m c m p a v o l k m
+;zoek letters efmvabklcgop
+b#o   k   a   b   g   l   m   c   f   v
+o#o   g   p   o   e   g   v   p   b   g
+a#m l f e o v p a c g k b
+g#g g a k p f c m a m c e f v
+;lees woorden efmvabklcgop
+kookboek   opa   logo   lego   boem   of
+vlo ook klep bel pak maak lepel leem cm
+elke meel afval kameel lafbek pof laag
+;zoek woorden efmvabklcgop
+fakkel#oppak   fakkel   mom   geef   al
+fakkel#lokaal   mama   polo   fakkel
+opmaak#kok lege meegevoel gaf kef opmaak
+bagage#alle logo klomp klep val bagage
+;type letters efmvabklcgop
+$e   o   g   b   v   l   f   c   m   p
+$f p c a b o k g e m v l
+$a b l c k e p e
+;type woorden efmvabklcgop
+$aak
+$kameel opa opveeg
+;=== hsnwefmvabklcgop ===
+abcefghklmnopsvw
+;lees letters hsnwefmvabklcgop
+k   s   m   b   h   c   g   a   v   e
+c l o a g n f w e k m v b p
+m f n n k p s e l k w s a p
+;zoek letters hsnwefmvabklcgop
+h#p   s   c   m   e   n   l   h   k   f
+e#s   w   k   f   c   b   b   e   c   h
+c#p a e c s h b w o l f v k g
+k#m m v k w b f f l a k w f s
+;lees woorden hsnwefmvabklcgop
+nog   eef   pal   of   vonk   melk   sla
+hap omkopen kopen ook gaap kachel alfa
+mep spelen aangenaam snappen gevel haven
+;zoek woorden hsnwefmvabklcgop
+hees#pep   oom   aangenaam   kelk   hees
+wollen#hak   heks   boon   kon   wollen
+bewaak#maken helm poen gans wenk bewaak
+schaal#meeval knaag lege afgeef schaal
+;type letters hsnwefmvabklcgop
+$c   f   o   h   k   e   m   n   s   a
+$f h m e s l n a g o v w k c
+$c c b w g o m l
+;type woorden hsnwefmvabklcgop
+$nog
+$hoeven gewas klaag
+;=== xyqhsnwefmvabklcgop ===
+abcefghklmnopqsvwxy
+;lees letters xyqhsnwefmvabklcgop
+e   n   a   y   k   p   c   s   g   o
+p c a k m q g b n l y w f v
+l y c k a p e m a p l h h n
+;zoek letters xyqhsnwefmvabklcgop
+x#e   s   x   c   o   v   g   p   w   m
+g#w   f   g   e   m   p   h   p   w   p
+x#w l a n b g m v h f p x q c
+q#b n w y k y o q h c f q s f
+;lees woorden xyqhsnwefmvabklcgop
+kol   nobel   pook   wolken   omwoel
+golven opga malen maas al bek meen en
+slagpen lolly fel banaan gevel weghalen
+;zoek woorden xyqhsnwefmvabklcgop
+gaf#meepakken   gaf   allang   aanhebben
+afmaken#woog   afmaken   lage   wegnamen
+slaap#slaap maan slop glas koek sambal
+opa#opa gegevens komaf vanwege gap spons
+;type letters xyqhsnwefmvabklcgop
+$c   l   b   q   s   e   g   a   w   f
+$b c w v x h o s g y m l k p
+$b o b y s o y h
+;type woorden xyqhsnwefmvabklcgop
+$som
+$omhang leesles maas
+;=== jtzxyqhsnwefmvabklcgop ===
+abcefghjklmnopqstvwxyz
+;lees letters jtzxyqhsnwefmvabklcgop
+y   m   j   p   k   n   b   h   t   g
+h v z e x p t b q l y a o k
+m w k j b l t n a o e z y p
+;zoek letters jtzxyqhsnwefmvabklcgop
+g#k   z   v   j   w   q   y   c   g   e
+m#o   a   b   f   t   j   f   s   m   k
+a#e k b w m s q v c h g t a n
+b#f k l f g a b f k s m z b c
+;lees woorden jtzxyqhsnwefmvabklcgop
+stappen   pap   ajax   eetzaal   afgaf
+aalmoes poetst eten afkap loes taboe
+weglok ontpop steek lastpak kwek ooghoek
+;zoek woorden jtzxyqhsnwefmvabklcgop
+opwel#opwel   koken   knal   wegval
+wachten#wachten   talg   zoen   boeven
+we#we poolvos ex gegevens zwoeg toonloos
+man#man ploeg schoolslag ach haast vol
+;type letters jtzxyqhsnwefmvabklcgop
+$t   s   y   x   l   w   g   n   a   h
+$o m w q f a e b h x n p k v
+$j w o f e a e l
+;type woorden jtzxyqhsnwefmvabklcgop
+$foef
+$schat sok mest

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/11/30 07:39:16.000.175,=C:\Users\edequ\Dropbox\PC (3)\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/11/30 09:34:02.000.166,=C:\Users\edequ\Dropbox\PC (3)\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/11/30 11:39:01.000.587,=C:\Users\edequ\Dropbox\PC (3)\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/20 16:46:12.000.698,=C:\Users\edequ\Dropbox\PC (3)\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/20 16:49:09.000.218,C:\Users\edequ\Dropbox\PC (3)\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\edequ\Dropbox\Software development\simpleeditor\Unit1.dfm</Transaction>
+    <Transaction>2021/12/20 16:49:09.000.218,C:\Users\edequ\Dropbox\PC (3)\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\edequ\Dropbox\Software development\simpleeditor\Unit1.pas</Transaction>
+    <Transaction>2021/12/20 16:49:14.000.975,C:\Users\edequ\Dropbox\PC (3)\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\edequ\Dropbox\Software development\simpleeditor\simpleeditor.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

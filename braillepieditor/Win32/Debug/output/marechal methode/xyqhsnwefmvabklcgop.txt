@@ -1,0 +1,26 @@
+abcefghklmnopqsvwxy
+;lees letters xyqhsnwefmvabklcgop
+e   n   a   y   k   p   c   s   g   o
+p c a k m q g b n l y w f v
+l y c k a p e m a p l h h n
+;zoek letters xyqhsnwefmvabklcgop
+x#e   s   x   c   o   v   g   p   w   m
+g#w   f   g   e   m   p   h   p   w   p
+x#w l a n b g m v h f p x q c
+q#b n w y k y o q h c f q s f
+;lees woorden xyqhsnwefmvabklcgop
+kol   nobel   pook   wolken   omwoel
+golven opga malen maas al bek meen en
+slagpen lolly fel banaan gevel weghalen
+;zoek woorden xyqhsnwefmvabklcgop
+gaf#meepakken   gaf   allang   aanhebben
+afmaken#woog   afmaken   lage   wegnamen
+slaap#slaap maan slop glas koek sambal
+opa#opa gegevens komaf vanwege gap spons
+;type letters xyqhsnwefmvabklcgop
+$c   l   b   q   s   e   g   a   w   f
+$b c w v x h o s g y m l k p
+$b o b y s o y h
+;type woorden xyqhsnwefmvabklcgop
+$som
+$omhang leesles maas

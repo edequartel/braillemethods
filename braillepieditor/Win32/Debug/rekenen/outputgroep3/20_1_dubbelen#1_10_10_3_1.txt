@@ -1,0 +1,7 @@
+//20_1_dubbelen.ps
+//20_1_dubbelen.ps from: 1 span: 10 maxanswer: 10 spreiding: 3 step: 1
+1+1#2,4,6#2
+2+2#4,6,8#4
+3+3#4,6,8#6
+4+4#8,10,12#8
+5+5#8,10,12#10

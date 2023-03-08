@@ -1,0 +1,26 @@
+abkl
+;lees letters abkl
+l   a   b   k
+l a b k
+b a l k b b l b k k a k l k
+;zoek letters abkl
+l#k   l   a   b
+b#b   l   b   k   k   b   b   b   k   l
+l#b l a k
+k#l a b l b k a a b b k l k b
+;lees woorden abkl
+kaal   aak   bak   aal   ba   lal   balk
+kaak kaal klak la kalk lal aal balk baal
+lal aal aal bal balk bal lal kalk balk
+;zoek woorden abkl
+kalk#kalk   klak   ba   aak   bak   aal
+aak#aak   lak   klak   aal   kaal   al
+baal#lal bal baal bak kaak kalk aal balk
+lal#kalk aal lal la aak kaak kaak aal
+;type letters abkl
+$l   k   a   b
+$k l a b
+$a b k l k a l l
+;type woorden abkl
+$kaal
+$bal bak ba

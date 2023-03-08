@@ -1,0 +1,26 @@
+abcefgklmopv
+;lees letters efmvabklcgop
+p   g   v   e   f   m   b   k   a   l
+k e p b f c g o a m l v
+p o m o m c m p a v o l k m
+;zoek letters efmvabklcgop
+b#o   k   a   b   g   l   m   c   f   v
+o#o   g   p   o   e   g   v   p   b   g
+a#m l f e o v p a c g k b
+g#g g a k p f c m a m c e f v
+;lees woorden efmvabklcgop
+kookboek   opa   logo   lego   boem   of
+vlo ook klep bel pak maak lepel leem cm
+elke meel afval kameel lafbek pof laag
+;zoek woorden efmvabklcgop
+fakkel#oppak   fakkel   mom   geef   al
+fakkel#lokaal   mama   polo   fakkel
+opmaak#kok lege meegevoel gaf kef opmaak
+bagage#alle logo klomp klep val bagage
+;type letters efmvabklcgop
+$e   o   g   b   v   l   f   c   m   p
+$f p c a b o k g e m v l
+$a b l c k e p e
+;type woorden efmvabklcgop
+$aak
+$kameel opa opveeg

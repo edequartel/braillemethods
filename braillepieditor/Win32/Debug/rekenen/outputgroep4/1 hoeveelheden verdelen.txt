@@ -1,0 +1,12 @@
+Joep en Jip hebben 6 poppetjes. Ze verdelen de poppetjes eerlijk. Hoeveel poppetjes krijgt ieder?##3
+Lars en Niek hebben 10 snoepjes. Ze verdelen ze eerlijk. Hoeveel snoepjes krijgt ieder? ##5
+Emma en Sophie hebben 20 elastiekjes. Ze mogen ze samen eerlijk verdelen. Hoeveel elastiekjes krijgt ieder.##10 
+Anne en Marina hebben 14 stickers. Ze mogen ze samen eerlijk verdelen. Hoeveel stickers krijgt ieder?##7
+Saar en Rhevory  hebben 18 potloden. Ze mogen ze samen eerlijk verdelen. Hoeveel potloden krijgt ieder.##9
+De juf heeft 50 potloden. Ieder kind krijgt een doosje met 10 potloden. Hoeveel kinderen kunnen er een doosje met 10 potloden krijgen?##5
+Mama heeft 20 dropjes. Ieder kind krijgt 5 dropjes. Hoeveel kinderen krijgen 5 dropjes?##4
+De bloemenman heeft 14 rozen. Iedere klant krijgt 2 rozen. Hoeveel klanten krijgen er 2 rozen?##7 
+Tante Bronja heeft 24 snoepjes. Ieder nichtje krijgt 4 snoepjes. Hoeveel nichtjes krijgen er snoepjes##6
+Oma heeft 42 kersen. Elk kleinkind krijgt een bakje met 7 kersen. Hoeveel kleinkinderen krijgen er een bakje met 7 kersen?##6
+
+

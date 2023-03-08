@@ -1,0 +1,13 @@
+//2 deelsommen.ps frm:1 spn:10 max:20 spr:3 stp:1
+4/4##1
+8/4##2
+12/4##3
+16/4##4
+20/4##5
+24/4##6
+28/4##7
+32/4##8
+36/4##9
+40/4##10
+
+//Saved to ..\output\2 deelsommen.txt

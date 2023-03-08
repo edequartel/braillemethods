@@ -1,0 +1,2 @@
+//14_3_huisjes_aanvullen_metvariabele.ps
+//14_3_huisjes_aanvullen_metvariabele.ps from: 10 span: -1 maxanswer: 20 spreiding: -1 step: -1

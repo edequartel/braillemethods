@@ -1,0 +1,2 @@
+//11_1_plaats_getallenlijn.ps
+//11_1_plaats_getallenlijn.ps from: 10 span: 20 maxanswer: 10 spreiding: 5 step: -1

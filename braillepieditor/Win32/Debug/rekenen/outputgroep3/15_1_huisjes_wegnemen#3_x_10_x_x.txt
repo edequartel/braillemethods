@@ -1,0 +1,9 @@
+//15_1_huisjes_wegnemen.ps
+//15_1_huisjes_wegnemen.ps from: 3 span: -1 maxanswer: 10 spreiding: -1 step: -1
+4##<4>,3
+5##<5>,3
+6##<6>,3
+7##<7>,3
+8##<8>,3
+9##<9>,3
+10##<10>,3

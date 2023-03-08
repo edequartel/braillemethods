@@ -1,0 +1,441 @@
+﻿unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, SpTBXDkPanels, SpTBXItem, TB2Item,
+  TB2Dock, TB2Toolbar, System.Actions, Vcl.ActnList, FileMenuHdl, ecSyntMemo,jbstr,
+  ecSyntAnal, SpTBXEditors, FindFile, ZipMstr;
+
+type
+  TAnalyse =record
+    nrofzin:integer;
+    nrofwords:integer;
+    lengthwords:integer;
+  end;
+
+  TForm1 = class(TForm)
+    SpTBXDock1: TSpTBXDock;
+    SpTBXToolbar1: TSpTBXToolbar;
+    SpTBXSubmenuItem1: TSpTBXSubmenuItem;
+    SpTBXStatusBar1: TSpTBXStatusBar;
+    SpTBXToolbar2: TSpTBXToolbar;
+    SpTBXItem1: TSpTBXItem;
+    Memo: TSyntaxMemo;
+    OpenDialog1: TOpenDialog;
+    SaveDialog1: TSaveDialog;
+    FMH: TFileMenuHandler;
+    ActionList1: TActionList;
+    acOpen: TAction;
+    acSave: TAction;
+    acNew: TAction;
+    acSaveAs: TAction;
+    SpTBXItem2: TSpTBXItem;
+    SpTBXItem3: TSpTBXItem;
+    SpTBXItem4: TSpTBXItem;
+    SpTBXItem5: TSpTBXItem;
+    SpTBXItem6: TSpTBXItem;
+    acClose: TAction;
+    SpTBXSeparatorItem1: TSpTBXSeparatorItem;
+    acWrap: TAction;
+    acLowercase: TAction;
+    SpTBXItem7: TSpTBXItem;
+    acSeperate: TAction;
+    SpTBXItem8: TSpTBXItem;
+    acSigns: TAction;
+    SpTBXItem9: TSpTBXItem;
+    acLines: TAction;
+    SpTBXItem10: TSpTBXItem;
+    SyntStyles1: TSyntStyles;
+    spSigns: TSpTBXEditItem;
+    SpTBXRightAlignSpacerItem1: TSpTBXRightAlignSpacerItem;
+    SpTBXRightAlignSpacerItem2: TSpTBXRightAlignSpacerItem;
+    ZipMaster1: TZipMaster;
+    acZip: TAction;
+    SpTBXItem11: TSpTBXItem;
+    ff: TFindFile;
+    SpTBXRightAlignSpacerItem3: TSpTBXRightAlignSpacerItem;
+    SpTBXItem12: TSpTBXItem;
+    SpTBXRightAlignSpacerItem4: TSpTBXRightAlignSpacerItem;
+    acAnalyse: TAction;
+    spbg: TSpTBXLabelItem;
+    SpTBXItem17: TSpTBXItem;
+    acDelete: TAction;
+    SpTBXItem13: TSpTBXItem;
+    procedure acLowercaseExecute(Sender: TObject);
+    procedure acWrapExecute(Sender: TObject);
+    procedure acSeperateExecute(Sender: TObject);
+    procedure acSignsExecute(Sender: TObject);
+    procedure acZipExecute(Sender: TObject);
+    function FMHNew(const Filename: string): Boolean;
+    function FMHOpen(const Filename: string): Boolean;
+    function FMHSave(const Filename: string): Boolean;
+    procedure SpTBXItem4Click(Sender: TObject);
+    procedure acSaveExecute(Sender: TObject);
+    procedure acNewExecute(Sender: TObject);
+    procedure acSaveAsExecute(Sender: TObject);
+    procedure acCloseExecute(Sender: TObject);
+    procedure acOpenExecute(Sender: TObject);
+    procedure FMHNewFormCaption(const FileName: string);
+    procedure acLinesExecute(Sender: TObject);
+    procedure SpTBXItem12Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure FormDestroy(Sender: TObject);
+    procedure acAnalyseExecute(Sender: TObject);
+    function Analyse(value:string):TAnalyse;
+    procedure acDeleteExecute(Sender: TObject);
+  private
+    { Private declarations }
+    fproject:tfilename;
+    flijst:tstringlist;
+    property project:tfilename read fproject write fproject;
+    property lijst:tstringlist read flijst write flijst;
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.acCloseExecute(Sender: TObject);
+begin
+  close;
+end;
+
+procedure TForm1.acDeleteExecute(Sender: TObject);
+var sl:tstringlist; i:integer;
+begin
+  memo.Lines.BeginUpdate;
+  sl:=tstringlist.create;
+  try
+    sl.Text:=memo.Text;
+    memo.lines.Clear;
+    for i:=0 to sl.count-1 do
+    if length(sl[i])>0 then
+    memo.Lines.Add(sl[i]);
+  finally
+    sl.free
+  end;
+  memo.Lines.EndUpdate;
+end;
+
+function nicestring(value:string):string;
+var
+  i: Integer;
+  s,sout: string;
+begin
+  sout:=value;
+  s:='~`!@#$%^&*()_+=-{}[]|\:;"''<>,.?/';
+  for i := 1 to length(s) do
+  sout:=searchandreplace(sout,s[i],'');
+  result:=sout;
+end;
+
+//naar brouwer
+function braillegrade(value:tanalyse):integer;
+begin
+  result:=0;
+  with value do
+  begin
+    if (nrofzin>0) or (nrofwords>0) then
+    result:=2*(nrofwords div nrofzin)+6*(lengthwords div nrofwords);
+  end;
+end;
+
+const temppath='c:\000';
+procedure TForm1.acLinesExecute(Sender: TObject);
+var sl:tstringlist; i,j,index:integer;
+begin
+  memo.Lines.BeginUpdate;
+  memo.SaveToFile(temppath+'\'+uppercase(justfilename(project)));
+  sl:=tstringlist.create;
+  try
+    sl.Clear;
+    index:=1;
+    i:=0;
+    for j:=0 to memo.Lines.count-1 do
+    begin
+      sl.Add(memo.lines[j]);
+      inc(i);
+      if (length(memo.Lines[j])<=0) then
+      begin
+        sl.SaveToFile(temppath+'\'+Format('%.4d',[index])+'_'+justname(project)+'_'+nicestring(sl[0])+'_'+inttostr(braillegrade(analyse(sl.text)))+'.txt');
+        inc(index);
+        i:=0;
+        sl.Clear;
+      end;
+    end;
+  finally
+    sl.free
+  end;
+  memo.Lines.EndUpdate;
+end;
+
+procedure TForm1.acLowercaseExecute(Sender: TObject);
+var sl:tstringlist;
+begin
+  memo.Lines.BeginUpdate;
+  sl:=tstringlist.create;
+  try
+    sl.clear;
+    sl.text:=lowercase(memo.Text);
+    memo.Text:=sl.Text;
+  finally
+    sl.free
+  end;
+  memo.Lines.EndUpdate;
+end;
+
+procedure TForm1.acNewExecute(Sender: TObject);
+begin
+  fmh.New;
+end;
+
+procedure TForm1.acOpenExecute(Sender: TObject);
+begin
+  fmh.Open;
+end;
+
+procedure TForm1.acSaveAsExecute(Sender: TObject);
+begin
+  fmh.SaveAs;
+end;
+
+procedure TForm1.acSaveExecute(Sender: TObject);
+begin
+  fmh.Save;
+end;
+
+const nroflines=40;
+procedure TForm1.acSeperateExecute(Sender: TObject);
+var sl:tstringlist; i,j,index:integer;
+begin
+  memo.Lines.BeginUpdate;
+  memo.SaveToFile(temppath+'\'+uppercase(justfilename(project)));
+  sl:=tstringlist.create;
+  try
+    sl.Clear;
+    index:=1;
+    i:=0;
+    for j:=0 to memo.Lines.count-1 do
+    begin
+      sl.Add(memo.lines[j]);
+      inc(i);
+      if (i=nroflines) then
+      begin
+        sl.SaveToFile(temppath+'\'+Format('%.4d',[index])+'_'+justname(project)+'_'+inttostr(braillegrade(analyse(sl.text)))+'.txt');
+        inc(index);
+        i:=0;
+        sl.Clear;
+      end;
+    end;
+    sl.SaveToFile(temppath+'\'+Format('%.4d',[index])+'_'+justname(project)+'.txt');
+  finally
+    sl.free
+  end;
+  memo.Lines.EndUpdate;
+end;
+
+procedure TForm1.acSignsExecute(Sender: TObject);
+var sl:tstringlist; i:integer;
+begin
+  memo.Lines.BeginUpdate;
+  sl:=tstringlist.create;
+  try
+    sl.Text:=memo.Text;
+    for i:=1 to length(spsigns.Text) do
+    sl.Text:=searchandreplace(sl.Text,spsigns.Text[i],'');
+    memo.Text:=sl.Text;
+  finally
+    sl.free
+  end;
+  memo.Lines.EndUpdate;
+end;
+
+const lengthbrailledisplay=40;
+const eindevanzin='!?.';
+
+function checkeoz(value:string):integer;
+var
+  i,p: Integer;
+begin
+  result:=-1;
+  for i := 1 to length(eindevanzin) do
+  begin
+    if (eindevanzin[i]=value[length(value)])
+    then result:=length(value);
+  end;
+end;
+
+//definition
+{
+  bij berekeningen worden geen spaties meegenomen bij lengte van de zin
+  nrofzin aantal zinnen in de tekst
+  nrofwords aantal woorden in de tekst
+  => gemiddelde aantal woorden per zin
+    nrofwords/nrofzin
+  lengthwords totale lengthe van alle woorden bij elkaar
+  => gemiddelde lengte van de woorden
+    lengthwords/nrofwords
+  => gemiddelde lengte van de zin
+    lengthzin/nrofsentences
+}
+function TForm1.Analyse(value:string):TAnalyse;
+var
+  i,j,pos: Integer;
+  s:string;
+  nrofzin_:integer;
+  nrofwords_:integer;
+  lengthwords_:integer;
+begin
+  lijst.Delimiter:=' ';
+  lijst.DelimitedText:=value;
+  nrofzin_:=0;
+  nrofwords_:=0;
+  lengthwords_:=0;
+  for i := 0 to lijst.count-1 do
+  begin
+    inc(nrofwords_);
+    s:=lijst[i];
+    pos:=checkeoz(lijst[i]);
+    if pos>0 then
+    begin
+      delete(s,pos,1);
+      lijst[i]:=s;
+      inc(nrofzin_);
+      lengthwords_:=lengthwords_+length(lijst[i]);
+    end
+    else
+    lengthwords_:=lengthwords_+length(lijst[i]);
+  end;
+  //
+  with result do
+  begin
+    nrofwords:=nrofwords_;
+    nrofzin:=nrofzin_;
+    lengthwords:=lengthwords_;
+  end;
+end;
+
+//    memo.Lines.Add('gem woorden per zin '+inttostr(nrofwords div nrofzin));
+//    memo.Lines.Add('gem lengte zin '+inttostr(lengthwords div nrofzin));
+//    memo.Lines.Add('gem lengte woord '+inttostr(lengthwords div nrofwords));
+//    memo.Lines.Add('grade tekst '+inttostr(braillegrade(result)));
+procedure TForm1.acAnalyseExecute(Sender: TObject);
+begin
+  spbg.Caption:='braillegrade: '+inttostr(braillegrade(analyse(memo.text)));
+end;
+
+procedure TForm1.acWrapExecute(Sender: TObject);
+var sl,sl2,sl3:tstringlist; i,j:integer;  str:UnicodeString;
+begin
+  memo.Lines.BeginUpdate;
+  sl:=tstringlist.create;
+  sl2:=tstringlist.Create;
+  sl3:=tstringlist.Create;
+  try
+    sl2.Text:=memo.Text;
+    sl3.Clear;
+    sl.clear;
+    sl.Delimiter:=' ';
+
+    for j:=0 to sl2.Count-1 do
+    begin
+      sl.DelimitedText:=sl2[j];
+      str:='';
+      for i := 0 to sl.Count-1 do
+        begin
+          if length(str+sl[i])>lengthbrailledisplay then
+          begin
+            sl3.Add(str);
+            str:=sl[i]+' ';
+          end
+          else
+          str:=str+sl[i]+' ';
+        end;
+        sl3.Add(str);
+    end;
+    memo.Text:=sl3.Text;
+  finally
+    sl.free;
+    sl2.Free;
+    sl3.Free;
+  end;
+  memo.Lines.endupdate;
+end;
+
+procedure TForm1.acZipExecute(Sender: TObject);
+var i:integer; filename:tfilename;  sl:tstringlist;
+begin
+   sl:=tstringlist.Create;
+   try
+     ff.Path:=temppath;
+     ff.FileMask:='*.txt';
+     ZipMaster1.DLLDirectory:=ExtractFilePath(Application.ExeName);
+     ZipMaster1.Dll_Load := true;
+     filename:=temppath+'\'+justname(project)+'.zip';
+     DeleteFile(FileName);
+     sl.Text:=ff.SearchForFiles.Text;
+
+     ZipMaster1.ZipFileName:=filename;
+     for i:=0 to sl.count-1 do
+       begin
+        ZipMaster1.FSpecArgs.Add(sl[i]);
+        ZipMaster1.Add;
+        deletefile(sl[i]);
+       end;
+   finally
+     sl.free
+   end;
+end;
+
+function TForm1.FMHNew(const Filename: string): Boolean;
+begin
+  memo.Lines.clear;
+  project:=filename;
+end;
+
+procedure TForm1.FMHNewFormCaption(const FileName: string);
+begin
+  caption:=filename;
+  project:=filename;
+end;
+
+function TForm1.FMHOpen(const Filename: string): Boolean;
+begin
+  memo.Lines.LoadFromFile(filename);
+  spbg.Caption:='braillegrade: '+inttostr(braillegrade(analyse(memo.text)));
+end;
+
+function TForm1.FMHSave(const Filename: string): Boolean;
+begin
+   memo.Lines.SaveToFile(filename);
+   project:=filename;
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+  lijst:=tstringlist.create;
+end;
+
+procedure TForm1.FormDestroy(Sender: TObject);
+begin
+  lijst.Free;
+end;
+
+procedure TForm1.SpTBXItem12Click(Sender: TObject);
+begin
+  memo.text:=searchandreplace(memo.Text,' ','');
+end;
+
+procedure TForm1.SpTBXItem4Click(Sender: TObject);
+begin
+  fmh.New;
+end;
+
+end.

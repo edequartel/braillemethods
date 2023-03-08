@@ -1,0 +1,26 @@
+abcgklop
+;lees letters abklcgop
+a   k   g   o   l   c   b   p
+k g c o b p l a
+g l a l l k a g l o c b o c
+;zoek letters abklcgop
+c#k   o   g   l   p   a   c   b
+l#k   b   c   o   a   c   b   a   o   l
+l#a b o p c k l g
+b#p b g l c c b l a a p c p a
+;lees woorden abklcgop
+blok   kop   oppak   ga   la   po   kok
+pak klap kaak oplap klop bob oploop po
+lol opa pa bal loog kopbal oppak klap
+;zoek woorden abklcgop
+polo#klaag   goal   pook   polo   oppak
+kaak#plak   baal   koop   kaak   kook
+kop#kop bob log laag opkoop ba lak klok
+polo#polo oog kaap op lol kaak gok lak
+;type letters abklcgop
+$b   o   g   c   p   k   a   l
+$g b p c o k a l
+$k k k c a b a c
+;type woorden abklcgop
+$gal
+$oppak blok log

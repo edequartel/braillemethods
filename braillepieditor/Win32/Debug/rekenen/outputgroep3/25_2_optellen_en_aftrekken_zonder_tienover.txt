@@ -1,0 +1,6 @@
+//25_2_optellen_en_aftrekken_zonder_tienover.ps
+//25_2_optellen_en_aftrekken_zonder_tienover.ps from: 10 span: 10 maxanswer: 20 spreiding: 3 step: 1
+0+0#0,1,2#0
+0-0#0,1,2#0
+0-0#0,1,2#0
+
