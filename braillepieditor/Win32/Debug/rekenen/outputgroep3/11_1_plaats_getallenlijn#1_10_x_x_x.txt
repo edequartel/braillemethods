@@ -1,0 +1,113 @@
+//11_1_plaats_getallenlijn.ps
+//11_1_plaats_getallenlijn.ps from: 1 span: 10 maxanswer: -1 spreiding: -1 step: -1
+//width: -1
+// a>MAXANSWER 1>-1 // not in train 1##1
+// a>MAXANSWER 2>-1 // not in train 2##2
+// a>MAXANSWER 3>-1 // not in train 3##3
+// a>MAXANSWER 4>-1 // not in train 4##4
+// a>MAXANSWER 5>-1 // not in train 5##5
+// a>MAXANSWER 6>-1 // not in train 6##6
+// a>MAXANSWER 7>-1 // not in train 7##7
+// a>MAXANSWER 8>-1 // not in train 8##8
+// a>MAXANSWER 9>-1 // not in train 9##9
+// a>MAXANSWER 10>-1 // not in train 10##10
+
+// a>MAXANSWER 2>-1 // not in train 2##2
+// a>MAXANSWER 3>-1 // not in train 3##3
+// a>MAXANSWER 4>-1 // not in train 4##4
+// a>MAXANSWER 5>-1 // not in train 5##5
+// a>MAXANSWER 6>-1 // not in train 6##6
+// a>MAXANSWER 7>-1 // not in train 7##7
+// a>MAXANSWER 8>-1 // not in train 8##8
+// a>MAXANSWER 9>-1 // not in train 9##9
+// a>MAXANSWER 10>-1 // not in train 10##10
+// a>MAXANSWER 11>-1 // not in train 11##11
+
+// a>MAXANSWER 3>-1 // not in train 3##3
+// a>MAXANSWER 4>-1 // not in train 4##4
+// a>MAXANSWER 5>-1 // not in train 5##5
+// a>MAXANSWER 6>-1 // not in train 6##6
+// a>MAXANSWER 7>-1 // not in train 7##7
+// a>MAXANSWER 8>-1 // not in train 8##8
+// a>MAXANSWER 9>-1 // not in train 9##9
+// a>MAXANSWER 10>-1 // not in train 10##10
+// a>MAXANSWER 11>-1 // not in train 11##11
+// a>MAXANSWER 12>-1 // not in train 12##12
+
+// a>MAXANSWER 4>-1 // not in train 4##4
+// a>MAXANSWER 5>-1 // not in train 5##5
+// a>MAXANSWER 6>-1 // not in train 6##6
+// a>MAXANSWER 7>-1 // not in train 7##7
+// a>MAXANSWER 8>-1 // not in train 8##8
+// a>MAXANSWER 9>-1 // not in train 9##9
+// a>MAXANSWER 10>-1 // not in train 10##10
+// a>MAXANSWER 11>-1 // not in train 11##11
+// a>MAXANSWER 12>-1 // not in train 12##12
+// a>MAXANSWER 13>-1 // not in train 13##13
+
+// a>MAXANSWER 5>-1 // not in train 5##5
+// a>MAXANSWER 6>-1 // not in train 6##6
+// a>MAXANSWER 7>-1 // not in train 7##7
+// a>MAXANSWER 8>-1 // not in train 8##8
+// a>MAXANSWER 9>-1 // not in train 9##9
+// a>MAXANSWER 10>-1 // not in train 10##10
+// a>MAXANSWER 11>-1 // not in train 11##11
+// a>MAXANSWER 12>-1 // not in train 12##12
+// a>MAXANSWER 13>-1 // not in train 13##13
+// a>MAXANSWER 14>-1 // not in train 14##14
+
+// a>MAXANSWER 6>-1 // not in train 6##6
+// a>MAXANSWER 7>-1 // not in train 7##7
+// a>MAXANSWER 8>-1 // not in train 8##8
+// a>MAXANSWER 9>-1 // not in train 9##9
+// a>MAXANSWER 10>-1 // not in train 10##10
+// a>MAXANSWER 11>-1 // not in train 11##11
+// a>MAXANSWER 12>-1 // not in train 12##12
+// a>MAXANSWER 13>-1 // not in train 13##13
+// a>MAXANSWER 14>-1 // not in train 14##14
+// a>MAXANSWER 15>-1 // not in train 15##15
+
+// a>MAXANSWER 7>-1 // not in train 7##7
+// a>MAXANSWER 8>-1 // not in train 8##8
+// a>MAXANSWER 9>-1 // not in train 9##9
+// a>MAXANSWER 10>-1 // not in train 10##10
+// a>MAXANSWER 11>-1 // not in train 11##11
+// a>MAXANSWER 12>-1 // not in train 12##12
+// a>MAXANSWER 13>-1 // not in train 13##13
+// a>MAXANSWER 14>-1 // not in train 14##14
+// a>MAXANSWER 15>-1 // not in train 15##15
+// a>MAXANSWER 16>-1 // not in train 16##16
+
+// a>MAXANSWER 8>-1 // not in train 8##8
+// a>MAXANSWER 9>-1 // not in train 9##9
+// a>MAXANSWER 10>-1 // not in train 10##10
+// a>MAXANSWER 11>-1 // not in train 11##11
+// a>MAXANSWER 12>-1 // not in train 12##12
+// a>MAXANSWER 13>-1 // not in train 13##13
+// a>MAXANSWER 14>-1 // not in train 14##14
+// a>MAXANSWER 15>-1 // not in train 15##15
+// a>MAXANSWER 16>-1 // not in train 16##16
+// a>MAXANSWER 17>-1 // not in train 17##17
+
+// a>MAXANSWER 9>-1 // not in train 9##9
+// a>MAXANSWER 10>-1 // not in train 10##10
+// a>MAXANSWER 11>-1 // not in train 11##11
+// a>MAXANSWER 12>-1 // not in train 12##12
+// a>MAXANSWER 13>-1 // not in train 13##13
+// a>MAXANSWER 14>-1 // not in train 14##14
+// a>MAXANSWER 15>-1 // not in train 15##15
+// a>MAXANSWER 16>-1 // not in train 16##16
+// a>MAXANSWER 17>-1 // not in train 17##17
+// a>MAXANSWER 18>-1 // not in train 18##18
+
+// a>MAXANSWER 10>-1 // not in train 10##10
+// a>MAXANSWER 11>-1 // not in train 11##11
+// a>MAXANSWER 12>-1 // not in train 12##12
+// a>MAXANSWER 13>-1 // not in train 13##13
+// a>MAXANSWER 14>-1 // not in train 14##14
+// a>MAXANSWER 15>-1 // not in train 15##15
+// a>MAXANSWER 16>-1 // not in train 16##16
+// a>MAXANSWER 17>-1 // not in train 17##17
+// a>MAXANSWER 18>-1 // not in train 18##18
+// a>MAXANSWER 19>-1 // not in train 19##19
+

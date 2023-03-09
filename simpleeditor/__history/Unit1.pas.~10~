@@ -1,0 +1,161 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, SpTBXDkPanels, SpTBXItem, TB2Item,
+  TB2Dock, TB2Toolbar, System.Actions, Vcl.ActnList, FileMenuHdl, ecSyntMemo,jbstr,
+  ecSyntAnal, SpTBXEditors;
+
+type
+  TForm1 = class(TForm)
+    SpTBXDock1: TSpTBXDock;
+    SpTBXToolbar1: TSpTBXToolbar;
+    SpTBXSubmenuItem1: TSpTBXSubmenuItem;
+    SpTBXStatusBar1: TSpTBXStatusBar;
+    SpTBXToolbar2: TSpTBXToolbar;
+    SpTBXItem1: TSpTBXItem;
+    Memo: TSyntaxMemo;
+    OpenDialog1: TOpenDialog;
+    SaveDialog1: TSaveDialog;
+    FMH: TFileMenuHandler;
+    ActionList1: TActionList;
+    acOpen: TAction;
+    acSave: TAction;
+    acNew: TAction;
+    acSaveAs: TAction;
+    SpTBXItem2: TSpTBXItem;
+    SpTBXItem3: TSpTBXItem;
+    SpTBXItem4: TSpTBXItem;
+    SpTBXItem5: TSpTBXItem;
+    SpTBXItem6: TSpTBXItem;
+    acClose: TAction;
+    SpTBXSeparatorItem1: TSpTBXSeparatorItem;
+    acWrap: TAction;
+    acLowercase: TAction;
+    SpTBXItem7: TSpTBXItem;
+    acSeperate: TAction;
+    SpTBXItem8: TSpTBXItem;
+    acSigns: TAction;
+    SpTBXSubmenuItem2: TSpTBXSubmenuItem;
+    SpTBXItem9: TSpTBXItem;
+    acLines: TAction;
+    SpTBXItem10: TSpTBXItem;
+    SyntStyles1: TSyntStyles;
+    spSigns: TSpTBXEditItem;
+    SpTBXRightAlignSpacerItem1: TSpTBXRightAlignSpacerItem;
+    SpTBXRightAlignSpacerItem2: TSpTBXRightAlignSpacerItem;
+    procedure acLowercaseExecute(Sender: TObject);
+    procedure acWrapExecute(Sender: TObject);
+    procedure acSeperateExecute(Sender: TObject);
+    procedure acSignsExecute(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.acLowercaseExecute(Sender: TObject);
+var sl:tstringlist;
+begin
+  memo.Lines.BeginUpdate;
+  sl:=tstringlist.create;
+  try
+    sl.clear;
+    sl.text:=lowercase(memo.Text);
+    memo.Text:=sl.Text;
+  finally
+    sl.free
+  end;
+  memo.Lines.EndUpdate;
+end;
+
+procedure TForm1.acSeperateExecute(Sender: TObject);
+var sl:tstringlist; i,j,index:integer;
+begin
+  memo.Lines.BeginUpdate;
+  sl:=tstringlist.create;
+  try
+    sl.Clear;
+    index:=1;
+    i:=0;
+    for j:=0 to memo.Lines.count-1 do
+    begin
+      sl.Add(memo.lines[j]);
+      inc(i);
+      if (i=10) then
+      begin
+        sl.SaveToFile('c:\000\'+Format('%.6d',[index])+'_filename.txt');
+        inc(index);
+        i:=0;
+        sl.Clear;
+      end;
+    end;
+    sl.SaveToFile('c:\000\'+Format('%.6d',[index])+'_filename.txt');
+  finally
+    sl.free
+  end;
+  memo.Lines.EndUpdate;
+end;
+
+procedure TForm1.acSignsExecute(Sender: TObject);
+var sl:tstringlist; i:integer;
+begin
+  memo.Lines.BeginUpdate;
+  sl:=tstringlist.create;
+  try
+    sl.Text:=memo.Text;
+    for i:=1 to length(spsigns.Text) do
+    sl.Text:=searchandreplace(sl.Text,spsigns.Text[i],'');
+    memo.Text:=sl.Text;
+  finally
+    sl.free
+  end;
+  memo.Lines.EndUpdate;
+end;
+
+procedure TForm1.acWrapExecute(Sender: TObject);
+var sl,sl2:tstringlist; i,j:integer;  str:UnicodeString;
+begin
+  memo.Lines.BeginUpdate;
+  sl:=tstringlist.create;
+  sl2:=tstringlist.Create;
+  try
+    sl2.Text:=memo.Text;
+    memo.Clear;
+    sl.clear;
+    sl.Delimiter:=' ';
+
+    for j:=0 to sl2.Count-1 do
+    begin
+      sl.DelimitedText:=sl2[j];
+      str:='';
+      for i := 0 to sl.Count-1 do
+        begin
+          if length(str+sl[i])>40 then
+          begin
+            memo.Lines.Add(str);
+            str:=sl[i]+' ';
+          end
+          else
+          str:=str+sl[i]+' ';
+        end;
+        memo.Lines.Add(str);
+    end;
+
+  finally
+    sl.free;
+    sl2.Free;
+  end;
+  memo.Lines.endupdate;
+end;
+
+end.

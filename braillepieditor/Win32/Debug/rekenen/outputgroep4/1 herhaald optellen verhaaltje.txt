@@ -1,0 +1,9 @@
+Ik heb 3 stapels met 5 boeken. Hoeveel boeken heb ik?##15
+Ik heb 4 kommen met 2 vissen. Hoeveel vissen heb ik?##8
+Ik heb 5 doosjes met 10 pennen. Hoeveel pennen heb ik?##50
+Ik heb 3 potjes met 3 planten. Hoeveel planten heb ik?##9
+De juf heeft 2 tassen met 5 boeken. Hoeveel boeken heeft de juf?##10
+De juf heeft 4 zakken met 4 ballen. Hoeveel ballen heeft de juf?##16
+De juf heeft 3 zakjes met 5 dropjes. Hoeveel dropjes heeft de juf?##15
+De juf heeft 5 stapels met 4 schriften. Hoeveel schriften heeft de juf?##20
+De juf heeft 7 blaadjes met 10 stickers. Hoeveel stickers heeft de juf?##70

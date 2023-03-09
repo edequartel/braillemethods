@@ -1,0 +1,26 @@
+abcefghklmnopsvw
+;lees letters hsnwefmvabklcgop
+k   s   m   b   h   c   g   a   v   e
+c l o a g n f w e k m v b p
+m f n n k p s e l k w s a p
+;zoek letters hsnwefmvabklcgop
+h#p   s   c   m   e   n   l   h   k   f
+e#s   w   k   f   c   b   b   e   c   h
+c#p a e c s h b w o l f v k g
+k#m m v k w b f f l a k w f s
+;lees woorden hsnwefmvabklcgop
+nog   eef   pal   of   vonk   melk   sla
+hap omkopen kopen ook gaap kachel alfa
+mep spelen aangenaam snappen gevel haven
+;zoek woorden hsnwefmvabklcgop
+hees#pep   oom   aangenaam   kelk   hees
+wollen#hak   heks   boon   kon   wollen
+bewaak#maken helm poen gans wenk bewaak
+schaal#meeval knaag lege afgeef schaal
+;type letters hsnwefmvabklcgop
+$c   f   o   h   k   e   m   n   s   a
+$f h m e s l n a g o v w k c
+$c c b w g o m l
+;type woorden hsnwefmvabklcgop
+$nog
+$hoeven gewas klaag

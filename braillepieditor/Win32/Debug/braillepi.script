@@ -1,0 +1,86 @@
+const path='C:\4colours\bpeditor\Win32\Debug\';
+      pathoutput='C:\000\000\';
+	  //pathoutput='C:\Users\edequ\OneDrive - Bartiméus\OUTPUT\';
+	  methode='methode braillepi';
+
+//---------------------------------------------------------------------  
+//setfilter(letters,lengte)
+//addregel(letters,aantal col,aantal row
+//multiple	(on) enkele keuzes
+//space(on) spatie tussen items
+//occurence(on) alleen als er meerdere keuzes zijn single=on
+//getletterfile() getsthename of the file in letters
+//---------------------------------------------------------------------
+
+function spaceIt(value:string):string;
+var i:integer;
+begin
+  result:='';
+  for i:=1 to length(value) do result:=result+value[i]+' ';
+  delete(result,length(result),1);
+end;
+
+//---------------------------------------------------------------------
+const rowcount=14; t=true; F=false;
+var tsl,isl,osl:tstringlist; i,j,k,l:integer; fn,edit:string;
+begin
+    isl:=tstringlist.create;
+	osl:=tstringlist.create;
+	tsl:=tstringlist.create;
+//	isl.loadfromfile(path+file);
+	isl.loadfromfile(path+getletterfile);
+	for i:=0 to isl.count-1 do
+	begin
+	    ed.clear;
+		writeln('//='+methode+'=');
+		writeln('//'+getletterfile);
+		edit:=edit+isl[i];
+
+		writeln('//letters '+isl[i]);
+		writeln('</adult>');
+		writeln(spaceit(isl[i]));	
+
+		writeln('//read, mixed, new, 5 lines');
+	    writeln('</form>');
+		Multiple(true); Space(true); Ocurrance(true); 
+		setfilter(isl[i],1); 
+		addregel('', false, rowcount, 5); //alleen de letters
+	
+		writeln('//search, new, mixed, all combinations');
+		writeln('</adult>');
+		Multiple(true); Space(true); Ocurrance(true); 
+		for k:=1 to length(isl[i]) do
+		for l:=k+1 to length(isl[i]) do
+		begin
+		  setfilter(isl[i][k]+isl[i][l],1); 
+		  addregel('#', true, rowcount, 1); //alleen de letters
+        end;	
+	    
+		writeln('//all known letters');	
+		setfilter(edit,1); 
+		addregel('', false, rowcount, 5); //alleen de letters
+		addregel('#', true, rowcount, 10); //alleen de letters
+		
+		writeln('//spaces, words');
+		Multiple(true); Space(true); Ocurrance(true); 
+        setfilter(edit,-1); 
+		for j:=0 to 5-1 do
+	      addregel('#', true, rowcount, 2); //alleen de letters		
+		for j:=0 to 5-1 do
+	      addregel('', false, rowcount, 2); //alleen de letters		
+		
+		//saving
+		osl.text:=ed.text;
+		for j:=0 to osl.count-1 do
+		tsl.add(osl[j]);
+
+		osl.savetofile(pathoutput+isl[i]+'.txt');			
+	end;
+	getfilename(fn);
+  	tsl.savetofile(pathoutput+methode+'.txt');
+	isl.free;
+	osl.free;
+	tsl.free;
+	//ed.text:='done';
+end.
+

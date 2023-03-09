@@ -1,0 +1,1163 @@
+unit unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
+  Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, System.Actions, Vcl.ActnList,
+  FileMenuHdl, ecSyntMemo, TB2Dock, TB2Toolbar, SpTBXItem, TB2Item, Vcl.StdCtrls,
+  SpTBXEditors, SpTBXDkPanels, SpTBXControls, AntStringList, VirtualTrees, jbstr,
+  Vcl.Menus, ecSingleInst, SpTBXCustomizer, Winapi.ShlObj, ShellAPI, Vcl.ImgList,
+  FindFile, System.RegularExpressions, uPSComponent, uPSComponent_COM,
+  uPSComponent_StdCtrls, uPSComponent_Forms, uPSComponent_Default,
+  uPSComponent_Controls, Vcl.ComCtrls, SpTBXTabs, RVScroll, RichView, RVStyle,
+  SynEdit, ClipBrd;
+
+type
+  TForm30 = class(TForm)
+    SpTBXDock1: TSpTBXDock;
+    SpTBXToolbar1: TSpTBXToolbar;
+    ActionList1: TActionList;
+    FMH: TFileMenuHandler;
+    acOpen: TAction;
+    acSave: TAction;
+    acSaveAs: TAction;
+    acNew: TAction;
+    acClose: TAction;
+    OpenDialog1: TOpenDialog;
+    SaveDialog1: TSaveDialog;
+    acAdd: TAction;
+    acDelete: TAction;
+    acMoveAll: TAction;
+    SpTBXStatusBar1: TSpTBXStatusBar;
+    spFilename: TSpTBXLabelItem;
+    spMultiple: TSpTBXItem;
+    ecSingleInstance1: TecSingleInstance;
+    SpTBXRightAlignSpacerItem12: TSpTBXRightAlignSpacerItem;
+    SpTBXLabelItem5: TSpTBXLabelItem;
+    SpTBXToolbar2: TSpTBXToolbar;
+    spRead: TSpTBXItem;
+    spType: TSpTBXItem;
+    spListen: TSpTBXItem;
+    spSearch: TSpTBXItem;
+    SpTBXCustomizer1: TSpTBXCustomizer;
+    SpTBXItem18: TSpTBXItem;
+    OpenDialog2: TOpenDialog;
+    spLeesCount: TSpTBXSpinEditItem;
+    spTypeCount: TSpTBXSpinEditItem;
+    spLuisterCount: TSpTBXSpinEditItem;
+    spZoekWoordCount: TSpTBXSpinEditItem;
+    SpTBXRightAlignSpacerItem3: TSpTBXRightAlignSpacerItem;
+    TBFiles: TTBImageList;
+    SpTBXRightAlignSpacerItem13: TSpTBXRightAlignSpacerItem;
+    SpTBXRightAlignSpacerItem14: TSpTBXRightAlignSpacerItem;
+    SpTBXRightAlignSpacerItem16: TSpTBXRightAlignSpacerItem;
+    FindFile1: TFindFile;
+    acCreateListsMenu: TAction;
+    spLeesLength: TSpTBXSpinEditItem;
+    spLuisterLength: TSpTBXSpinEditItem;
+    spZoekWoordlength: TSpTBXSpinEditItem;
+    spTypLength: TSpTBXSpinEditItem;
+    SpTBXToolbar4: TSpTBXToolbar;
+    SpTBXSubmenuItem2: TSpTBXSubmenuItem;
+    SpTBXItem2: TSpTBXItem;
+    SpTBXSubmenuItem1: TSpTBXSubmenuItem;
+    SpTBXRightAlignSpacerItem2: TSpTBXRightAlignSpacerItem;
+    SpTBXRightAlignSpacerItem7: TSpTBXRightAlignSpacerItem;
+    spSingleOccurance: TSpTBXItem;
+    spSpaceOn: TSpTBXItem;
+    acCreateScriptsMenu: TAction;
+    acFilter: TAction;
+    PSScript1: TPSScript;
+    IFPS3CE_Controls1: TPSImport_Controls;
+    IFPS3CE_DateUtils1: TPSImport_DateUtils;
+    IFPS3CE_Std1: TPSImport_Classes;
+    IFPS3CE_Forms1: TPSImport_Forms;
+    IFPS3CE_StdCtrls1: TPSImport_StdCtrls;
+    IFPS3CE_ComObj1: TPSImport_ComObj;
+    IFPS3DllPlugin1: TPSDllPlugin;
+    ce: TPSScriptDebugger;
+    messages: TListBox;
+    spScripts: TSpTBXSubmenuItem;
+    SpTBXTabControl1: TSpTBXTabControl;
+    SpTBXTabItem2: TSpTBXTabItem;
+    SpTBXTabItem1: TSpTBXTabItem;
+    SpTBXTabSheet1: TSpTBXTabSheet;
+    SpTBXTabSheet2: TSpTBXTabSheet;
+    SpTBXPanel1: TSpTBXPanel;
+    lst: TSynEdit;
+    SpTBXDock2: TSpTBXDock;
+    SpTBXToolbar5: TSpTBXToolbar;
+    SpTBXLabelItem2: TSpTBXLabelItem;
+    TBControlItem3: TTBControlItem;
+    SpTBXRightAlignSpacerItem1: TSpTBXRightAlignSpacerItem;
+    SpTBXLabelItem3: TSpTBXLabelItem;
+    SpTBXRightAlignSpacerItem5: TSpTBXRightAlignSpacerItem;
+    spSpinLength: TSpTBXSpinEditItem;
+    Edit1: TEdit;
+    SpTBXPanel2: TSpTBXPanel;
+    SpTBXDock3: TSpTBXDock;
+    SpTBXToolbar6: TSpTBXToolbar;
+    SpTBXSubmenuItem3: TSpTBXSubmenuItem;
+    SpTBXItem11: TSpTBXItem;
+    SpTBXItem10: TSpTBXItem;
+    SpTBXItem9: TSpTBXItem;
+    SpTBXItem6: TSpTBXItem;
+    SpTBXSeparatorItem5: TSpTBXSeparatorItem;
+    SpTBXItem4: TSpTBXItem;
+    ed: TSyntaxMemo;
+    SpTBXSplitter2: TSpTBXSplitter;
+    braillememo: TSyntaxMemo;
+    SpTBXSplitter1: TSpTBXSplitter;
+    RV: TRichView;
+    RVStyle1: TRVStyle;
+    SpTBXDock4: TSpTBXDock;
+    SpTBXToolbar3: TSpTBXToolbar;
+    SpTBXItem1: TSpTBXItem;
+    SaveDialog2: TSaveDialog;
+    SpTBXItem3: TSpTBXItem;
+    SpTBXItem5: TSpTBXItem;
+    SpTBXItem7: TSpTBXItem;
+    SpTBXItem8: TSpTBXItem;
+    spLetters: TSpTBXSubmenuItem;
+    acCreateLettersMenu: TAction;
+    SpTBXRightAlignSpacerItem4: TSpTBXRightAlignSpacerItem;
+    SpTBXItem13: TSpTBXItem;
+    SpTBXItem15: TSpTBXItem;
+    SpTBXItem16: TSpTBXItem;
+    SpTBXRightAlignSpacerItem6: TSpTBXRightAlignSpacerItem;
+    SpTBXRightAlignSpacerItem8: TSpTBXRightAlignSpacerItem;
+    SpTBXRightAlignSpacerItem9: TSpTBXRightAlignSpacerItem;
+    SpTBXItem12: TSpTBXItem;
+    SpTBXItem14: TSpTBXItem;
+    SpTBXItem17: TSpTBXItem;
+    SpTBXItem19: TSpTBXItem;
+    PopupMenu1: TPopupMenu;
+    Clipboard1: TMenuItem;
+    Copyfiles1: TMenuItem;
+    function FMHOpen(const Filename: string): Boolean;
+    function FMHSave(const Filename: string): Boolean;
+    procedure FMHNewFormCaption(const FileName: string);
+    procedure acOpenExecute(Sender: TObject);
+    procedure acSaveExecute(Sender: TObject);
+    procedure acSaveAsExecute(Sender: TObject);
+    procedure acNewExecute(Sender: TObject);
+    procedure acCloseExecute(Sender: TObject);
+    procedure acClearExecute(Sender: TObject);
+    procedure edKeyPress(Sender: TObject; var Key: Char);
+    procedure spReadClick(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure FormCreate(Sender: TObject);
+    procedure SpTBXItem18Click(Sender: TObject);
+    function SortString(Value: string): string;
+    //
+    function SL2String(var value: TStringList): string;
+    procedure MixSL(var value: TStringList);
+    procedure spTypeClick(Sender: TObject);
+    procedure spListenClick(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+    procedure spSearchClick(Sender: TObject);
+    procedure spSpinLengthAcceptText(Sender: TObject; var NewText: WideString; var Accept: Boolean);
+    procedure spSpinLengthChange(Sender: TObject; const AText: WideString);
+    function FMHNew(const Filename: string): Boolean;
+    procedure setSpatiesItemsRegels(M: Boolean; L, S, I, R: Integer);
+    procedure Edit1Change(Sender: TObject);
+    function Layout: TFileName;
+    procedure Layout1Click(Sender: TObject);
+    procedure OnClickList(sender: TObject);
+    procedure OnClickScript(sender: TObject);
+    procedure OnClickLetter(sender: TObject);
+    procedure acCreateListsMenuExecute(Sender: TObject);
+    procedure update;
+    procedure SpTBXItem2Click(Sender: TObject);
+    procedure SpTBXItem4Click(Sender: TObject);
+    procedure acCreateScriptsMenuExecute(Sender: TObject);
+    procedure acFilterExecute(Sender: TObject);
+    procedure ceAfterExecute(Sender: TPSScript);
+    procedure ceCompile(Sender: TPSScript);
+    procedure ceExecute(Sender: TPSScript);
+    procedure ceIdle(Sender: TObject);
+    function Compile: Boolean;
+    function Execute: Boolean;
+    procedure SpTBXItem1Click(Sender: TObject);
+    procedure SpTBXItem7Click(Sender: TObject);
+    function foundmatch(filter, word: string): boolean;
+    procedure FilterList(ListA, ListB: TStringList; Filter: string; Length_: Integer);
+    procedure SpTBXItem8Click(Sender: TObject);
+    procedure acCreateLettersMenuExecute(Sender: TObject);
+    procedure SpTBXItem13Click(Sender: TObject);
+    procedure SpTBXItem16Click(Sender: TObject);
+    procedure SpTBXItem15Click(Sender: TObject);
+    procedure SpTBXItem12Click(Sender: TObject);
+    procedure SpTBXItem14Click(Sender: TObject);
+    procedure SpTBXItem17Click(Sender: TObject);
+    procedure SpTBXItem19Click(Sender: TObject);
+    procedure Clipboard1Click(Sender: TObject);
+    procedure Copyfiles1Click(Sender: TObject);
+  private
+    { Private declarations }
+    sl, sl2, sl3, sl4, slw: TStringList;
+    sourcelist: TStringList;
+  public
+    { Public declarations }
+    filename: string;
+    letterfile: string;
+    procedure Writeln(const s: string);
+    procedure getfilename(var s: string);
+    function getletterfile: string;
+    procedure Multiple(b: Boolean);
+    procedure Space(b: Boolean);
+    procedure Ocurrance(b: Boolean);
+    procedure SetFilter(const s: string; l: integer);
+    procedure Addregel(preface: string; setMarge: Boolean; lengte, count: integer);
+  end;
+
+type
+  TMenuItemExtended = class(TSpTBXItem)
+  private
+    // fValue : string;
+    fPath: string;
+    FFilename: string;
+  published
+    // property Value: string read fValue write fValue;
+    property Path: string read fPath write fPath;
+    property FileName: string read FFilename write FFilename;
+  end;
+
+var
+  Form30: TForm30;
+
+implementation
+
+{$R *.dfm}
+
+const
+  OFASI_EDIT = $0001;
+  OFASI_OPENDESKTOP = $0002;
+
+{$IFDEF UNICODE}
+function ILCreateFromPath(pszPath: PChar): PItemIDList stdcall; external shell32 name 'ILCreateFromPathW';
+{$ELSE}
+
+function ILCreateFromPath(pszPath: PChar): PItemIDList stdcall; external shell32 name 'ILCreateFromPathA';
+{$ENDIF}
+
+procedure ILFree(pidl: PItemIDList) stdcall; external shell32;
+
+function SHOpenFolderAndSelectItems(pidlFolder: PItemIDList; cidl: Cardinal; apidl: pointer; dwFlags: DWORD): HRESULT; stdcall; external shell32;
+
+function OpenFolderAndSelectFile(const FileName: string): boolean;
+var
+  IIDL: PItemIDList;
+begin
+  result := false;
+  IIDL := ILCreateFromPath(PChar(FileName));
+  if IIDL <> nil then
+  try
+    result := SHOpenFolderAndSelectItems(IIDL, 0, nil, 0) = S_OK;
+  finally
+    ILFree(IIDL);
+  end;
+end;
+
+procedure TForm30.SetFilter(const s: string; l: integer);
+begin
+  Edit1.Text := s;
+  spSpinLength.Text := IntToStr(l);
+  acFilter.Execute;
+end;
+
+procedure TForm30.Writeln(const s: string);
+begin
+  ed.Lines.Add(s);
+end;
+
+procedure TForm30.getfilename(var s: string);
+begin
+  s := FileName;
+end;
+
+function TForm30.getletterfile: string;
+begin
+  result := letterfile;
+end;
+
+procedure TForm30.Multiple(b: Boolean);
+begin
+  spMultiple.Checked := b;
+end;
+
+procedure TForm30.Space(b: Boolean);
+begin
+  spSpaceOn.Checked := b;
+end;
+
+procedure TForm30.Ocurrance(b: Boolean);
+begin
+  spSingleOccurance.Checked := b;
+end;
+
+function TForm30.Layout: tfilename;
+begin
+  result := ExtractFilePath(Application.ExeName) + '\layout.ini';
+end;
+
+function TForm30.foundmatch(filter, word: string): boolean;
+var
+  i: Integer;
+begin
+  result := true;
+  for i := 1 to length(word) do
+  begin
+    if Pos(word[i], filter) <= 0 then
+    begin
+      result := False;
+      Break;
+    end;
+  end;
+end;
+
+procedure TForm30.FilterList(ListA, ListB: TStringList; Filter: string; Length_: Integer);
+var
+  i: Integer;
+  found: Boolean;
+begin
+  ListB.Clear;
+  for i := 0 to ListA.Count - 1 do
+  begin
+    if ((Length_ > 0) and (Length(ListA[i]) = Length_) and FoundMatch(Filter, ListA[i])) or ((Length_ = -1) and (Length(ListA[i]) > 1) and FoundMatch(Filter, ListA[i])) or ((Length_ = 0) and FoundMatch(Filter, ListA[i])) then
+      ListB.Add(ListA[i]);
+  end;
+end;
+
+procedure TForm30.acFilterExecute(Sender: TObject);
+var
+  sl1: tstringlist;
+begin
+  sl1 := TStringList.Create;
+  try
+    FilterList(sourcelist, sl1, Edit1.Text, StrToInt(spSpinLength.text));
+    lst.Text := Trim(sl1.Text);
+  finally
+    sl1.Free;
+  end;
+end;
+
+procedure TForm30.Layout1Click(Sender: TObject);
+begin
+  SpTBXCustomizer1.show;
+end;
+
+procedure TForm30.setSpatiesItemsRegels(M: Boolean; L, S, I, R: Integer);
+begin
+  spSpinlength.text := IntToStr(L);
+  spMultiple.checked := M;
+end;
+
+procedure TForm30.acClearExecute(Sender: TObject);
+begin
+  FMH.New;
+end;
+
+procedure TForm30.acCloseExecute(Sender: TObject);
+begin
+  Close;
+end;
+
+procedure TForm30.acCreateLettersMenuExecute(Sender: TObject);
+var
+  Item: TSpTBXItem;
+  i: Integer;
+begin
+  FindFile1.Path := ExtractFilePath(Application.ExeName);
+  FindFile1.filemask := '*.ltr';
+  spLetters.Clear;
+  for i := 0 to FindFile1.SearchForFiles.Count - 1 do
+  begin
+    Item := TSpTBXItem.Create(self);
+    Item.RadioItem := true;
+    Item.Hint := justname(FindFile1.SearchForFiles[i]); // trim hier de
+    Item.Caption := justname(FindFile1.SearchForFiles[i]);
+    Item.OnClick := OnClickLetter;
+    Item.OnSelect := nil; //spSelectAMenuItem;
+    spLetters.Add(Item);
+  end;
+end;
+
+procedure TForm30.acCreateListsMenuExecute(Sender: TObject);
+var
+  Item: TSpTBXItem;
+  i: Integer;
+begin
+  FindFile1.Path := ExtractFilePath(Application.ExeName);
+  SpTBXSubmenuItem1.clear;
+  FindFile1.filemask := '*.lst';
+  for i := 0 to FindFile1.SearchForFiles.Count - 1 do
+  begin
+    Item := TSpTBXItem.Create(self);
+    Item.RadioItem := false;
+    Item.Hint := justname(FindFile1.SearchForFiles[i]); // trim hier de
+    Item.Caption := justname(FindFile1.SearchForFiles[i]);
+    Item.OnClick := OnClickList;
+    Item.OnSelect := nil;
+//    Item.ShortCut:=TextToShortCut('Ctrl+1');//+inttostr(i));
+    SpTBXSubmenuItem1.Add(Item);
+  end;
+end;
+
+procedure TForm30.acCreateScriptsMenuExecute(Sender: TObject);
+var
+  Item: TSpTBXItem;
+  i: Integer;
+begin
+  FindFile1.Path := ExtractFilePath(Application.ExeName);
+  FindFile1.filemask := '*.script';
+  spScripts.Clear;
+  for i := 0 to FindFile1.SearchForFiles.Count - 1 do
+  begin
+    Item := TSpTBXItem.Create(self);
+    Item.RadioItem := False;
+    Item.Hint := justname(FindFile1.SearchForFiles[i]); // trim hier de
+    Item.Caption := justname(FindFile1.SearchForFiles[i]);
+    Item.OnClick := OnClickScript;
+    Item.OnSelect := nil; //spSelectAMenuItem;
+    spScripts.Add(Item);
+  end;
+end;
+
+procedure TForm30.acNewExecute(Sender: TObject);
+begin
+  FMH.New;
+  FMH.IsDirty := False;
+end;
+
+procedure TForm30.acOpenExecute(Sender: TObject);
+begin
+  FMH.open
+end;
+
+procedure TForm30.acSaveAsExecute(Sender: TObject);
+begin
+  FMH.SaveAs
+end;
+
+procedure TForm30.acSaveExecute(Sender: TObject);
+begin
+  FMH.Save
+end;
+
+procedure TForm30.edKeyPress(Sender: TObject; var Key: Char);
+begin
+  FMH.IsDirty := True;
+end;
+
+function TForm30.FMHNew(const Filename: string): Boolean;
+begin
+  ed.Clear;
+end;
+
+procedure TForm30.FMHNewFormCaption(const FileName: string);
+begin
+  spfilename.caption := FileName;
+end;
+
+function TForm30.FMHOpen(const Filename: string): Boolean;
+begin
+  ed.Lines.LoadFromFile(Filename);
+  braillememo.Text := ed.Text;
+end;
+
+function TForm30.FMHSave(const Filename: string): Boolean;
+begin
+  ed.Lines.SaveToFile(Filename);
+end;
+
+procedure TForm30.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  sl.free;
+  sl2.Free;
+  sl3.Free;
+  sl4.Free;
+  slw.Free;
+  sourcelist.Free;
+
+  SpTBXCustomizer1.Save(Layout, false);
+end;
+
+procedure TForm30.FormCreate(Sender: TObject);
+begin
+  sl := TStringList.Create;
+  sl2 := TStringList.Create;
+  sl3 := TStringList.Create;
+  sl4 := TStringList.Create;
+  slw := TStringList.Create;
+  sourcelist := TStringList.Create;
+  Randomize;
+  acCreateListsMenu.Execute;
+  acCreateScriptsMenu.Execute;
+  acCreateLettersMenu.Execute;
+end;
+
+procedure TForm30.update;
+begin
+  Edit1Change(Self);
+end;
+
+procedure TForm30.FormShow(Sender: TObject);
+begin
+  if FileExists(Layout) then
+    SpTBXCustomizer1.Load(Layout, false)
+  else
+    ForceDirectories('c:\programdata\bpeditor');
+  //Update;
+end;
+
+function DeleteRepeatedChar(const OldText: string): string;
+var
+  i: Integer;
+begin
+  result := '';
+  for i := 1 to Length(OldText) do
+    if Pos(OldText[i], Result) <= 0 then
+      result := result + OldText[i];
+end;
+
+procedure TForm30.spTypeClick(Sender: TObject);
+begin
+  Addregel('$', false, strtoint(spTypLength.Text), strtoint(spTypeCount.Text));
+end;
+
+const
+  cBraille6 = 1;
+  cBraille8 = 2;
+  cText = 0;
+
+procedure TForm30.spListenClick(Sender: TObject);
+begin
+  AddRegel('@$', false, strtoint(spLuisterLength.Text), strtoint(spLuisterCount.Text));
+end;
+
+function upperfirst(value: string): string;
+begin
+  result := Uppercase(Copy(value, 1, 1)) + Lowercase(Copy(value, 2, Length(value)));
+end;
+
+procedure TForm30.SpTBXItem12Click(Sender: TObject);
+var
+  sl: TStringList;
+  i: Integer;
+begin
+  sl := TStringList.Create;
+  sl.Text := LowerCase(ed.Text); //checkbox
+  ed.Text := '';
+  for i := sl.Count - 1 downto 0 do
+    if Length(sl[i]) <= 0 then
+      sl.Delete(i);
+
+  for i := 0 to sl.count - 1 do
+    sl[i] := upperfirst(sl[i]); //make first letter capital;
+
+
+  for i := 0 to sl.count - 1 do
+    ed.Lines.Add(WrapText(sl[i], 40)); //40 is lengte leesregel listbox
+  sl.Free;
+end;
+
+procedure TForm30.SpTBXItem13Click(Sender: TObject);
+begin
+  Application.MessageBox('1. kies woordenlijst, in *.lst' + #13#10 + '2. kies de letters, in *.ltr' + #13#10 + '3. run een script', 'Porcedure voor produceren van bp bestanden.', MB_OK);
+end;
+
+procedure TForm30.SpTBXItem14Click(Sender: TObject);
+begin
+  braillememo.Text := ed.Text;
+end;
+
+procedure TForm30.SpTBXItem15Click(Sender: TObject);
+var
+  i: Integer;
+  clean, cleaned, firsttime: Boolean;
+  tekst: string;
+begin
+  if Length(braillememo.Text) <= 0 then
+    Exit;
+  RV.Clear;
+  clean := False;
+  firsttime := true;
+  for i := 0 to braillememo.Lines.count - 1 do
+  begin
+    if (Length(braillememo.lines[i]) < 3) then
+    begin
+      if not clean then
+      begin
+        RV.addnl('{}', ctext, 0);
+        rv.PageBreaksBeforeItems[rv.ItemCount - 1] := True;
+        clean := True;
+      end
+    end
+    else
+    begin
+      clean := False;
+      if (Pos('//=', braillememo.lines[i]) > 0) then
+      begin
+        if firsttime then
+          firsttime := false
+        else
+          rv.AddBreak;
+      end
+      else
+      begin
+        if (Pos('</', braillememo.lines[i]) > 0) or (Pos('//', braillememo.lines[i]) > 0) then
+        begin
+        end
+        else
+          tekst := braillememo.lines[i]; //SearchAndReplace(braillememo.lines[i],'#','     ');
+        rv.AddNL(tekst, cText, 0);
+      end;
+    end;
+  end;
+
+  RV.FormatAll;
+end;
+
+procedure TForm30.SpTBXItem16Click(Sender: TObject);
+var
+  i: Integer;
+  clean, cleaned: Boolean;
+begin
+  if Length(braillememo.Text) <= 0 then
+    Exit;
+  RV.Clear;
+  clean := False;
+
+  for i := 0 to braillememo.Lines.count - 1 do
+  begin
+    if (Length(braillememo.lines[i]) < 3) then
+    begin
+      if not clean then
+      begin
+        RV.addnl('{}', ctext, 0);
+        rv.PageBreaksBeforeItems[rv.ItemCount - 1] := True;
+        clean := True;
+      end
+    end
+    else
+    begin
+      clean := False;
+      if (Pos('//', braillememo.lines[i]) <= 0) and ((Pos('</', braillememo.lines[i]) <= 0)) then
+      begin
+        if SpTBXItem5.checked then
+          rv.AddNL(braillememo.lines[i], cBraille6, 0);
+        if SpTBXItem3.checked then
+          rv.AddNL(braillememo.lines[i], cBraille8, 0);
+        if SpTBXItem7.checked then
+          rv.AddNL(braillememo.lines[i], cText, 0);
+        RV.AddNL('', 0, 0);
+      end
+      else
+        rv.AddNL(braillememo.lines[i], cText, 0);
+    end;
+  end;
+
+  RV.FormatAll;
+end;
+
+procedure TForm30.SpTBXItem17Click(Sender: TObject);
+begin
+  ShowMessage('statistics avi?' + #13#10 + 'gemiddelde lengte woorden' + 'aantalwoorden');
+end;
+
+procedure TForm30.SpTBXItem18Click(Sender: TObject);
+begin
+  ed.Clear;
+  FMH.IsDirty := True;
+end;
+
+procedure TForm30.SpTBXItem19Click(Sender: TObject);
+var
+  folder: string;
+  i: Integer;
+  sl: TStringList;
+  bestand: string;
+//Format('0 padded decimal  = <%.6d>', [1234]
+begin
+  folder := JustPathname(spfilename.Caption) + '\';
+  ed.Lines.Add(#13#10);
+  sl := TStringList.Create;
+  try
+    bestand := ed.Lines[0] + '.txt';
+
+    for i := 0 to ed.Lines.Count - 1 do
+    begin
+      if Length(ed.Lines[i]) <= 0 then
+      begin
+        sl.SaveToFile(folder +' '+bestand);
+        sl.Clear;
+        bestand := ed.Lines[i + 1] + '.txt';
+      end
+      else
+        sl.Add(ed.Lines[i]);
+    end;
+
+  finally
+    sl.Free;
+  end;
+  ed.Lines.Delete(ed.Lines.count);
+end;
+
+procedure TForm30.SpTBXItem1Click(Sender: TObject);
+begin
+  with SaveDialog2 do
+    if Execute then
+      RV.SaveDocX(FileName, false);
+end;
+
+function Zero(value: integer): string;
+begin
+  result := format('%.3d ', [value]);
+end;
+
+procedure TForm30.SpTBXItem2Click(Sender: TObject);
+begin
+  SpTBXCustomizer1.show;
+end;
+
+procedure TForm30.Clipboard1Click(Sender: TObject);
+var sl:tstringlist; i:integer;  str:string;
+begin
+  sl:=tstringlist.Create;
+  try
+    for i:=0 to lst.lines.Count-1 do
+    begin
+      sl.Add(lst.Lines[i])
+    end;
+    for i:=0 to sl.Count-1 do
+    begin
+      str:=str+sl[i]+','
+    end;
+    delete(str,length(str),1);
+
+    Clipboard.AsText := str;
+
+  finally
+    sl.Free;
+  end;
+end;
+
+function TForm30.Compile: Boolean;
+var
+  i: Longint;
+begin
+  Result := ce.Compile;
+  messages.Clear;
+  for i := 0 to ce.CompilerMessageCount - 1 do
+  begin
+    Messages.Items.Add(ce.CompilerMessages[i].MessageToString);
+  end;
+  if Result then
+    Messages.Items.Add('STR_SUCCESSFULLY_COMPILED');
+end;
+
+procedure TForm30.Copyfiles1Click(Sender: TObject);
+var i:integer;
+begin
+  for i:=0 to lst.lines.Count-1 do
+    begin
+      //sl.Add(lst.Lines[i])
+    end;
+end;
+
+function TForm30.Execute: Boolean;
+begin
+//  debugoutput.Output.Clear;
+  if CE.Execute then
+  begin
+    Messages.Items.Add('STR_SUCCESSFULLY_EXECUTED');
+    Result := True;
+  end
+  else
+  begin
+    messages.Items.Add('NOT SUCCESFULL'); //Format(STR_RUNTIME_ERROR, [extractFileName(aFile), ce.ExecErrorRow,ce.ExecErrorCol,ce.ExecErrorProcNo,ce.ExecErrorByteCodePosition,ce.ExecErrorToString])); //Birb
+    Result := False;
+  end;
+end;
+
+procedure TForm30.SpTBXItem4Click(Sender: TObject);
+begin
+  close;
+end;
+
+procedure TForm30.SpTBXItem7Click(Sender: TObject);
+begin
+  SpTBXItem16Click(Sender);
+end;
+
+procedure TForm30.SpTBXItem8Click(Sender: TObject);
+begin
+  RV.SelectAll;
+  RV.CopyTextW;
+end;
+
+procedure TForm30.OnClickList(sender: TObject);
+var
+  i: Integer;
+  sl: TStringList;
+begin
+  //open the file over here
+  sl := TStringList.Create;
+  sl.Clear;
+  sourcelist.Clear;
+  TSpTBXItem(sender).Checked := not TSpTBXItem(sender).Checked;
+  for i := 0 to SpTBXSubmenuItem1.Count - 1 do
+    if SpTBXSubmenuItem1.Items[i].Checked then
+    begin
+      sl.LoadFromFile(SpTBXSubmenuItem1.Items[i].Caption + '.lst');
+      sourcelist.AddStrings(sl);
+    end;
+  sl.Free;
+  update;
+end;
+
+procedure TForm30.OnClickScript(sender: TObject);
+var
+  sl: TStringList;
+  fn: TFileName;
+begin
+  ed.BeginUpdate;
+  sl := TStringList.create;
+  try
+    fn := ExtractFilePath(Application.ExeName) + TSpTBXItem(sender).Caption + '.script';
+    FileName := TSpTBXItem(sender).Caption;
+    sl.LoadFromFile(fn);
+    ce.Script := sl;
+    if Compile then
+      Execute;
+  finally
+    sl.Free;
+  end;
+  ed.EndUpdate();
+end;
+
+procedure TForm30.OnClickLetter(sender: TObject);
+var
+  i: Integer;
+begin
+//  ShowMessage(TSpTBXItem(sender).Caption);
+  letterfile := TSpTBXItem(sender).Caption + '.ltr';
+  for i := 0 to spletters.Count - 1 do
+    spletters.Items[i].Checked := False;
+  TSpTBXItem(sender).Checked := True;
+end;
+
+procedure QuickSort(var A: array of char; iLo, iHi: Integer);
+var
+  Lo, Hi: Integer;
+  Pivot, T: Char;
+begin
+  Lo := iLo;
+  Hi := iHi;
+  Pivot := A[(Lo + Hi) div 2];
+  repeat
+    while A[Lo] < Pivot do
+      Inc(Lo);
+    while A[Hi] > Pivot do
+      Dec(Hi);
+    if Lo <= Hi then
+    begin
+      T := A[Lo];
+      A[Lo] := A[Hi];
+      A[Hi] := T;
+      Inc(Lo);
+      Dec(Hi);
+    end;
+  until Lo > Hi;
+  if Hi > iLo then
+    QuickSort(A, iLo, Hi);
+  if Lo < iHi then
+    QuickSort(A, Lo, iHi);
+end;
+
+function TForm30.SortString(Value: string): string;
+var
+  CharArray: array of char;
+  i: Integer;
+begin
+  result := '';
+  SetLength(CharArray, Length(Value));
+  for i := 0 to Length(Value) - 1 do
+    CharArray[i] := Value[i + 1];
+  QuickSort(CharArray, Low(CharArray), High(CharArray));
+  for i := 0 to Length(Value) - 1 do
+    result := result + CharArray[i];
+end;
+
+procedure TForm30.spSearchClick(Sender: TObject);
+begin
+  AddRegel('#', true, strtoint(spZoekWoordlength.Text), strtoint(spZoekWoordCount.Text));
+end;
+
+procedure TForm30.MixSL(var value: TStringList);
+var
+  i, r, s: Integer;
+  str: string;
+  hours, mins, secs, milliSecs: word;
+begin
+  DecodeTime(now, hours, mins, secs, milliSecs);
+  RandSeed := milliSecs;
+  for i := 0 to value.Count - 1 do
+  begin
+    r := Random(value.Count);
+    s := Random(value.Count);
+    str := value[r];
+    value[r] := value[s];
+    value[s] := str;
+  end;
+end;
+
+function TForm30.SL2String(var value: TStringList): string;
+var
+  i: Integer;
+  str, sp: string;
+begin
+  str := '';
+  sp := '';
+  if spSpaceOn.checked then
+    sp := ' ';
+  for i := 0 to value.Count - 2 do
+    str := str + value[i] + sp;
+  result := str + value[value.Count - 1]; //+'EOL';
+end;
+
+const
+  max = 39;
+
+procedure MakeSeed;
+var
+  hours, mins, secs, milliSecs: word;
+begin
+  DecodeTime(now, hours, mins, secs, milliSecs);
+  RandSeed := milliSecs;
+  Randomize;
+end;
+
+procedure Tform30.AddRegel(preface: string; setMarge: Boolean; lengte, count: integer);
+var
+  c, i, v, j: Integer;
+  marge, item, r, s, sp: string;
+begin
+  for c := 0 to count - 1 do
+  begin
+    ed.Lines.BeginUpdate;
+    MakeSeed;
+  //zijn er items links te gebruiken
+    if Length(lst.Text) <= 0 then
+      Exit;
+  //kopie van de lijst met mogelijkheden
+    sl.Clear;
+    sl.AddStrings(lst.lines);
+  //de lijst die we gaan maken met eerst de marge/keuze vooraan
+    sl2.Clear;
+    marge := sl[random(sl.count)];
+    sl2.Add(marge);  //<>
+  //maximale aantal items
+    v := lengte;
+    if (not (spMultiple.checked)) and (sl.Count < v) then
+      v := sl.Count;
+  //en maar vullen
+    i := 0;
+    while (i < (v - 1)) do
+    begin
+      if not spSingleOccurance.checked then
+        repeat
+          item := sl[random(sl.Count)];
+        until item <> marge
+      else
+        item := sl[Random(sl.Count)]; //een willekeurige uit de lijst
+      //
+      if ((not (spMultiple.checked)) and (sl2.IndexOf(item) < 0)) or (spMultiple.checked) then
+      begin
+        s := preface + SL2String(sl2) + sp + item;
+        if (setMarge) then
+        begin
+          if (Length(marge + s) <= max) then
+            sl2.Add(item);
+        end
+        else
+        begin
+          if (Length(s) <= max) then
+            sl2.Add(item);
+        end;
+        i := i + 1;
+      end;
+    end;
+    MixSL(sl2);  //
+
+    if setMarge then
+      ed.Lines.Add(marge + preface + SL2String(sl2))
+    else
+      ed.Lines.Add(preface + SL2String(sl2));
+
+    FMH.IsDirty := True;
+    ed.Lines.EndUpdate;
+  end;
+end;
+
+procedure TForm30.ceAfterExecute(Sender: TPSScript);
+begin
+  Caption := 'STR_FORM_TITLE';
+//  FActiveLine := 0;
+  ed.Refresh;
+end;
+
+procedure TForm30.ceCompile(Sender: TPSScript);
+begin
+  Sender.AddMethod(Self, @TForm30.Writeln, 'procedure writeln(s: string)');
+  Sender.AddMethod(Self, @TForm30.Multiple, 'procedure Multiple(b:boolean)');
+  Sender.AddMethod(Self, @TForm30.Space, 'procedure Space(b:boolean)');
+  Sender.AddMethod(Self, @TForm30.Ocurrance, 'procedure Ocurrance(b:boolean)');
+  Sender.AddMethod(Self, @TForm30.SetFilter, 'procedure setfilter(s: string; l:integer)');
+  Sender.AddMethod(Self, @TForm30.AddRegel, 'procedure Addregel(preface: string; setMarge: Boolean; lengte, count: integer)');
+  Sender.AddMethod(Self, @TForm30.GetFilename, 'procedure getfilename(var s: string)');
+  Sender.AddMethod(Self, @TForm30.getletterfile, 'function getletterfile:string');
+
+  Sender.AddRegisteredVariable('ed', 'TMemo');
+  Sender.AddRegisteredVariable('Self', 'TForm');
+  Sender.AddRegisteredVariable('Application', 'TApplication');
+end;
+
+procedure TForm30.ceExecute(Sender: TPSScript);
+begin
+  ce.SetVarToInstance('SELF', Self);
+  ce.SetVarToInstance('APPLICATION', Application);
+  ce.SetVarToInstance('ED', ed);
+  Caption := 'STR_FORM_TITLE_RUNNING';
+end;
+
+procedure TForm30.ceIdle(Sender: TObject);
+begin
+  Application.ProcessMessages; //Birb: don't use Application.HandleMessage here, else GUI will be unrensponsive if you have a tight loop and won't be able to use Run/Reset menu action
+//  if FResume then
+//  begin
+//    FResume := False;
+//    ce.Resume;
+//    FActiveLine := 0;
+//    ed.Refresh;
+//  end;
+end;
+////zoek letter   AddLine('#',true,false,strtoint(spZoekLetterlength.Text));;
+//procedure TForm30.AddLine(preface: string; setMarge, searchWord: Boolean; lengte: integer);
+//var
+//  i, v, j: Integer;
+//  marge, l, r, s, sp: string;
+//begin
+//  ed.Lines.BeginUpdate;
+//  MakeSeed;
+//  //zijn er items links te gebruiken
+//  if Length(lst.Text) <= 0 then
+//    Exit;
+//
+//  //maak een lijst met alle mogelijke items die de lengte hebben van 1 of meer
+//  sl.Clear;
+//  sl.AddStrings(lst.lines);
+//  for i := sl.Count - 1 downto 0 do
+//    if Length(sl[i]) <= 0 then
+//      sl.Delete(i);
+//  ///kies een item willekeurig uit de lijst die voor aan komt te staan
+//  sl2.Clear;
+//  marge := sl[random(sl.count)];
+//  sl2.Add(marge);
+//
+//
+//
+//
+//  //maximale lengte
+//  v := lengte; {StrToInt(spLength.text);}
+//  if (not (spMultiple.checked)) and (sl.Count < v) then
+//    v := sl.Count;
+//
+//
+//
+////  Exit;
+//
+//
+//  i := 0;
+////  ed.Lines.Add('marge='+marge);
+//  while (i < (v - 1)) do
+////  ed.lines.add(sl2.text);
+////  Exit;
+//
+//  begin
+//    MakeSeed;
+//    l := sl[Random(sl.Count)];
+//
+////    if spSingleLetter.checked then
+//
+////    repeat
+////      j:=Random(sl.Count);
+////      ed.Lines.Add('>'+sl[j]);
+////    until sl[j]<>marge;
+////    l:=sl[j];
+//
+//
+//    if ((not (spMultiple.checked)) and (sl2.IndexOf(l) < 0)) or (spMultiple.checked) then
+//    begin
+//      s := preface + SL2String(sl2) + sp + l;
+//      if (setMarge) then
+//      begin
+//        if (Length(marge + s) <= max) then
+//          sl2.Add(l);
+//      end
+//      else
+//      begin
+//        if (Length(s) <= max) then
+//          sl2.Add(l);
+//      end;
+//      i := i + 1;
+//    end;
+//  end;
+//
+////  MixSL(sl2);
+//
+//
+//  for i := 0 to sl2.count - 1 do
+//    r := r + sl2[i];
+//
+//  if not searchWord then
+//    marge := r[Random(Length(r)) + 1];
+//
+//  if setMarge then
+//    ed.Lines.Add(marge + preface + SL2String(sl2))
+//  else
+//    ed.Lines.Add(preface + SL2String(sl2));
+//
+//  FMH.IsDirty := True;
+//  ed.Lines.EndUpdate;
+//end;
+
+procedure TForm30.Edit1Change(Sender: TObject);
+begin
+  Edit1.Text := DeleteRepeatedChar(Edit1.text);
+//  acMoveAll.Execute;
+  acFilter.Execute;
+end;
+
+procedure TForm30.spReadClick(Sender: TObject);
+var
+  i, l: Integer;
+begin
+  AddRegel('', false, strtoint(spLeesLength.Text), strtoint(spLeesCount.Text));
+end;
+
+procedure TForm30.spSpinLengthAcceptText(Sender: TObject; var NewText: WideString; var Accept: Boolean);
+begin
+  Accept := True;
+  Text := NewText;
+end;
+
+procedure TForm30.spSpinLengthChange(Sender: TObject; const AText: WideString);
+begin
+  Edit1Change(Sender);
+end;
+
+end.
+

@@ -1,0 +1,9 @@
+ik heb 5 stapels met 3 boeken##5*3
+ik heb 4 emmers met 3 vissen##4*3
+ik heb 7 netten met 5 ballen##7*5
+ik heb 4 doosjes met 10 pennen##4*10
+ik heb 3 bakjes met 1 plantje##3*1
+ik heb 8 pannen met 3 deksels##8*3
+ik heb 2 tafels met 9 stoelen##2*9
+ik heb 6 laadjes met 4 sokken##6*4
+ik heb 9 planken met 7 boeken##9*7

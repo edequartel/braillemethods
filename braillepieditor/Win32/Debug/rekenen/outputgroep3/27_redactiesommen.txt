@@ -1,0 +1,10 @@
+Er zitten 4 vogels op een tak. Er vliegen er 2 weg. Hoeveel vogels zitten er nog op de tak?#1,2,3,4,5,6,7,8,9,10#2
+Er staan 5 kinderen bovenaan de glijbaan. Er glijden 4 kinderen naar beneden. Hoeveel kinderen staan nog bovenaan?#1,2,3,4,5,6,7,8,9,10#1
+Kim heeft 2 brailleleesboeken. Zij krijgt er 5 bij. Hoeveel boeken zijn dit samen?#1,2,3,4,5,6,7,8,9,10#7
+Er spelen 10 kinderen op het plein. 2 kinderen gaan naar binnen. Hoeveel kinderen spelen er nog op het plein?#1,2,3,4,5,6,7,8,9,10#8
+Er loopt 1 kuiken in het hok. Er komen 6 kuikens bij. Hoeveel kuikens zijn er in het hok?#1,2,3,4,5,6,7,8,9,10#7
+Er zijn 9 kinderen aan het rekenen. 7 kinderen zijn klaar. Hoeveel zijn er nog aan het werk?#1,2,3,4,5,6,7,8,9,10#2
+De kinderen van groep 3 hebben 5 sneeuwpoppen gemaakt. De kinderen van groep 4 hebben er 3 gemaakt. Hoeveel sneeuwpoppen staan er?#1,2,3,4,5,6,7,8,9,10#8
+In groep 3 zitten 10 kinderen. Vandaag zijn er 4 ziek. Hoeveel kinderen zijn er niet ziek?#1,2,3,4,5,6,7,8,9,10#6
+In de kooi zitten 3 hamsters. Er worden 4 hamsters geboren. Hoeveel zijn er nu samen?#1,2,3,4,5,6,7,8,9,10#7
+In de klas staan 4 computers. Er komen er 4 bij. Hoeveel computers staan er nu in de klas?#1,2,3,4,5,6,7,8,9,10#8

@@ -1,0 +1,2071 @@
+date/time          : 2022-09-27, 10:00:11, 855ms
+computer name      : DESKTOP-VP6FQG8
+user name          : edequ
+registered owner   : edequartel@protonmail.com
+operating system   : Windows 10 x64 build 19044
+system language    : English
+system up time     : 14 days 14 hours
+program up time    : 21 seconds
+processors         : 8x Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+physical memory    : 3661/16236 MB (free/total)
+free disk space    : (C:) 228,31 GB
+display mode       : 1536x864, 32 bit
+process id         : $427c
+allocated memory   : 50,51 MB
+largest free block : 1,26 GB
+executable         : bpeditor.exe
+exec. date/time    : 2022-09-27 09:59
+version            : 1.0.0.0
+compiled with      : Delphi XE3
+madExcept version  : 4.0.18
+callstack crc      : $61e5529a, $1a63e423, $1a63e423
+exception number   : 1
+exception class    : EFileNotFoundException
+exception message  : The specified file was not found.
+
+main thread ($640c):
+00567365 +f5 bpeditor.exe System.IOUtils  2646 +16 TFile.InternalCheckFilePathParam
+005670fc +08 bpeditor.exe System.IOUtils  1791  +1 TFile.CheckCopyParameters
+0056716a +22 bpeditor.exe System.IOUtils  1994  +1 TFile.Copy
+00a9314d +e9 bpeditor.exe unit1            769  +6 TForm30.Copyfiles1Click
+00671cde +aa bpeditor.exe Vcl.Menus       2523 +19 TMenuItem.Click
+006732d7 +13 bpeditor.exe Vcl.Menus       3436  +5 TMenu.DispatchCommand
+00674546 +82 bpeditor.exe Vcl.Menus       4597  +4 TPopupList.WndProc
+00674495 +1d bpeditor.exe Vcl.Menus       4572  +2 TPopupList.MainWndProc
+0053f9b0 +14 bpeditor.exe System.Classes 16891  +8 StdWndProc
+75ba59fb +0b user32.dll                            DispatchMessageW
+0068c65b +f3 bpeditor.exe Vcl.Forms      10208 +23 TApplication.ProcessMessage
+0068c69e +0a bpeditor.exe Vcl.Forms      10238  +1 TApplication.HandleMessage
+0068c9d9 +c9 bpeditor.exe Vcl.Forms      10376 +26 TApplication.Run
+00aa1565 +49 bpeditor.exe bpeditor          18  +4 initialization
+763efa27 +17 KERNEL32.DLL                          BaseThreadInitThunk
+
+thread $5f34:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $7c54:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $e4c:
+766ec74d +fd KERNELBASE.dll           WaitForMultipleObjectsEx
+004ac799 +0d bpeditor.exe   madExcept CallThreadProcSafe
+004ac7fe +32 bpeditor.exe   madExcept ThreadExceptFrame
+763efa27 +17 KERNEL32.DLL             BaseThreadInitThunk
+>> created by main thread ($640c) at:
+77300312 +00 combase.dll
+
+thread $7adc:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $8308:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $6ce8:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2f74:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $8284:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+modules:
+00400000 bpeditor.exe           1.0.0.0             C:\Users\edequ\Dropbox\Software development\braillepieditor\Win32\Debug
+58c40000 FaultRep.dll           6.2.19041.1682      C:\WINDOWS\SYSTEM32
+59640000 olepro32.dll           6.2.19041.84        C:\WINDOWS\SYSTEM32
+61950000 twinapi.appcore.dll    6.2.19041.1865      C:\WINDOWS\system32
+62780000 wsock32.dll            6.2.19041.1         C:\WINDOWS\SYSTEM32
+636b0000 dxgi.dll               6.2.19041.1806      C:\WINDOWS\system32
+65c70000 wintypes.dll           6.2.19041.1682      C:\WINDOWS\SYSTEM32
+65e80000 CoreUIComponents.dll   6.2.19041.546       C:\WINDOWS\System32
+66100000 CoreMessaging.dll      6.2.19041.867       C:\WINDOWS\System32
+661a0000 textinputframework.dll 6.2.19041.1741      C:\WINDOWS\SYSTEM32
+66a20000 DWMAPI.DLL             6.2.19041.746       C:\WINDOWS\SYSTEM32
+68690000 dcomp.dll              6.2.19041.1741      C:\WINDOWS\system32
+68800000 d3d11.dll              6.2.19041.1865      C:\WINDOWS\system32
+689e0000 dataexchange.dll       6.2.19041.1387      C:\WINDOWS\system32
+6afb0000 propsys.dll            7.0.19041.1741      C:\WINDOWS\system32
+6fa10000 comctl32.dll           6.10.19041.1110     C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_a8625c1886757984
+73950000 WINSTA.dll             6.2.19041.546       C:\WINDOWS\SYSTEM32
+73b80000 SspiCli.dll            6.2.19041.1586      C:\WINDOWS\SYSTEM32
+73c90000 ntmarta.dll            6.2.19041.546       C:\WINDOWS\SYSTEM32
+73d50000 Wldp.dll               6.2.19041.1806      C:\WINDOWS\SYSTEM32
+73d80000 windows.storage.dll    6.2.19041.1865      C:\WINDOWS\SYSTEM32
+74390000 kernel.appcore.dll     6.2.19041.546       C:\WINDOWS\SYSTEM32
+74680000 winmm.dll              6.2.19041.546       C:\WINDOWS\SYSTEM32
+74820000 oleacc.dll             7.2.19041.746       C:\WINDOWS\SYSTEM32
+74880000 wtsapi32.dll           6.2.19041.546       C:\WINDOWS\SYSTEM32
+748a0000 uxtheme.dll            6.2.19041.1620      C:\WINDOWS\system32
+74920000 winspool.drv           6.2.19041.1865      C:\WINDOWS\SYSTEM32
+749a0000 msimg32.dll            6.2.19041.1466      C:\WINDOWS\SYSTEM32
+749b0000 version.dll            6.2.19041.546       C:\WINDOWS\SYSTEM32
+749c0000 dbgcore.DLL            6.2.19041.546       C:\WINDOWS\SYSTEM32
+74a00000 dbghelp.dll            6.2.19041.1052      C:\WINDOWS\SYSTEM32
+75580000 ole32.dll              6.2.19041.1202      C:\WINDOWS\System32
+75670000 RPCRT4.dll             6.2.19041.1806      C:\WINDOWS\System32
+75b70000 user32.dll             6.2.19041.1889      C:\WINDOWS\System32
+75d10000 bcryptPrimitives.dll   6.2.19041.1415      C:\WINDOWS\System32
+75e40000 msvcrt.dll             7.0.19041.546       C:\WINDOWS\System32
+75f00000 sechost.dll            6.2.19041.1865      C:\WINDOWS\System32
+75f80000 oleaut32.dll           6.2.19041.985       C:\WINDOWS\System32
+76040000 CFGMGR32.dll           6.2.19041.1620      C:\WINDOWS\System32
+760e0000 WS2_32.dll             6.2.19041.546       C:\WINDOWS\System32
+76150000 shcore.dll             6.2.19041.1645      C:\WINDOWS\System32
+761e0000 clbcatq.dll            2001.12.10941.16384 C:\WINDOWS\System32
+763d0000 KERNEL32.DLL           6.2.19041.1889      C:\WINDOWS\System32
+764c0000 GDI32.dll              6.2.19041.1620      C:\WINDOWS\System32
+764f0000 advapi32.dll           6.2.19041.1682      C:\WINDOWS\System32
+76570000 win32u.dll             6.2.19041.1889      C:\WINDOWS\System32
+76590000 IMM32.DLL              6.2.19041.546       C:\WINDOWS\System32
+765d0000 KERNELBASE.dll         6.2.19041.1889      C:\WINDOWS\System32
+767f0000 ucrtbase.dll           6.2.19041.789       C:\WINDOWS\System32
+76910000 shell32.dll            6.2.19041.1806      C:\WINDOWS\System32
+76ed0000 msvcp_win.dll          6.2.19041.789       C:\WINDOWS\System32
+76f50000 gdi32full.dll          6.2.19041.1865      C:\WINDOWS\System32
+77120000 MSCTF.dll              6.2.19041.1806      C:\WINDOWS\System32
+77220000 SHLWAPI.dll            6.2.19041.1706      C:\WINDOWS\System32
+77270000 combase.dll            6.2.19041.1741      C:\WINDOWS\System32
+775f0000 comdlg32.dll           6.2.19041.1806      C:\WINDOWS\System32
+776b0000 ntdll.dll              6.2.19041.1806      C:\WINDOWS\SYSTEM32
+7a380000 TextShaping.dll                            C:\WINDOWS\SYSTEM32
+
+processes:
+0000 Idle                                   0 0    0
+0004 System                                 0 0    0
+007c Registry                               0 0    0
+0278 smss.exe                               0 0    0
+0344 csrss.exe                              0 0    0
+03ac wininit.exe                            0 0    0
+03b4 csrss.exe                              1 0    0
+03f4 services.exe                           0 0    0
+0058 lsass.exe                              0 0    0
+0404 winlogon.exe                           1 0    0
+0464 svchost.exe                            0 0    0
+0488 fontdrvhost.exe                        0 0    0
+0484 fontdrvhost.exe                        1 0    0
+04ac WUDFHost.exe                           0 0    0
+0514 WUDFHost.exe                           0 0    0
+0520 svchost.exe                            0 0    0
+056c svchost.exe                            0 0    0
+05b0 dwm.exe                                1 0    0
+0638 svchost.exe                            0 0    0
+0640 svchost.exe                            0 0    0
+0650 svchost.exe                            0 0    0
+06fc svchost.exe                            0 0    0
+0704 svchost.exe                            0 0    0
+070c svchost.exe                            0 0    0
+0718 svchost.exe                            0 0    0
+072c svchost.exe                            0 0    0
+07c8 IntelCpHDCPSvc.exe                     0 0    0
+07d0 svchost.exe                            0 0    0
+07d8 svchost.exe                            0 0    0
+03a4 svchost.exe                            0 0    0
+06cc svchost.exe                            0 0    0
+08b8 IntelCpHeciSvc.exe                     0 0    0
+091c svchost.exe                            0 0    0
+0948 svchost.exe                            0 0    0
+0970 svchost.exe                            0 0    0
+09c0 svchost.exe                            0 0    0
+0a2c NVDisplay.Container.exe                0 0    0
+0a58 svchost.exe                            0 0    0
+0aa0 svchost.exe                            0 0    0
+0ad0 svchost.exe                            0 0    0
+0ac8 svchost.exe                            0 0    0
+0adc svchost.exe                            0 0    0
+0b60 svchost.exe                            0 0    0
+0b88 svchost.exe                            0 0    0
+0bb0 Memory Compression                     0 0    0
+0bd8 igfxCUIService.exe                     0 0    0
+0be4 svchost.exe                            0 0    0
+0bac svchost.exe                            0 0    0
+0c04 svchost.exe                            0 0    0
+0ca8 svchost.exe                            0 0    0
+0cf4 NVDisplay.Container.exe                1 0    0
+0d10 svchost.exe                            0 0    0
+0d48 RtkAudioService64.exe                  0 0    0
+0da4 svchost.exe                            0 0    0
+0dac svchost.exe                            0 0    0
+0db4 svchost.exe                            0 0    0
+0e58 svchost.exe                            0 0    0
+0ea0 svchost.exe                            0 0    0
+0ec8 WmiPrvSE.exe                           0 0    0
+0f08 svchost.exe                            0 0    0
+0f60 spoolsv.exe                            0 0    0
+0f90 svchost.exe                            0 0    0
+0fb8 svchost.exe                            0 0    0
+1050 RAVBg64.exe                            1 0    0
+1078 sihost.exe                             1 38   20   normal       C:\Windows\System32
+10a4 svchost.exe                            1 0    1    normal       C:\Windows\System32
+10ac svchost.exe                            1 0    1    normal       C:\Windows\System32
+10dc PresentationFontCache.exe              0 0    0
+112c svchost.exe                            1 4    4    normal       C:\Windows\System32
+1134 svchost.exe                            0 0    0
+1140 mDNSResponder.exe                      0 0    0
+1148 AppleMobileDeviceService.exe           0 0    0
+1150 schedul2.exe                           0 0    0
+1160 AdminService.exe                       0 0    0
+116c armsvc.exe                             0 0    0
+1178 AGSService.exe                         0 0    0
+1180 AGMService.exe                         0 0    0
+11d0 afcdpsrv.exe                           0 0    0
+11f0 svchost.exe                            0 0    0
+1214 svchost.exe                            0 0    0
+121c DYMOConnectPnPService.exe              0 0    0
+1240 esif_uf.exe                            0 0    0
+129c GfExperienceService.exe                0 0    0
+12ac ibguard.exe                            0 0    0
+12d8 FoxitPDFEditorUpdateService.exe        0 0    0
+12fc OneApp.IGCC.WinService.exe             0 0    0
+1320 svchost.exe                            0 0    0
+13c4 KillerService.exe                      0 0    0
+13cc KillerAnalyticsService.exe             0 0    0
+0cdc dptf_helper.exe                        1 0    2    normal       C:\Windows\System32\Intel\DPTF
+141c taskhostw.exe                          1 10   6    normal       C:\Windows\System32
+143c anti_ransomware_service.exe            0 0    0
+1464 DropboxUpdate.exe                      0 0    0
+1474 mms_mini.exe                           0 0    0
+148c ibserver.exe                           0 0    0
+1494 NvNetworkService.exe                   0 0    0
+14a4 svchost.exe                            0 0    0
+14c8 QcomWlanSrvx64.exe                     0 0    0
+1500 svchost.exe                            0 0    0
+1524 svchost.exe                            0 0    0
+152c RstMwService.exe                       0 0    0
+1538 svchost.exe                            0 0    0
+158c TeamViewer_Service.exe                 0 0    0
+1598 KillerNetworkService.exe               0 0    0
+1608 WavesSysSvc64.exe                      0 0    0
+1654 svchost.exe                            0 0    0
+165c MsMpEng.exe                            0 0    0
+1694 svchost.exe                            0 0    0
+1734 svchost.exe                            0 0    0
+17b4 svchost.exe                            0 0    0
+1848 svchost.exe                            0 0    0
+18a4 WmiPrvSE.exe                           0 0    0
+1a20 schedhlp.exe                           1 0    4    normal       C:\Program Files (x86)\Common Files\Acronis\Schedule2
+1a90 unsecapp.exe                           0 0    0
+1ad0 svchost.exe                            0 0    0
+1758 ctfmon.exe                             1 0    0
+1c20 igfxEM.exe                             1 10   13   normal       C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_7208949846a9b9dc
+1c38 svchost.exe                            0 0    0
+14b0 explorer.exe                           1 1049 674  normal       C:\Windows
+1e9c svchost.exe                            0 0    0
+1ea0 svchost.exe                            0 0    0
+07ec svchost.exe                            0 0    0
+210c svchost.exe                            0 0    0
+2148 svchost.exe                            0 0    0
+22c8 svchost.exe                            1 0    9    normal       C:\Windows\System32
+2144 StartMenuExperienceHost.exe            1 21   31   normal       C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy
+1f50 RuntimeBroker.exe                      1 40   4    normal       C:\Windows\System32
+2604 RuntimeBroker.exe                      1 38   7    normal       C:\Windows\System32
+2690 svchost.exe                            0 0    0
+29c0 LockApp.exe                            1 6    19   normal       C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy
+2a20 RuntimeBroker.exe                      1 70   14   normal       C:\Windows\System32
+2c28 svchost.exe                            0 0    0
+2dac svchost.exe                            0 0    0
+2e54 NisSrv.exe                             0 0    0
+2edc dllhost.exe                            0 0    0
+2f88 TextInputHost.exe                      1 0    23   normal       C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy
+3068 SecurityHealthSystray.exe              1 7    5    normal       C:\Windows\System32
+308c SecurityHealthService.exe              0 0    0
+30f8 NvBackend.exe                          1 2    12   normal       C:\Program Files (x86)\NVIDIA Corporation\Update Core
+3170 RAVBg64.exe                            1 5    13   normal       C:\Program Files\Realtek\Audio\HDA
+3198 unsecapp.exe                           1 0    3    normal       C:\Windows\System32\wbem
+31d4 RtkNGUI64.exe                          1 31   26   normal       C:\Program Files\Realtek\Audio\HDA
+320c WavesSvc64.exe                         1 15   41   normal       C:\Program Files\Waves\MaxxAudio
+32e4 Snagit32.exe                           1 196  65   normal       C:\Program Files\TechSmith\Snagit 2021
+32fc crashpad_handler.exe                   1 2    4    normal       C:\Program Files\TechSmith\Snagit 2021
+3380 AdobeCollabSync.exe                    1 12   7    normal       C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat
+2f2c svchost.exe                            0 0    0
+2c48 AdobeCollabSync.exe                    1 0    2    normal       C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat
+32d0 SnagPriv.exe                           1 0    0
+3410 DYMOConnectLauncher.exe                1 0    2    normal       C:\Program Files (x86)\DYMO\DYMO Connect
+36d4 svchost.exe                            0 0    0
+3748 SnagitEditor.exe                       1 489  345  normal       C:\Program Files\TechSmith\Snagit 2021
+0ab8 crashpad_handler.exe                   1 2    4    below normal C:\Program Files\TechSmith\Snagit 2021
+3a94 Teams.exe                              1 20   52   normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+3ab8 slack.exe                              1 20   42   normal       C:\Users\edequ\AppData\Local\slack\app-4.28.171
+3bac Cortana.exe                            1 0    9    normal       C:\Program Files\WindowsApps\Microsoft.549981C3F5F10_4.2204.13303.0_x64__8wekyb3d8bbwe
+3bbc iCloudServices.exe                     1 329  37   normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+1c44 slack.exe                              1 2    4    normal       C:\Users\edequ\AppData\Local\slack\app-4.28.171
+3980 Teams.exe                              1 7    18   above normal C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+3528 Teams.exe                              1 0    1    normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+3014 iCloudCKKS.exe                         1 2    19   normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+2a7c slack.exe                              1 2    9    above normal C:\Users\edequ\AppData\Local\slack\app-4.28.171
+3ab0 Teams.exe                              1 0    0    normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+3c04 slack.exe                              1 0    1    normal       C:\Users\edequ\AppData\Local\slack\app-4.28.171
+3c1c RuntimeBroker.exe                      1 0    2    normal       C:\Windows\System32
+3d38 APSDaemon.exe                          1 2    7    normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+3df4 Teams.exe                              1 0    1    normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+3e20 slack.exe                              1 0    0    idle         C:\Users\edequ\AppData\Local\slack\app-4.28.171
+3f94 svchost.exe                            1 0    1    normal       C:\Windows\System32
+3b94 svchost.exe                            0 0    0
+3f54 secd.exe                               1 2    4    normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+3adc Teams.exe                              1 0    0    normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+4010 iCloudDrive.exe                        1 16   40   normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+40fc iCloudPhotos.exe                       1 8    41   normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+4330 ApplePhotoStreams.exe                  1 5    22   normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+487c TrueImageMonitor.exe                   1 19   30   normal       C:\Program Files (x86)\Acronis\TrueImageHome
+49a4 acrotray.exe                           1 45   11   normal       C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat
+4a14 jusched.exe                            1 0    2    normal       C:\Program Files (x86)\Common Files\Java\Java Update
+4a2c DYMO.WebApi.Win.Host.exe               1 15   13   normal       C:\Program Files (x86)\DYMO\DYMO Connect
+4b18 proton-bridge.exe                      1 31   32   normal       C:\Users\edequ\AppData\Local\protonmail\bridge\updates\2.1.3
+4b54 tib_mounter_monitor.exe                1 0    1    normal       C:\Program Files (x86)\Common Files\Acronis\TibMounter
+1460 IAStorIcon.exe                         1 23   15   normal       C:\Program Files\Intel\Intel(R) Rapid Storage Technology
+0738 Todoist.exe                            1 22   56   normal       C:\Users\edequ\AppData\Local\Programs\todoist
+314c Todoist.exe                            1 2    4    normal       C:\Users\edequ\AppData\Local\Programs\todoist
+4758 Todoist.exe                            1 6    15   above normal C:\Users\edequ\AppData\Local\Programs\todoist
+4a8c Todoist.exe                            1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\todoist
+4514 Todoist.exe                            1 0    1    idle         C:\Users\edequ\AppData\Local\Programs\todoist
+15a0 svchost.exe                            1 0    1    normal       C:\Windows\System32
+1fb0 ShellExperienceHost.exe                1 20   73   normal       C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy
+4ad0 RuntimeBroker.exe                      1 40   6    normal       C:\Windows\System32
+202c Todoist.exe                            1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\todoist
+3cf4 DCCService.exe                         0 0    0
+3cd0 Dell.D3.WinSvc.exe                     0 0    0
+411c DFSSvc.exe                             0 0    0
+4044 DellSupportAssistRemedationService.exe 0 0    0
+4630 ServiceShell.exe                       0 0    0
+2560 DellDataVaultWiz.exe                   0 0    0
+41b8 IAStorDataMgrSvc.exe                   0 0    0
+1448 jhi_service.exe                        0 0    0
+2ffc PRSvc.exe                              0 0    0
+4b24 SgrmBroker.exe                         0 0    0
+4abc svchost.exe                            0 0    0
+0b84 SupportAssistAgent.exe                 0 0    0
+0884 syncagentsrv.exe                       0 0    0
+0b4c svchost.exe                            0 0    0
+482c DellDataVault.exe                      0 0    0
+2ddc ApplicationFrameHost.exe               1 48   32   normal       C:\Windows\System32
+39c8 UserOOBEBroker.exe                     1 0    1    normal       C:\Windows\System32\oobe
+13ac svchost.exe                            0 0    0
+4174 Calculator.exe                         1 0    20   normal       C:\Program Files\WindowsApps\microsoft.windowscalculator_10.2103.8.0_x64__8wekyb3d8bbwe
+43c0 RuntimeBroker.exe                      1 0    1    normal       C:\Windows\System32
+36f8 jucheck.exe                            1 7    6    normal       C:\Program Files (x86)\Common Files\Java\Java Update
+2fa8 DFS.Common.Agent.exe                   1 0    3    normal       C:\Program Files\Dell\Dell Foundation Services
+1eb0 conhost.exe                            1 13   9    normal       C:\Windows\System32
+1068 Screencast-O-Matic.exe                 1 0    0
+3d94 Screencast-O-Matic.exe                 1 0    0
+4fb4 taskhostw.exe                          1 42   6    normal       C:\Windows\System32
+27b8 svchost.exe                            0 0    0
+10c4 Video.UI.exe                           1 0    8    normal       C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.22041.10091.0_x64__8wekyb3d8bbwe
+2d9c RuntimeBroker.exe                      1 0    1    normal       C:\Windows\System32
+1880 Todoist.exe                            1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\todoist
+0ba4 Evernote.exe                           1 82   83   normal       C:\Users\edequ\AppData\Local\Programs\Evernote
+2d94 Evernote.exe                           1 11   27   above normal C:\Users\edequ\AppData\Local\Programs\Evernote
+257c Evernote.exe                           1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\Evernote
+3e98 Evernote.exe                           1 2    4    normal       C:\Users\edequ\AppData\Local\Programs\Evernote
+0228 Evernote.exe                           1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\Evernote
+364c Evernote.exe                           1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\Evernote
+3284 Evernote.exe                           1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\Evernote
+4f88 Evernote.exe                           1 0    1    idle         C:\Users\edequ\AppData\Local\Programs\Evernote
+23f4 svchost.exe                            1 0    6    normal       C:\Windows\System32
+5148 svchost.exe                            0 0    0
+0f24 Teams.exe                              1 5    28   normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+5224 Teams.exe                              1 0    0    normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+0254 appupdater.exe                         1 0    0
+1b60 MusNotifyIcon.exe                      1 9    4    below normal C:\Windows\System32
+53e4 svchost.exe                            0 0    0
+5ad8 svchost.exe                            0 0    0
+572c MpCopyAccelerator.exe                  0 0    0
+6cd0 svchost.exe                            0 0    0
+6d08 audiodg.exe                            0 0    0
+18f4 GExpertsDebugWindow.exe                1 68   47   normal       C:\Program Files (x86)\GExperts for RAD Studio XE3
+573c sam.exe                                1 9    15   normal       C:\Program Files (x86)\Dolphin\Sam
+55e4 sam.alva_bc6.exe                       1 9    9    normal       C:\Program Files (x86)\Dolphin\Sam\alva_bc6
+66dc sam.samsapi5.exe                       1 2    5    normal       C:\Program Files (x86)\Dolphin\Sam\samsapi5
+4f40 sam.vbraille.exe                       1 2    3    normal       C:\Program Files (x86)\Dolphin\Sam\vbraille2
+6138 sam.VocExpr.exe                        1 2    4    normal       C:\Program Files (x86)\Dolphin\Sam\VocExpr
+69bc SearchApp.exe                          1 1    32   normal       C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy
+58f8 Folge.exe                              1 22   51   normal       C:\Users\edequ\AppData\Local\Programs\Folge
+550c Folge.exe                              1 2    4    normal       C:\Users\edequ\AppData\Local\Programs\Folge
+04fc Folge.exe                              1 6    9    above normal C:\Users\edequ\AppData\Local\Programs\Folge
+665c Folge.exe                              1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\Folge
+5a7c Folge.exe                              1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\Folge
+62b4 MoUsoCoreWorker.exe                    0 0    0
+6d78 SearchApp.exe                          1 21   61   normal       C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy
+518c DbxSvc.exe                             0 0    0
+1310 RuntimeBroker.exe                      1 0    4    normal       C:\Windows\System32
+574c Dropbox.exe                            1 73   113  normal       C:\Program Files (x86)\Dropbox\Client
+2914 Dropbox.exe                            1 2    4    normal       C:\Program Files (x86)\Dropbox\Client
+7184 Dropbox.exe                            1 0    1    normal       C:\Program Files (x86)\Dropbox\Client
+309c Dropbox.exe                            1 0    1    normal       C:\Program Files (x86)\Dropbox\Client
+634c Dropbox.exe                            1 2    2    above normal C:\Program Files (x86)\Dropbox\Client
+2c18 Dropbox.exe                            1 0    0    normal       C:\Program Files (x86)\Dropbox\Client
+49f8 OfficeClickToRun.exe                   0 0    0
+4e64 AppVShNotify.exe                       1 0    1    normal       C:\Program Files\Common Files\microsoft shared\ClickToRun
+11e4 ONENOTEM.EXE                           1 16   9    normal       C:\Program Files\Microsoft Office\root\Office16
+64d0 SearchIndexer.exe                      0 0    0
+6e00 DataExchangeHost.exe                   1 0    1    above normal C:\Windows\System32
+6df8 Dropbox.exe                            1 0    0    normal       C:\Program Files (x86)\Dropbox\Client
+7f28 CCleaner64.exe                         1 0    0
+7978 SystemSettings.exe                     1 18   39   normal       C:\Windows\ImmersiveControlPanel
+81b4 CompPkgSrv.exe                         1 0    1    normal       C:\Windows\System32
+679c OneDrive.exe                           1 221  95   normal       C:\Program Files\Microsoft OneDrive
+5da4 AcrobatNotificationClient.exe          1 0    8    normal       C:\Program Files\WindowsApps\AcrobatNotificationClient_1.0.4.0_x86__e1rzdqpraam7r
+4460 RuntimeBroker.exe                      1 0    1    normal       C:\Windows\System32
+5fd4 msedge.exe                             1 23   83   normal       C:\Program Files (x86)\Microsoft\Edge\Application
+7270 msedge.exe                             1 2    4    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+828c msedge.exe                             1 11   15   above normal C:\Program Files (x86)\Microsoft\Edge\Application
+78e8 msedge.exe                             1 0    1    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+458c msedge.exe                             1 0    1    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+5dec msedge.exe                             1 0    0    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+30e0 msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+82c8 msedge.exe                             1 0    0    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+20e8 PhoneExperienceHost.exe                1 11   26   normal       C:\Program Files\WindowsApps\Microsoft.YourPhone_1.22072.207.0_x64__8wekyb3d8bbwe
+7cb0 RuntimeBroker.exe                      1 0    1    normal       C:\Windows\System32
+5794 WmiPrvSE.exe                           0 0    0
+6ad8 iCloudIE.exe                           1 16   31   normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+4468 svchost.exe                            0 0    0
+7d84 bds.exe                                1 3315 1132 normal       C:\Program Files (x86)\Embarcadero\RAD Studio\10.0\bin
+6830 msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+8378 msedge.exe                             1 0    5    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+8240 msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+5174 msedge.exe                             1 0    1    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+26a0 svchost.exe                            0 0    0
+5cdc Microsoft.Photos.exe                   1 0    11   normal       C:\Program Files\WindowsApps\Microsoft.Windows.Photos_2022.30070.26007.0_x64__8wekyb3d8bbwe
+0748 RuntimeBroker.exe                      1 36   12   normal       C:\Windows\System32
+2e00 qtcreator.exe                          1 124  73   normal       C:\Qt\Tools\QtCreator\bin
+2484 qtcreator_processlauncher.exe          1 0    5    normal       C:\Qt\Tools\QtCreator\bin
+7bd8 conhost.exe                            1 0    1    normal       C:\Windows\System32
+7dfc clangbackend.exe                       1 0    5    normal       C:\Qt\Tools\QtCreator\bin
+5930 conhost.exe                            1 0    1    normal       C:\Windows\System32
+25fc msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+5854 msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+3710 svchost.exe                            0 0    0
+0fa8 msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+0890 msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+4494 qtcreator_ctrlc_stub.exe               1 0    3    normal       C:\Qt\Tools\QtCreator\bin
+7330 conhost.exe                            1 0    1    normal       C:\Windows\System32
+39a4 mingw32-make.exe                       1 0    1    normal       C:\Qt\Tools\mingw810_64\bin
+67bc cmd.exe                                1 0    0    normal       C:\Windows\System32
+8088 mingw32-make.exe                       1 0    1    normal       C:\Qt\Tools\mingw810_64\bin
+11a0 mingw32-make.exe                       1 0    1    normal       C:\Qt\Tools\mingw810_64\bin
+7814 g++.exe                                1 0    0    normal       C:\Qt\Tools\mingw810_64\bin
+13e8 cc1plus.exe                            1 0    0    normal       C:\Qt\Tools\mingw810_64\libexec\gcc\x86_64-w64-mingw32\8.1.0
+5bf0 g++.exe                                1 0    0    normal       C:\Qt\Tools\mingw810_64\bin
+5b9c cc1plus.exe                            1 0    0    normal       C:\Qt\Tools\mingw810_64\libexec\gcc\x86_64-w64-mingw32\8.1.0
+816c g++.exe                                1 0    0    normal       C:\Qt\Tools\mingw810_64\bin
+7fe8 cc1plus.exe                            1 0    0    normal       C:\Qt\Tools\mingw810_64\libexec\gcc\x86_64-w64-mingw32\8.1.0
+6714 g++.exe                                1 0    0    normal       C:\Qt\Tools\mingw810_64\bin
+427c bpeditor.exe                           1 112  95   normal       C:\Users\edequ\Dropbox\Software development\braillepieditor\Win32\Debug
+6644 cc1plus.exe                            1 0    0    normal       C:\Qt\Tools\mingw810_64\libexec\gcc\x86_64-w64-mingw32\8.1.0
+82d0 g++.exe                                1 0    0    normal       C:\Qt\Tools\mingw810_64\bin
+4660 cc1plus.exe                            1 0    0    normal       C:\Qt\Tools\mingw810_64\libexec\gcc\x86_64-w64-mingw32\8.1.0
+6154 g++.exe                                1 0    0    normal       C:\Qt\Tools\mingw810_64\bin
+80d4 cc1plus.exe                            1 0    0
+2d24 g++.exe                                1 0    0    normal       C:\Qt\Tools\mingw810_64\bin
+78dc cc1plus.exe                            1 0    0    normal       C:\Qt\Tools\mingw810_64\libexec\gcc\x86_64-w64-mingw32\8.1.0
+5534 g++.exe                                1 0    0    normal       C:\Qt\Tools\mingw810_64\bin
+2fc8 cc1plus.exe                            1 0    0    normal       C:\Qt\Tools\mingw810_64\libexec\gcc\x86_64-w64-mingw32\8.1.0
+
+hardware:
++ {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+  - Adobe PDF
+  - Fax
+  - Foxit PDF Editor Printer
+  - Microsoft Print to PDF
+  - Microsoft XPS Document Writer
+  - OneNote (Desktop)
+  - OneNote for Windows 10
+  - Print to Evernote
+  - Root Print Queue
+  - Snagit 2021
++ {36fc9e60-c465-11cf-8056-444553540000}
+  - Intel(R) USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)
+  - USB Composite Device
+  - USB Root Hub (USB 3.0)
++ {4d36e966-e325-11ce-bfc1-08002be10318}
+  - ACPI x64-based PC
++ {4d36e967-e325-11ce-bfc1-08002be10318}
+  - NVMe PM961 NVMe SAMSU
++ {4d36e968-e325-11ce-bfc1-08002be10318}
+  - Intel(R) HD Graphics 630 (driver 27.20.100.9664)
+  - NVIDIA GeForce GTX 1050 (driver 30.0.15.1272)
++ {4d36e96b-e325-11ce-bfc1-08002be10318}
+  - HID Keyboard Device
+  - Standard PS/2 Keyboard
++ {4d36e96c-e325-11ce-bfc1-08002be10318}
+  - Camo (driver 4.65.0.11562)
+  - Intel(R) Display Audio (driver 10.27.0.10)
+  - NVIDIA Virtual Audio Device (Wave Extensible) (WDM) (driver 4.16.0.0)
+  - Realtek Audio (driver 6.0.9228.1)
++ {4d36e96e-e325-11ce-bfc1-08002be10318}
+  - Generic PnP Monitor
++ {4d36e96f-e325-11ce-bfc1-08002be10318}
+  - HID-compliant mouse
+  - HID-compliant mouse
+  - PS/2 Compatible Mouse
++ {4d36e970-e325-11ce-bfc1-08002be10318}
+  - Realtek PCIE CardReader (driver 10.0.22000.21350)
++ {4d36e972-e325-11ce-bfc1-08002be10318}
+  - Bluetooth Device (Personal Area Network)
+  - Killer Wireless-n/a/ac 1535 Wireless Network Adapter (driver 12.0.0.1118)
+  - Microsoft Kernel Debug Network Adapter
+  - Microsoft Wi-Fi Direct Virtual Adapter
+  - Microsoft Wi-Fi Direct Virtual Adapter #2
+  - WAN Miniport (IKEv2)
+  - WAN Miniport (IP)
+  - WAN Miniport (IPv6)
+  - WAN Miniport (L2TP)
+  - WAN Miniport (Network Monitor)
+  - WAN Miniport (PPPOE)
+  - WAN Miniport (PPTP)
+  - WAN Miniport (SSTP)
++ {4d36e97b-e325-11ce-bfc1-08002be10318}
+  - Intel(R) Chipset SATA/PCIe RST Premium Controller (driver 16.8.3.1003)
+  - Microsoft Storage Spaces Controller
++ {4d36e97d-e325-11ce-bfc1-08002be10318}
+  - ACPI Fixed Feature Button
+  - ACPI Lid
+  - ACPI Power Button
+  - ACPI Processor Aggregator
+  - ACPI Sleep Button
+  - ACPI Thermal Zone
+  - Charge Arbitration Driver
+  - Composite Bus Enumerator
+  - Dell Data Vault Control Device (driver 2.0.6.0)
+  - Dell System Analyzer Control Device (driver 3.0.1.3)
+  - Detection Verification (driver 1.0.174.0)
+  - High precision event timer
+  - Intel(R) 100 Series/C230 Series Chipset Family LPC Controller (HM175) - A152 (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #1 - A110 (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #13 - A11C (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #15 - A11E (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #2 - A111 (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family PMC - A121 (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family SMBus - A123 (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family Thermal subsystem - A131 (driver 10.1.1.38)
+  - Intel(R) Dynamic Platform and Thermal Framework Generic Participant (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Generic Participant (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Generic Participant (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Generic Participant (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Generic Participant (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Generic Participant (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Manager (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Processor Participant (driver 8.3.10209.6897)
+  - Intel(R) Management Engine Interface #1 (driver 2102.100.0.1044)
+  - Intel(R) Power Engine Plug-in
+  - Intel(R) Serial IO I2C Host Controller - A160 (driver 30.100.2010.1)
+  - Intel(R) Serial IO I2C Host Controller - A161 (driver 30.100.2010.1)
+  - Intel(R) Smart Sound Technology (Intel(R) SST) Audio Controller (driver 9.21.0.4260)
+  - Intel(R) Smart Sound Technology (Intel(R) SST) OED (driver 9.21.4260.1)
+  - Intel(R) Xeon(R) E3 - 1200 v6/7th Gen Intel(R) Core(TM) Host Bridge/DRAM Registers - 5910 (driver 10.1.1.38)
+  - Intel(R) Xeon(R) E3 - 1200/1500 v5/6th Gen Intel(R) Core(TM) PCIe Controller (x16) - 1901 (driver 10.1.1.38)
+  - Legacy device
+  - Microsoft ACPI-Compliant Embedded Controller
+  - Microsoft ACPI-Compliant System
+  - Microsoft Basic Display Driver
+  - Microsoft Basic Render Driver
+  - Microsoft Hyper-V Virtualization Infrastructure Driver
+  - Microsoft System Management BIOS Driver
+  - Microsoft UEFI-Compliant System
+  - Microsoft Virtual Drive Enumerator
+  - Microsoft Windows Management Interface for ACPI
+  - Microsoft Windows Management Interface for ACPI
+  - Microsoft Windows Management Interface for ACPI
+  - Microsoft Windows Management Interface for ACPI
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - NDIS Virtual Network Adapter Enumerator
+  - Numeric data processor
+  - PCI Express Root Complex
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - Remote Desktop Device Redirector Bus
+  - System CMOS/real time clock
+  - System timer
+  - UMBus Root Bus Enumerator
+  - Volume Manager
++ {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
++ {5c4c3332-344d-483c-8739-259e934c9cc8}
+  - Intel(R) Dynamic Application Loader Host Interface (driver 1.41.2021.121)
+  - Intel(R) Dynamic Application Loader Host Interface (driver 1.41.2021.121)
+  - Intel(R) Graphics Command Center (driver 27.20.100.9664)
+  - Intel(R) Graphics Control Panel (driver 27.20.100.9664)
+  - Intel(R) iCLS Client (driver 1.63.1155.1)
+  - Intel(R) iCLS Client (driver 1.63.1155.1)
+  - Intel(R) Management and Security Application Local Management (driver 2130.1.16.1)
+  - Intel(R) Management and Security Application Local Management (driver 2130.1.16.1)
+  - Intel(R) Pinning Shell Extensions (driver 16.8.3.1003)
+  - Killer Networking Software (driver 3.0.4000.0)
++ {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+  - Bluetooth
+  - Microsoft Device Association Root Enumerator
+  - Microsoft GS Wavetable Synth
+  - Microsoft Radio Device Enumeration Bus
+  - Microsoft RRAS Root Enumerator
+  - Wi-Fi
++ {72631e54-78a4-11d0-bcf7-00aa00b7b32a}
+  - Microsoft AC Adapter
+  - Microsoft ACPI-Compliant Control Method Battery
++ {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+  - Converted Portable Device Control device
+  - HID-compliant consumer control device
+  - HID-compliant system controller
+  - HID-compliant touch pad
+  - HID-compliant vendor-defined device
+  - HID-compliant wireless radio controls
+  - I2C HID Device
+  - Intel(R) HID Event Filter (driver 2.2.1.377)
+  - Microsoft Input Configuration Device
+  - Portable Device Control device
+  - USB Input Device
++ {c166523c-fe0c-4a94-a586-f1a80cfbbf3e}
+  - Microphone (Camo)
+  - Microphone (Realtek Audio)
+  - Speakers/Headphones (Realtek Audio)
++ {ca3e7ab9-b4c3-4ae6-8251-579ef933890f}
+  - EOS Webcam Utility (driver 16.16.0.56)
+  - Integrated Webcam
++ {d94ee5d8-d189-4994-83d2-f68d7d41b0e6}
+  - Trusted Platform Module 2.0
++ {e0cbf06c-cd8b-4647-bb8a-263b43f0f974}
+  - Bluetooth Device (RFCOMM Protocol TDI)
+  - Bluetooth LE Generic Attribute Service
+  - Device Information Service
+  - Generic Access Profile
+  - Generic Attribute Profile
+  - LE-Bose Color II SoundLink
+  - Microsoft Bluetooth Enumerator
+  - Microsoft Bluetooth LE Enumerator
+  - Qualcomm Atheros QCA61x4 Bluetooth (driver 10.0.0.1118)
++ {f2e7dd72-6468-4e36-b6f1-6488f42c1b52}
+  - System Firmware 1.23.1 (driver 0.1.23.1)
+
+cpu registers:
+eax = 06fca920
+ebx = 03c84001
+ecx = 00000000
+edx = 020d1d60
+esi = 03be23bc
+edi = 03be23bc
+eip = 0056736a
+esp = 0019fbe8
+ebp = 0019fc38
+
+stack dump:
+0019fbe8  6a 73 56 00 de fa ed 0e - 01 00 00 00 07 00 00 00  jsV.............
+0019fbf8  fc fb 19 00 6a 73 56 00 - 20 a9 fc 06 01 40 c8 03  ....jsV. ....@..
+0019fc08  bc 23 be 03 bc 23 be 03 - 38 fc 19 00 18 fc 19 00  .#...#..8.......
+0019fc18  4c fc 19 00 ec 9a 40 00 - 38 fc 19 00 1c 40 c8 03  L.....@.8....@..
+0019fc28  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0019fc38  68 fc 19 00 01 71 56 00 - 1c 40 c8 03 00 00 00 00  h....qV..@......
+0019fc48  6f 71 56 00 70 fc 19 00 - ec 9a 40 00 68 fc 19 00  oqV.p.....@.h...
+0019fc58  00 00 00 00 00 00 00 00 - 14 2b a6 00 00 00 00 00  .........+......
+0019fc68  b0 fc 19 00 52 31 a9 00 - cc fc 19 00 ec 9a 40 00  ....R1........@.
+0019fc78  b0 fc 19 00 c0 4a c3 03 - 00 00 00 00 00 00 00 00  .....J..........
+0019fc88  00 00 00 00 00 00 00 00 - c0 4a c3 03 1c 40 c8 03  .........J...@..
+0019fc98  bc 23 be 03 0f 00 00 00 - 00 00 00 00 00 00 00 00  .#..............
+0019fca8  00 00 00 00 d0 35 bd 03 - 1c fd 19 00 e4 1c 67 00  .....5........g.
+0019fcb8  48 fd 19 00 00 00 00 00 - da 32 67 00 01 00 00 00  H........2g.....
+0019fcc8  4b 45 67 00 24 fd 19 00 - ec 9a 40 00 1c fd 19 00  KEg.$.....@.....
+0019fcd8  11 01 00 00 60 14 0f 00 - 7f 0d d3 03 00 00 00 00  ....`...........
+0019fce8  95 90 40 00 e0 0d c5 03 - 4f 93 40 00 ec 11 57 76  ..@.....O.@...Wv
+0019fcf8  81 b5 ba 75 00 00 00 00 - 01 00 00 00 2c fe 19 00  ...u........,...
+0019fd08  00 00 00 00 00 10 20 00 - 00 be c4 03 2c fe 19 00  ...... .....,...
+0019fd18  a0 2b c4 03 40 fd 19 00 - 98 44 67 00 58 fe 19 00  .+..@....Dg.X...
+
+disassembling:
+[...]
+00567351        jnz     loc_56736a
+00567353 2646   mov     ecx, [$ab3088]
+00567359        mov     dl, 1
+0056735b        mov     eax, [$44cf78]
+00567360        call    -$10c4c5 ($45aea0)     ; System.SysUtils.Exception.CreateRes
+00567365      > call    -$15d75a ($409c10)     ; System.@RaiseExcept
+0056736a 2647   xor     eax, eax
+0056736c        pop     edx
+0056736d        pop     ecx
+0056736e        pop     ecx
+0056736f        mov     fs:[eax], edx
+[...]
+
+date/time          : 2022-09-27, 10:35:10, 221ms
+computer name      : DESKTOP-VP6FQG8
+user name          : edequ
+registered owner   : edequartel@protonmail.com
+operating system   : Windows 10 x64 build 19044
+system language    : English
+system up time     : 14 days 14 hours
+program up time    : 1 minute 6 seconds
+processors         : 8x Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+physical memory    : 6718/16236 MB (free/total)
+free disk space    : (C:) 228,29 GB
+display mode       : 1536x864, 32 bit
+process id         : $5974
+allocated memory   : 50,97 MB
+largest free block : 741,00 MB
+executable         : bpeditor.exe
+exec. date/time    : 2022-09-27 10:34
+version            : 1.0.0.0
+compiled with      : Delphi XE3
+madExcept version  : 4.0.18
+callstack crc      : $a3c29f9f, $85a172e3, $85a172e3
+exception number   : 1
+exception class    : EInOutError
+exception message  : The specified file already exists.
+
+main thread ($8044):
+0056712d +039 bpeditor.exe System.IOUtils  1795  +5 TFile.CheckCopyParameters
+0056716a +022 bpeditor.exe System.IOUtils  1994  +1 TFile.Copy
+00a931c2 +15e bpeditor.exe unit1            772  +9 TForm30.Copyfiles1Click
+00671cde +0aa bpeditor.exe Vcl.Menus       2523 +19 TMenuItem.Click
+006732d7 +013 bpeditor.exe Vcl.Menus       3436  +5 TMenu.DispatchCommand
+00674546 +082 bpeditor.exe Vcl.Menus       4597  +4 TPopupList.WndProc
+00674495 +01d bpeditor.exe Vcl.Menus       4572  +2 TPopupList.MainWndProc
+0053f9b0 +014 bpeditor.exe System.Classes 16891  +8 StdWndProc
+75ba59fb +00b user32.dll                            DispatchMessageW
+0068c65b +0f3 bpeditor.exe Vcl.Forms      10208 +23 TApplication.ProcessMessage
+0068c69e +00a bpeditor.exe Vcl.Forms      10238  +1 TApplication.HandleMessage
+0068c9d9 +0c9 bpeditor.exe Vcl.Forms      10376 +26 TApplication.Run
+00aa1565 +049 bpeditor.exe bpeditor          18  +4 initialization
+763efa27 +017 KERNEL32.DLL                          BaseThreadInitThunk
+
+thread $39c4:
+766ec74d +fd KERNELBASE.dll           WaitForMultipleObjectsEx
+004ac799 +0d bpeditor.exe   madExcept CallThreadProcSafe
+004ac7fe +32 bpeditor.exe   madExcept ThreadExceptFrame
+763efa27 +17 KERNEL32.DLL             BaseThreadInitThunk
+>> created by main thread ($8044) at:
+77300312 +00 combase.dll
+
+thread $83bc:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $6070:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $6c44:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $5624:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $7e58:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $3d84:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $7ffc:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+modules:
+00400000 bpeditor.exe                 1.0.0.0             C:\Users\edequ\Dropbox\Software development\braillepieditor\Win32\Debug
+58c40000 FaultRep.dll                 6.2.19041.1682      C:\WINDOWS\SYSTEM32
+59640000 olepro32.dll                 6.2.19041.84        C:\WINDOWS\SYSTEM32
+61950000 twinapi.appcore.dll          6.2.19041.1865      C:\WINDOWS\system32
+62780000 wsock32.dll                  6.2.19041.1         C:\WINDOWS\SYSTEM32
+636b0000 dxgi.dll                     6.2.19041.1806      C:\WINDOWS\system32
+65740000 MpDetoursCopyAccelerator.dll 4.18.2207.7         C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2207.7-0\x86
+65c70000 wintypes.dll                 6.2.19041.1682      C:\WINDOWS\SYSTEM32
+65e80000 CoreUIComponents.dll         6.2.19041.546       C:\WINDOWS\System32
+66100000 CoreMessaging.dll            6.2.19041.867       C:\WINDOWS\System32
+661a0000 textinputframework.dll       6.2.19041.1741      C:\WINDOWS\SYSTEM32
+66a20000 DWMAPI.DLL                   6.2.19041.746       C:\WINDOWS\SYSTEM32
+68690000 dcomp.dll                    6.2.19041.1741      C:\WINDOWS\system32
+68800000 d3d11.dll                    6.2.19041.1865      C:\WINDOWS\system32
+689e0000 dataexchange.dll             6.2.19041.1387      C:\WINDOWS\system32
+6afb0000 propsys.dll                  7.0.19041.1741      C:\WINDOWS\system32
+6fa10000 comctl32.dll                 6.10.19041.1110     C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_a8625c1886757984
+73950000 WINSTA.dll                   6.2.19041.546       C:\WINDOWS\SYSTEM32
+73b80000 SspiCli.dll                  6.2.19041.1586      C:\WINDOWS\SYSTEM32
+73c90000 ntmarta.dll                  6.2.19041.546       C:\WINDOWS\SYSTEM32
+73d50000 Wldp.dll                     6.2.19041.1806      C:\WINDOWS\SYSTEM32
+73d80000 windows.storage.dll          6.2.19041.1865      C:\WINDOWS\SYSTEM32
+74390000 kernel.appcore.dll           6.2.19041.546       C:\WINDOWS\SYSTEM32
+74680000 winmm.dll                    6.2.19041.546       C:\WINDOWS\SYSTEM32
+74820000 oleacc.dll                   7.2.19041.746       C:\WINDOWS\SYSTEM32
+74880000 wtsapi32.dll                 6.2.19041.546       C:\WINDOWS\SYSTEM32
+748a0000 uxtheme.dll                  6.2.19041.1620      C:\WINDOWS\system32
+74920000 winspool.drv                 6.2.19041.1865      C:\WINDOWS\SYSTEM32
+749a0000 msimg32.dll                  6.2.19041.1466      C:\WINDOWS\SYSTEM32
+749b0000 version.dll                  6.2.19041.546       C:\WINDOWS\SYSTEM32
+749c0000 dbgcore.DLL                  6.2.19041.546       C:\WINDOWS\SYSTEM32
+74a00000 dbghelp.dll                  6.2.19041.1052      C:\WINDOWS\SYSTEM32
+75580000 ole32.dll                    6.2.19041.1202      C:\WINDOWS\System32
+75670000 RPCRT4.dll                   6.2.19041.1806      C:\WINDOWS\System32
+75b70000 user32.dll                   6.2.19041.1889      C:\WINDOWS\System32
+75d10000 bcryptPrimitives.dll         6.2.19041.1415      C:\WINDOWS\System32
+75e40000 msvcrt.dll                   7.0.19041.546       C:\WINDOWS\System32
+75f00000 sechost.dll                  6.2.19041.1865      C:\WINDOWS\System32
+75f80000 oleaut32.dll                 6.2.19041.985       C:\WINDOWS\System32
+76040000 CFGMGR32.dll                 6.2.19041.1620      C:\WINDOWS\System32
+760e0000 WS2_32.dll                   6.2.19041.546       C:\WINDOWS\System32
+76150000 shcore.dll                   6.2.19041.1645      C:\WINDOWS\System32
+761e0000 clbcatq.dll                  2001.12.10941.16384 C:\WINDOWS\System32
+763d0000 KERNEL32.DLL                 6.2.19041.1889      C:\WINDOWS\System32
+764c0000 GDI32.dll                    6.2.19041.1620      C:\WINDOWS\System32
+764f0000 advapi32.dll                 6.2.19041.1682      C:\WINDOWS\System32
+76570000 win32u.dll                   6.2.19041.1889      C:\WINDOWS\System32
+76590000 IMM32.DLL                    6.2.19041.546       C:\WINDOWS\System32
+765d0000 KERNELBASE.dll               6.2.19041.1889      C:\WINDOWS\System32
+767f0000 ucrtbase.dll                 6.2.19041.789       C:\WINDOWS\System32
+76910000 shell32.dll                  6.2.19041.1806      C:\WINDOWS\System32
+76ed0000 msvcp_win.dll                6.2.19041.789       C:\WINDOWS\System32
+76f50000 gdi32full.dll                6.2.19041.1865      C:\WINDOWS\System32
+77120000 MSCTF.dll                    6.2.19041.1806      C:\WINDOWS\System32
+77220000 SHLWAPI.dll                  6.2.19041.1706      C:\WINDOWS\System32
+77270000 combase.dll                  6.2.19041.1741      C:\WINDOWS\System32
+775f0000 comdlg32.dll                 6.2.19041.1806      C:\WINDOWS\System32
+776b0000 ntdll.dll                    6.2.19041.1806      C:\WINDOWS\SYSTEM32
+7a380000 TextShaping.dll                                  C:\WINDOWS\SYSTEM32
+
+processes:
+0000 Idle                                   0 0    0
+0004 System                                 0 0    0
+007c Registry                               0 0    0
+0278 smss.exe                               0 0    0
+0344 csrss.exe                              0 0    0
+03ac wininit.exe                            0 0    0
+03b4 csrss.exe                              1 0    0
+03f4 services.exe                           0 0    0
+0058 lsass.exe                              0 0    0
+0404 winlogon.exe                           1 0    0
+0464 svchost.exe                            0 0    0
+0488 fontdrvhost.exe                        0 0    0
+0484 fontdrvhost.exe                        1 0    0
+04ac WUDFHost.exe                           0 0    0
+0514 WUDFHost.exe                           0 0    0
+0520 svchost.exe                            0 0    0
+056c svchost.exe                            0 0    0
+05b0 dwm.exe                                1 0    0
+0638 svchost.exe                            0 0    0
+0640 svchost.exe                            0 0    0
+0650 svchost.exe                            0 0    0
+06fc svchost.exe                            0 0    0
+0704 svchost.exe                            0 0    0
+070c svchost.exe                            0 0    0
+0718 svchost.exe                            0 0    0
+072c svchost.exe                            0 0    0
+07c8 IntelCpHDCPSvc.exe                     0 0    0
+07d0 svchost.exe                            0 0    0
+07d8 svchost.exe                            0 0    0
+03a4 svchost.exe                            0 0    0
+06cc svchost.exe                            0 0    0
+08b8 IntelCpHeciSvc.exe                     0 0    0
+091c svchost.exe                            0 0    0
+0948 svchost.exe                            0 0    0
+0970 svchost.exe                            0 0    0
+09c0 svchost.exe                            0 0    0
+0a2c NVDisplay.Container.exe                0 0    0
+0a58 svchost.exe                            0 0    0
+0aa0 svchost.exe                            0 0    0
+0ad0 svchost.exe                            0 0    0
+0ac8 svchost.exe                            0 0    0
+0adc svchost.exe                            0 0    0
+0b60 svchost.exe                            0 0    0
+0b88 svchost.exe                            0 0    0
+0bb0 Memory Compression                     0 0    0
+0bd8 igfxCUIService.exe                     0 0    0
+0be4 svchost.exe                            0 0    0
+0bac svchost.exe                            0 0    0
+0c04 svchost.exe                            0 0    0
+0ca8 svchost.exe                            0 0    0
+0cf4 NVDisplay.Container.exe                1 0    0
+0d10 svchost.exe                            0 0    0
+0d48 RtkAudioService64.exe                  0 0    0
+0da4 svchost.exe                            0 0    0
+0dac svchost.exe                            0 0    0
+0db4 svchost.exe                            0 0    0
+0e58 svchost.exe                            0 0    0
+0ea0 svchost.exe                            0 0    0
+0ec8 WmiPrvSE.exe                           0 0    0
+0f08 svchost.exe                            0 0    0
+0f60 spoolsv.exe                            0 0    0
+0f90 svchost.exe                            0 0    0
+0fb8 svchost.exe                            0 0    0
+1050 RAVBg64.exe                            1 0    0
+1078 sihost.exe                             1 38   19   normal       C:\Windows\System32
+10a4 svchost.exe                            1 0    1    normal       C:\Windows\System32
+10ac svchost.exe                            1 0    1    normal       C:\Windows\System32
+10dc PresentationFontCache.exe              0 0    0
+112c svchost.exe                            1 4    4    normal       C:\Windows\System32
+1134 svchost.exe                            0 0    0
+1140 mDNSResponder.exe                      0 0    0
+1148 AppleMobileDeviceService.exe           0 0    0
+1150 schedul2.exe                           0 0    0
+1160 AdminService.exe                       0 0    0
+116c armsvc.exe                             0 0    0
+1178 AGSService.exe                         0 0    0
+1180 AGMService.exe                         0 0    0
+11d0 afcdpsrv.exe                           0 0    0
+11f0 svchost.exe                            0 0    0
+1214 svchost.exe                            0 0    0
+121c DYMOConnectPnPService.exe              0 0    0
+1240 esif_uf.exe                            0 0    0
+129c GfExperienceService.exe                0 0    0
+12ac ibguard.exe                            0 0    0
+12d8 FoxitPDFEditorUpdateService.exe        0 0    0
+12fc OneApp.IGCC.WinService.exe             0 0    0
+1320 svchost.exe                            0 0    0
+13c4 KillerService.exe                      0 0    0
+13cc KillerAnalyticsService.exe             0 0    0
+0cdc dptf_helper.exe                        1 0    2    normal       C:\Windows\System32\Intel\DPTF
+141c taskhostw.exe                          1 10   6    normal       C:\Windows\System32
+143c anti_ransomware_service.exe            0 0    0
+1464 DropboxUpdate.exe                      0 0    0
+1474 mms_mini.exe                           0 0    0
+148c ibserver.exe                           0 0    0
+1494 NvNetworkService.exe                   0 0    0
+14a4 svchost.exe                            0 0    0
+14c8 QcomWlanSrvx64.exe                     0 0    0
+1500 svchost.exe                            0 0    0
+1524 svchost.exe                            0 0    0
+152c RstMwService.exe                       0 0    0
+1538 svchost.exe                            0 0    0
+158c TeamViewer_Service.exe                 0 0    0
+1598 KillerNetworkService.exe               0 0    0
+1608 WavesSysSvc64.exe                      0 0    0
+1654 svchost.exe                            0 0    0
+165c MsMpEng.exe                            0 0    0
+1694 svchost.exe                            0 0    0
+1734 svchost.exe                            0 0    0
+17b4 svchost.exe                            0 0    0
+1848 svchost.exe                            0 0    0
+18a4 WmiPrvSE.exe                           0 0    0
+1a20 schedhlp.exe                           1 0    4    normal       C:\Program Files (x86)\Common Files\Acronis\Schedule2
+1a90 unsecapp.exe                           0 0    0
+1ad0 svchost.exe                            0 0    0
+1758 ctfmon.exe                             1 0    0
+1c20 igfxEM.exe                             1 10   13   normal       C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_7208949846a9b9dc
+1c38 svchost.exe                            0 0    0
+14b0 explorer.exe                           1 1059 666  normal       C:\Windows
+1e9c svchost.exe                            0 0    0
+1ea0 svchost.exe                            0 0    0
+07ec svchost.exe                            0 0    0
+210c svchost.exe                            0 0    0
+2148 svchost.exe                            0 0    0
+22c8 svchost.exe                            1 0    9    normal       C:\Windows\System32
+2144 StartMenuExperienceHost.exe            1 21   31   normal       C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy
+1f50 RuntimeBroker.exe                      1 40   5    normal       C:\Windows\System32
+2604 RuntimeBroker.exe                      1 38   5    normal       C:\Windows\System32
+2690 svchost.exe                            0 0    0
+29c0 LockApp.exe                            1 6    19   normal       C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy
+2a20 RuntimeBroker.exe                      1 70   13   normal       C:\Windows\System32
+2c28 svchost.exe                            0 0    0
+2dac svchost.exe                            0 0    0
+2e54 NisSrv.exe                             0 0    0
+2edc dllhost.exe                            0 0    0
+2f88 TextInputHost.exe                      1 0    23   normal       C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy
+3068 SecurityHealthSystray.exe              1 7    5    normal       C:\Windows\System32
+308c SecurityHealthService.exe              0 0    0
+30f8 NvBackend.exe                          1 2    12   normal       C:\Program Files (x86)\NVIDIA Corporation\Update Core
+3170 RAVBg64.exe                            1 5    13   normal       C:\Program Files\Realtek\Audio\HDA
+3198 unsecapp.exe                           1 0    3    normal       C:\Windows\System32\wbem
+31d4 RtkNGUI64.exe                          1 31   26   normal       C:\Program Files\Realtek\Audio\HDA
+320c WavesSvc64.exe                         1 15   41   normal       C:\Program Files\Waves\MaxxAudio
+32e4 Snagit32.exe                           1 196  65   normal       C:\Program Files\TechSmith\Snagit 2021
+32fc crashpad_handler.exe                   1 2    4    normal       C:\Program Files\TechSmith\Snagit 2021
+3380 AdobeCollabSync.exe                    1 12   7    normal       C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat
+2f2c svchost.exe                            0 0    0
+2c48 AdobeCollabSync.exe                    1 0    2    normal       C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat
+32d0 SnagPriv.exe                           1 0    0
+3410 DYMOConnectLauncher.exe                1 0    2    normal       C:\Program Files (x86)\DYMO\DYMO Connect
+36d4 svchost.exe                            0 0    0
+3748 SnagitEditor.exe                       1 489  346  normal       C:\Program Files\TechSmith\Snagit 2021
+0ab8 crashpad_handler.exe                   1 2    4    below normal C:\Program Files\TechSmith\Snagit 2021
+3a94 Teams.exe                              1 20   50   normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+3ab8 slack.exe                              1 20   42   normal       C:\Users\edequ\AppData\Local\slack\app-4.28.171
+3bac Cortana.exe                            1 0    9    normal       C:\Program Files\WindowsApps\Microsoft.549981C3F5F10_4.2204.13303.0_x64__8wekyb3d8bbwe
+3bbc iCloudServices.exe                     1 329  37   normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+1c44 slack.exe                              1 2    4    normal       C:\Users\edequ\AppData\Local\slack\app-4.28.171
+3980 Teams.exe                              1 7    18   above normal C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+3528 Teams.exe                              1 0    1    normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+3014 iCloudCKKS.exe                         1 2    19   normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+2a7c slack.exe                              1 2    9    above normal C:\Users\edequ\AppData\Local\slack\app-4.28.171
+3ab0 Teams.exe                              1 0    0    normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+3c04 slack.exe                              1 0    1    normal       C:\Users\edequ\AppData\Local\slack\app-4.28.171
+3c1c RuntimeBroker.exe                      1 0    2    normal       C:\Windows\System32
+3d38 APSDaemon.exe                          1 2    7    normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+3df4 Teams.exe                              1 0    1    normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+3e20 slack.exe                              1 0    0    idle         C:\Users\edequ\AppData\Local\slack\app-4.28.171
+3f94 svchost.exe                            1 0    1    normal       C:\Windows\System32
+3b94 svchost.exe                            0 0    0
+3f54 secd.exe                               1 2    4    normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+3adc Teams.exe                              1 0    0    normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+4010 iCloudDrive.exe                        1 16   40   normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+40fc iCloudPhotos.exe                       1 8    42   normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+4330 ApplePhotoStreams.exe                  1 5    22   normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+487c TrueImageMonitor.exe                   1 19   30   normal       C:\Program Files (x86)\Acronis\TrueImageHome
+49a4 acrotray.exe                           1 45   11   normal       C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat
+4a14 jusched.exe                            1 0    2    normal       C:\Program Files (x86)\Common Files\Java\Java Update
+4a2c DYMO.WebApi.Win.Host.exe               1 15   13   normal       C:\Program Files (x86)\DYMO\DYMO Connect
+4b18 proton-bridge.exe                      1 31   32   normal       C:\Users\edequ\AppData\Local\protonmail\bridge\updates\2.1.3
+4b54 tib_mounter_monitor.exe                1 0    1    normal       C:\Program Files (x86)\Common Files\Acronis\TibMounter
+1460 IAStorIcon.exe                         1 23   15   normal       C:\Program Files\Intel\Intel(R) Rapid Storage Technology
+0738 Todoist.exe                            1 22   58   normal       C:\Users\edequ\AppData\Local\Programs\todoist
+314c Todoist.exe                            1 2    4    normal       C:\Users\edequ\AppData\Local\Programs\todoist
+4758 Todoist.exe                            1 6    15   above normal C:\Users\edequ\AppData\Local\Programs\todoist
+4a8c Todoist.exe                            1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\todoist
+4514 Todoist.exe                            1 0    1    idle         C:\Users\edequ\AppData\Local\Programs\todoist
+15a0 svchost.exe                            1 0    1    normal       C:\Windows\System32
+1fb0 ShellExperienceHost.exe                1 20   73   normal       C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy
+4ad0 RuntimeBroker.exe                      1 40   6    normal       C:\Windows\System32
+202c Todoist.exe                            1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\todoist
+3cf4 DCCService.exe                         0 0    0
+3cd0 Dell.D3.WinSvc.exe                     0 0    0
+411c DFSSvc.exe                             0 0    0
+4044 DellSupportAssistRemedationService.exe 0 0    0
+4630 ServiceShell.exe                       0 0    0
+2560 DellDataVaultWiz.exe                   0 0    0
+41b8 IAStorDataMgrSvc.exe                   0 0    0
+1448 jhi_service.exe                        0 0    0
+2ffc PRSvc.exe                              0 0    0
+4b24 SgrmBroker.exe                         0 0    0
+4abc svchost.exe                            0 0    0
+0b84 SupportAssistAgent.exe                 0 0    0
+0884 syncagentsrv.exe                       0 0    0
+0b4c svchost.exe                            0 0    0
+482c DellDataVault.exe                      0 0    0
+2ddc ApplicationFrameHost.exe               1 48   32   normal       C:\Windows\System32
+39c8 UserOOBEBroker.exe                     1 0    1    normal       C:\Windows\System32\oobe
+13ac svchost.exe                            0 0    0
+4174 Calculator.exe                         1 0    20   normal       C:\Program Files\WindowsApps\microsoft.windowscalculator_10.2103.8.0_x64__8wekyb3d8bbwe
+43c0 RuntimeBroker.exe                      1 0    1    normal       C:\Windows\System32
+36f8 jucheck.exe                            1 7    6    normal       C:\Program Files (x86)\Common Files\Java\Java Update
+2fa8 DFS.Common.Agent.exe                   1 0    3    normal       C:\Program Files\Dell\Dell Foundation Services
+1eb0 conhost.exe                            1 13   9    normal       C:\Windows\System32
+1068 Screencast-O-Matic.exe                 1 0    0
+3d94 Screencast-O-Matic.exe                 1 0    0
+4fb4 taskhostw.exe                          1 42   6    normal       C:\Windows\System32
+27b8 svchost.exe                            0 0    0
+10c4 Video.UI.exe                           1 0    7    normal       C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.22041.10091.0_x64__8wekyb3d8bbwe
+2d9c RuntimeBroker.exe                      1 0    1    normal       C:\Windows\System32
+1880 Todoist.exe                            1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\todoist
+0ba4 Evernote.exe                           1 82   85   normal       C:\Users\edequ\AppData\Local\Programs\Evernote
+2d94 Evernote.exe                           1 11   27   above normal C:\Users\edequ\AppData\Local\Programs\Evernote
+257c Evernote.exe                           1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\Evernote
+3e98 Evernote.exe                           1 2    4    normal       C:\Users\edequ\AppData\Local\Programs\Evernote
+0228 Evernote.exe                           1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\Evernote
+364c Evernote.exe                           1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\Evernote
+3284 Evernote.exe                           1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\Evernote
+4f88 Evernote.exe                           1 0    1    idle         C:\Users\edequ\AppData\Local\Programs\Evernote
+23f4 svchost.exe                            1 0    6    normal       C:\Windows\System32
+5148 svchost.exe                            0 0    0
+0f24 Teams.exe                              1 5    28   normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+5224 Teams.exe                              1 0    0    normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+0254 appupdater.exe                         1 0    0
+1b60 MusNotifyIcon.exe                      1 9    4    below normal C:\Windows\System32
+53e4 svchost.exe                            0 0    0
+5ad8 svchost.exe                            0 0    0
+572c MpCopyAccelerator.exe                  0 0    0
+6cd0 svchost.exe                            0 0    0
+6d08 audiodg.exe                            0 0    0
+18f4 GExpertsDebugWindow.exe                1 68   47   normal       C:\Program Files (x86)\GExperts for RAD Studio XE3
+573c sam.exe                                1 9    15   normal       C:\Program Files (x86)\Dolphin\Sam
+55e4 sam.alva_bc6.exe                       1 9    9    normal       C:\Program Files (x86)\Dolphin\Sam\alva_bc6
+66dc sam.samsapi5.exe                       1 2    5    normal       C:\Program Files (x86)\Dolphin\Sam\samsapi5
+4f40 sam.vbraille.exe                       1 2    3    normal       C:\Program Files (x86)\Dolphin\Sam\vbraille2
+6138 sam.VocExpr.exe                        1 2    4    normal       C:\Program Files (x86)\Dolphin\Sam\VocExpr
+69bc SearchApp.exe                          1 1    32   normal       C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy
+58f8 Folge.exe                              1 22   53   normal       C:\Users\edequ\AppData\Local\Programs\Folge
+550c Folge.exe                              1 2    4    normal       C:\Users\edequ\AppData\Local\Programs\Folge
+04fc Folge.exe                              1 6    9    above normal C:\Users\edequ\AppData\Local\Programs\Folge
+665c Folge.exe                              1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\Folge
+5a7c Folge.exe                              1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\Folge
+62b4 MoUsoCoreWorker.exe                    0 0    0
+6d78 SearchApp.exe                          1 21   61   normal       C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy
+518c DbxSvc.exe                             0 0    0
+1310 RuntimeBroker.exe                      1 0    4    normal       C:\Windows\System32
+574c Dropbox.exe                            1 76   116  normal       C:\Program Files (x86)\Dropbox\Client
+2914 Dropbox.exe                            1 2    4    normal       C:\Program Files (x86)\Dropbox\Client
+7184 Dropbox.exe                            1 0    1    normal       C:\Program Files (x86)\Dropbox\Client
+309c Dropbox.exe                            1 0    1    normal       C:\Program Files (x86)\Dropbox\Client
+634c Dropbox.exe                            1 2    2    above normal C:\Program Files (x86)\Dropbox\Client
+2c18 Dropbox.exe                            1 0    0    normal       C:\Program Files (x86)\Dropbox\Client
+49f8 OfficeClickToRun.exe                   0 0    0
+4e64 AppVShNotify.exe                       1 0    1    normal       C:\Program Files\Common Files\microsoft shared\ClickToRun
+11e4 ONENOTEM.EXE                           1 16   9    normal       C:\Program Files\Microsoft Office\root\Office16
+64d0 SearchIndexer.exe                      0 0    0
+6e00 DataExchangeHost.exe                   1 0    1    above normal C:\Windows\System32
+6df8 Dropbox.exe                            1 0    0    normal       C:\Program Files (x86)\Dropbox\Client
+7f28 CCleaner64.exe                         1 0    0
+7978 SystemSettings.exe                     1 18   39   normal       C:\Windows\ImmersiveControlPanel
+81b4 CompPkgSrv.exe                         1 0    1    normal       C:\Windows\System32
+679c OneDrive.exe                           1 221  95   normal       C:\Program Files\Microsoft OneDrive
+5da4 AcrobatNotificationClient.exe          1 0    8    normal       C:\Program Files\WindowsApps\AcrobatNotificationClient_1.0.4.0_x86__e1rzdqpraam7r
+4460 RuntimeBroker.exe                      1 0    1    normal       C:\Windows\System32
+5fd4 msedge.exe                             1 23   83   normal       C:\Program Files (x86)\Microsoft\Edge\Application
+7270 msedge.exe                             1 2    4    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+828c msedge.exe                             1 11   15   above normal C:\Program Files (x86)\Microsoft\Edge\Application
+78e8 msedge.exe                             1 0    1    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+458c msedge.exe                             1 0    1    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+5dec msedge.exe                             1 0    0    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+30e0 msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+82c8 msedge.exe                             1 0    0    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+20e8 PhoneExperienceHost.exe                1 11   26   normal       C:\Program Files\WindowsApps\Microsoft.YourPhone_1.22072.207.0_x64__8wekyb3d8bbwe
+7cb0 RuntimeBroker.exe                      1 0    1    normal       C:\Windows\System32
+5794 WmiPrvSE.exe                           0 0    0
+6ad8 iCloudIE.exe                           1 16   31   normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+4468 svchost.exe                            0 0    0
+7d84 bds.exe                                1 3316 1135 normal       C:\Program Files (x86)\Embarcadero\RAD Studio\10.0\bin
+6830 msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+8378 msedge.exe                             1 0    5    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+8240 msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+5174 msedge.exe                             1 0    1    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+26a0 svchost.exe                            0 0    0
+5cdc Microsoft.Photos.exe                   1 0    11   normal       C:\Program Files\WindowsApps\Microsoft.Windows.Photos_2022.30070.26007.0_x64__8wekyb3d8bbwe
+0748 RuntimeBroker.exe                      1 36   13   normal       C:\Windows\System32
+2e00 qtcreator.exe                          1 123  65   normal       C:\Qt\Tools\QtCreator\bin
+2484 qtcreator_processlauncher.exe          1 0    3    normal       C:\Qt\Tools\QtCreator\bin
+7bd8 conhost.exe                            1 0    1    normal       C:\Windows\System32
+7dfc clangbackend.exe                       1 0    4    normal       C:\Qt\Tools\QtCreator\bin
+5930 conhost.exe                            1 0    1    normal       C:\Windows\System32
+25fc msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+5854 msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+0fa8 msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+0890 msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+5760 atom.exe                               1 17   35   normal       C:\Users\edequ\AppData\Local\atom\app-1.60.0
+7b90 atom.exe                               1 0    4    normal       C:\Users\edequ\AppData\Local\atom\app-1.60.0
+77f0 atom.exe                               1 6    12   above normal C:\Users\edequ\AppData\Local\atom\app-1.60.0
+6adc atom.exe                               1 0    1    normal       C:\Users\edequ\AppData\Local\atom\app-1.60.0
+3e9c atom.exe                               1 0    6    normal       C:\Users\edequ\AppData\Local\atom\app-1.60.0
+5058 atom.exe                               1 0    1    normal       C:\Users\edequ\AppData\Local\atom\app-1.60.0
+6214 braillestudio.exe                      1 282  185  normal       C:\Program Files (x86)\BrailleStudio60
+5430 svchost.exe                            0 0    0
+792c svchost.exe                            0 0    0
+6c40 TrustedInstaller.exe                   0 0    0
+1be8 TiWorker.exe                           0 0    0
+1d9c svchost.exe                            0 0    0
+5850 svchost.exe                            0 0    0
+0474 svchost.exe                            0 0    0
+5974 bpeditor.exe                           1 118  106  normal       C:\Users\edequ\Dropbox\Software development\braillepieditor\Win32\Debug
+2d34 SearchProtocolHost.exe                 1 0    1    idle         C:\Windows\System32
+4d28 SearchFilterHost.exe                   0 0    0
+44e4 SearchProtocolHost.exe                 0 0    0
+
+hardware:
++ {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+  - Adobe PDF
+  - Fax
+  - Foxit PDF Editor Printer
+  - Microsoft Print to PDF
+  - Microsoft XPS Document Writer
+  - OneNote (Desktop)
+  - OneNote for Windows 10
+  - Print to Evernote
+  - Root Print Queue
+  - Snagit 2021
++ {36fc9e60-c465-11cf-8056-444553540000}
+  - Intel(R) USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)
+  - USB Composite Device
+  - USB Root Hub (USB 3.0)
++ {4d36e966-e325-11ce-bfc1-08002be10318}
+  - ACPI x64-based PC
++ {4d36e967-e325-11ce-bfc1-08002be10318}
+  - NVMe PM961 NVMe SAMSU
++ {4d36e968-e325-11ce-bfc1-08002be10318}
+  - Intel(R) HD Graphics 630 (driver 27.20.100.9664)
+  - NVIDIA GeForce GTX 1050 (driver 30.0.15.1272)
++ {4d36e96b-e325-11ce-bfc1-08002be10318}
+  - HID Keyboard Device
+  - Standard PS/2 Keyboard
++ {4d36e96c-e325-11ce-bfc1-08002be10318}
+  - Camo (driver 4.65.0.11562)
+  - Intel(R) Display Audio (driver 10.27.0.10)
+  - NVIDIA Virtual Audio Device (Wave Extensible) (WDM) (driver 4.16.0.0)
+  - Realtek Audio (driver 6.0.9228.1)
++ {4d36e96e-e325-11ce-bfc1-08002be10318}
+  - Generic PnP Monitor
++ {4d36e96f-e325-11ce-bfc1-08002be10318}
+  - HID-compliant mouse
+  - HID-compliant mouse
+  - PS/2 Compatible Mouse
++ {4d36e970-e325-11ce-bfc1-08002be10318}
+  - Realtek PCIE CardReader (driver 10.0.22000.21350)
++ {4d36e972-e325-11ce-bfc1-08002be10318}
+  - Bluetooth Device (Personal Area Network)
+  - Killer Wireless-n/a/ac 1535 Wireless Network Adapter (driver 12.0.0.1118)
+  - Microsoft Kernel Debug Network Adapter
+  - Microsoft Wi-Fi Direct Virtual Adapter
+  - Microsoft Wi-Fi Direct Virtual Adapter #2
+  - WAN Miniport (IKEv2)
+  - WAN Miniport (IP)
+  - WAN Miniport (IPv6)
+  - WAN Miniport (L2TP)
+  - WAN Miniport (Network Monitor)
+  - WAN Miniport (PPPOE)
+  - WAN Miniport (PPTP)
+  - WAN Miniport (SSTP)
++ {4d36e97b-e325-11ce-bfc1-08002be10318}
+  - Intel(R) Chipset SATA/PCIe RST Premium Controller (driver 16.8.3.1003)
+  - Microsoft Storage Spaces Controller
++ {4d36e97d-e325-11ce-bfc1-08002be10318}
+  - ACPI Fixed Feature Button
+  - ACPI Lid
+  - ACPI Power Button
+  - ACPI Processor Aggregator
+  - ACPI Sleep Button
+  - ACPI Thermal Zone
+  - Charge Arbitration Driver
+  - Composite Bus Enumerator
+  - Dell Data Vault Control Device (driver 2.0.6.0)
+  - Dell System Analyzer Control Device (driver 3.0.1.3)
+  - Detection Verification (driver 1.0.174.0)
+  - High precision event timer
+  - Intel(R) 100 Series/C230 Series Chipset Family LPC Controller (HM175) - A152 (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #1 - A110 (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #13 - A11C (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #15 - A11E (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #2 - A111 (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family PMC - A121 (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family SMBus - A123 (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family Thermal subsystem - A131 (driver 10.1.1.38)
+  - Intel(R) Dynamic Platform and Thermal Framework Generic Participant (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Generic Participant (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Generic Participant (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Generic Participant (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Generic Participant (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Generic Participant (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Manager (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Processor Participant (driver 8.3.10209.6897)
+  - Intel(R) Management Engine Interface #1 (driver 2102.100.0.1044)
+  - Intel(R) Power Engine Plug-in
+  - Intel(R) Serial IO I2C Host Controller - A160 (driver 30.100.2010.1)
+  - Intel(R) Serial IO I2C Host Controller - A161 (driver 30.100.2010.1)
+  - Intel(R) Smart Sound Technology (Intel(R) SST) Audio Controller (driver 9.21.0.4260)
+  - Intel(R) Smart Sound Technology (Intel(R) SST) OED (driver 9.21.4260.1)
+  - Intel(R) Xeon(R) E3 - 1200 v6/7th Gen Intel(R) Core(TM) Host Bridge/DRAM Registers - 5910 (driver 10.1.1.38)
+  - Intel(R) Xeon(R) E3 - 1200/1500 v5/6th Gen Intel(R) Core(TM) PCIe Controller (x16) - 1901 (driver 10.1.1.38)
+  - Legacy device
+  - Microsoft ACPI-Compliant Embedded Controller
+  - Microsoft ACPI-Compliant System
+  - Microsoft Basic Display Driver
+  - Microsoft Basic Render Driver
+  - Microsoft Hyper-V Virtualization Infrastructure Driver
+  - Microsoft System Management BIOS Driver
+  - Microsoft UEFI-Compliant System
+  - Microsoft Virtual Drive Enumerator
+  - Microsoft Windows Management Interface for ACPI
+  - Microsoft Windows Management Interface for ACPI
+  - Microsoft Windows Management Interface for ACPI
+  - Microsoft Windows Management Interface for ACPI
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - NDIS Virtual Network Adapter Enumerator
+  - Numeric data processor
+  - PCI Express Root Complex
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - Remote Desktop Device Redirector Bus
+  - System CMOS/real time clock
+  - System timer
+  - UMBus Root Bus Enumerator
+  - Volume Manager
++ {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
++ {5c4c3332-344d-483c-8739-259e934c9cc8}
+  - Intel(R) Dynamic Application Loader Host Interface (driver 1.41.2021.121)
+  - Intel(R) Dynamic Application Loader Host Interface (driver 1.41.2021.121)
+  - Intel(R) Graphics Command Center (driver 27.20.100.9664)
+  - Intel(R) Graphics Control Panel (driver 27.20.100.9664)
+  - Intel(R) iCLS Client (driver 1.63.1155.1)
+  - Intel(R) iCLS Client (driver 1.63.1155.1)
+  - Intel(R) Management and Security Application Local Management (driver 2130.1.16.1)
+  - Intel(R) Management and Security Application Local Management (driver 2130.1.16.1)
+  - Intel(R) Pinning Shell Extensions (driver 16.8.3.1003)
+  - Killer Networking Software (driver 3.0.4000.0)
++ {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+  - Bluetooth
+  - Microsoft Device Association Root Enumerator
+  - Microsoft GS Wavetable Synth
+  - Microsoft Radio Device Enumeration Bus
+  - Microsoft RRAS Root Enumerator
+  - Wi-Fi
++ {72631e54-78a4-11d0-bcf7-00aa00b7b32a}
+  - Microsoft AC Adapter
+  - Microsoft ACPI-Compliant Control Method Battery
++ {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+  - Converted Portable Device Control device
+  - HID-compliant consumer control device
+  - HID-compliant system controller
+  - HID-compliant touch pad
+  - HID-compliant vendor-defined device
+  - HID-compliant wireless radio controls
+  - I2C HID Device
+  - Intel(R) HID Event Filter (driver 2.2.1.377)
+  - Microsoft Input Configuration Device
+  - Portable Device Control device
+  - USB Input Device
++ {c166523c-fe0c-4a94-a586-f1a80cfbbf3e}
+  - Microphone (Camo)
+  - Microphone (Realtek Audio)
+  - Speakers/Headphones (Realtek Audio)
++ {ca3e7ab9-b4c3-4ae6-8251-579ef933890f}
+  - EOS Webcam Utility (driver 16.16.0.56)
+  - Integrated Webcam
++ {d94ee5d8-d189-4994-83d2-f68d7d41b0e6}
+  - Trusted Platform Module 2.0
++ {e0cbf06c-cd8b-4647-bb8a-263b43f0f974}
+  - Bluetooth Device (RFCOMM Protocol TDI)
+  - Bluetooth LE Generic Attribute Service
+  - Device Information Service
+  - Generic Access Profile
+  - Generic Attribute Profile
+  - LE-Bose Color II SoundLink
+  - Microsoft Bluetooth Enumerator
+  - Microsoft Bluetooth LE Enumerator
+  - Qualcomm Atheros QCA61x4 Bluetooth (driver 10.0.0.1118)
++ {f2e7dd72-6468-4e36-b6f1-6488f42c1b52}
+  - System Firmware 1.23.1 (driver 0.1.23.1)
+
+cpu registers:
+eax = 03d5c720
+ebx = 00000000
+ecx = 00000000
+edx = 01fe0798
+esi = 03d8405c
+edi = 03ce23bc
+eip = 00567132
+esp = 0019fbf0
+ebp = 0019fc48
+
+stack dump:
+0019fbf0  32 71 56 00 de fa ed 0e - 01 00 00 00 07 00 00 00  2qV.............
+0019fc00  04 fc 19 00 32 71 56 00 - 20 c7 d5 03 00 00 00 00  ....2qV. .......
+0019fc10  5c 40 d8 03 bc 23 ce 03 - 48 fc 19 00 20 fc 19 00  \@...#..H... ...
+0019fc20  5c 40 d8 03 00 00 00 00 - 6f 71 56 00 50 fc 19 00  \@......oqV.P...
+0019fc30  ec 9a 40 00 48 fc 19 00 - 00 00 00 00 00 00 00 00  ..@.H...........
+0019fc40  14 2b a6 00 00 00 00 00 - b0 fc 19 00 c7 31 a9 00  .+...........1..
+0019fc50  5c fc 19 00 ec 9a 40 00 - b0 fc 19 00 cc fc 19 00  \.....@.........
+0019fc60  ec 9a 40 00 b0 fc 19 00 - c0 4a d3 03 00 00 00 00  ..@......J......
+0019fc70  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0019fc80  00 00 00 00 00 00 00 00 - 00 00 00 00 c0 4a d3 03  .............J..
+0019fc90  5c 40 d8 03 bc 23 ce 03 - 07 00 00 00 00 00 00 00  \@...#..........
+0019fca0  00 00 00 00 00 00 00 00 - 50 68 d7 03 d0 35 cd 03  ........Ph...5..
+0019fcb0  1c fd 19 00 e4 1c 67 00 - 48 fd 19 00 00 00 00 00  ......g.H.......
+0019fcc0  da 32 67 00 01 00 00 00 - 4b 45 67 00 24 fd 19 00  .2g.....KEg.$...
+0019fcd0  ec 9a 40 00 1c fd 19 00 - 11 01 00 00 5e 0c 51 00  ..@.........^.Q.
+0019fce0  7f 0d 0a 04 00 00 00 00 - 95 90 40 00 e0 0d d5 03  ..........@.....
+0019fcf0  4f 93 40 00 ec 11 57 76 - 81 b5 ba 75 00 00 00 00  O.@...Wv...u....
+0019fd00  01 00 00 00 2c fe 19 00 - 00 00 00 00 00 60 2f 00  ....,........`/.
+0019fd10  00 be d4 03 2c fe 19 00 - a0 2b d4 03 40 fd 19 00  ....,....+..@...
+0019fd20  98 44 67 00 58 fe 19 00 - bc 98 40 00 40 fd 19 00  .Dg.X.....@.@...
+
+disassembling:
+[...]
+00567119        jz      loc_567132
+0056711b 1795   mov     ecx, [$ab2df0]
+00567121        mov     dl, 1
+00567123        mov     eax, [$44d3f8]
+00567128        call    -$10c28d ($45aea0)     ; System.SysUtils.Exception.CreateRes
+0056712d      > call    -$15d522 ($409c10)     ; System.@RaiseExcept
+00567132 1796   pop     esi
+00567133        pop     ebx
+00567134        ret
+
+date/time          : 2022-09-27, 10:37:17, 422ms
+computer name      : DESKTOP-VP6FQG8
+user name          : edequ
+registered owner   : edequartel@protonmail.com
+operating system   : Windows 10 x64 build 19044
+system language    : English
+system up time     : 14 days 14 hours
+program up time    : 10 seconds
+processors         : 8x Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+physical memory    : 6690/16236 MB (free/total)
+free disk space    : (C:) 228,29 GB
+display mode       : 1536x864, 32 bit
+process id         : $608c
+allocated memory   : 50,30 MB
+largest free block : 1,26 GB
+executable         : bpeditor.exe
+exec. date/time    : 2022-09-27 10:37
+version            : 1.0.0.0
+compiled with      : Delphi XE3
+madExcept version  : 4.0.18
+callstack crc      : $a3c29f9f, $d57924f8, $d57924f8
+exception number   : 1
+exception class    : EInOutError
+exception message  : The specified file already exists.
+
+main thread ($6fcc):
+0056712d +039 bpeditor.exe System.IOUtils  1795  +5 TFile.CheckCopyParameters
+0056716a +022 bpeditor.exe System.IOUtils  1994  +1 TFile.Copy
+00a931c9 +165 bpeditor.exe unit1            774 +11 TForm30.Copyfiles1Click
+00671cde +0aa bpeditor.exe Vcl.Menus       2523 +19 TMenuItem.Click
+006732d7 +013 bpeditor.exe Vcl.Menus       3436  +5 TMenu.DispatchCommand
+00674546 +082 bpeditor.exe Vcl.Menus       4597  +4 TPopupList.WndProc
+00674495 +01d bpeditor.exe Vcl.Menus       4572  +2 TPopupList.MainWndProc
+0053f9b0 +014 bpeditor.exe System.Classes 16891  +8 StdWndProc
+75ba59fb +00b user32.dll                            DispatchMessageW
+0068c65b +0f3 bpeditor.exe Vcl.Forms      10208 +23 TApplication.ProcessMessage
+0068c69e +00a bpeditor.exe Vcl.Forms      10238  +1 TApplication.HandleMessage
+0068c9d9 +0c9 bpeditor.exe Vcl.Forms      10376 +26 TApplication.Run
+00aa1565 +049 bpeditor.exe bpeditor          18  +4 initialization
+763efa27 +017 KERNEL32.DLL                          BaseThreadInitThunk
+
+thread $57c:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $4c98:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $4f6c:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $8398:
+766ec74d +fd KERNELBASE.dll           WaitForMultipleObjectsEx
+004ac799 +0d bpeditor.exe   madExcept CallThreadProcSafe
+004ac7fe +32 bpeditor.exe   madExcept ThreadExceptFrame
+763efa27 +17 KERNEL32.DLL             BaseThreadInitThunk
+>> created by main thread ($6fcc) at:
+77300312 +00 combase.dll
+
+thread $2dd8:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $73e8:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2034:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $8020:
+763efa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+modules:
+00400000 bpeditor.exe           1.0.0.0             C:\Users\edequ\Dropbox\Software development\braillepieditor\Win32\Debug
+58c40000 FaultRep.dll           6.2.19041.1682      C:\WINDOWS\SYSTEM32
+59640000 olepro32.dll           6.2.19041.84        C:\WINDOWS\SYSTEM32
+61950000 twinapi.appcore.dll    6.2.19041.1865      C:\WINDOWS\system32
+62780000 wsock32.dll            6.2.19041.1         C:\WINDOWS\SYSTEM32
+636b0000 dxgi.dll               6.2.19041.1806      C:\WINDOWS\system32
+65c70000 wintypes.dll           6.2.19041.1682      C:\WINDOWS\SYSTEM32
+65e80000 CoreUIComponents.dll   6.2.19041.546       C:\WINDOWS\System32
+66100000 CoreMessaging.dll      6.2.19041.867       C:\WINDOWS\System32
+661a0000 textinputframework.dll 6.2.19041.1741      C:\WINDOWS\SYSTEM32
+66a20000 DWMAPI.DLL             6.2.19041.746       C:\WINDOWS\SYSTEM32
+68690000 dcomp.dll              6.2.19041.1741      C:\WINDOWS\system32
+68800000 d3d11.dll              6.2.19041.1865      C:\WINDOWS\system32
+689e0000 dataexchange.dll       6.2.19041.1387      C:\WINDOWS\system32
+6afb0000 propsys.dll            7.0.19041.1741      C:\WINDOWS\system32
+6fa10000 comctl32.dll           6.10.19041.1110     C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_a8625c1886757984
+73950000 WINSTA.dll             6.2.19041.546       C:\WINDOWS\SYSTEM32
+73b80000 SspiCli.dll            6.2.19041.1586      C:\WINDOWS\SYSTEM32
+73c90000 ntmarta.dll            6.2.19041.546       C:\WINDOWS\SYSTEM32
+73d50000 Wldp.dll               6.2.19041.1806      C:\WINDOWS\SYSTEM32
+73d80000 windows.storage.dll    6.2.19041.1865      C:\WINDOWS\SYSTEM32
+74390000 kernel.appcore.dll     6.2.19041.546       C:\WINDOWS\SYSTEM32
+74680000 winmm.dll              6.2.19041.546       C:\WINDOWS\SYSTEM32
+74820000 oleacc.dll             7.2.19041.746       C:\WINDOWS\SYSTEM32
+74880000 wtsapi32.dll           6.2.19041.546       C:\WINDOWS\SYSTEM32
+748a0000 uxtheme.dll            6.2.19041.1620      C:\WINDOWS\system32
+74920000 winspool.drv           6.2.19041.1865      C:\WINDOWS\SYSTEM32
+749a0000 msimg32.dll            6.2.19041.1466      C:\WINDOWS\SYSTEM32
+749b0000 version.dll            6.2.19041.546       C:\WINDOWS\SYSTEM32
+749c0000 dbgcore.DLL            6.2.19041.546       C:\WINDOWS\SYSTEM32
+74a00000 dbghelp.dll            6.2.19041.1052      C:\WINDOWS\SYSTEM32
+75580000 ole32.dll              6.2.19041.1202      C:\WINDOWS\System32
+75670000 RPCRT4.dll             6.2.19041.1806      C:\WINDOWS\System32
+75b70000 user32.dll             6.2.19041.1889      C:\WINDOWS\System32
+75d10000 bcryptPrimitives.dll   6.2.19041.1415      C:\WINDOWS\System32
+75e40000 msvcrt.dll             7.0.19041.546       C:\WINDOWS\System32
+75f00000 sechost.dll            6.2.19041.1865      C:\WINDOWS\System32
+75f80000 oleaut32.dll           6.2.19041.985       C:\WINDOWS\System32
+76040000 CFGMGR32.dll           6.2.19041.1620      C:\WINDOWS\System32
+760e0000 WS2_32.dll             6.2.19041.546       C:\WINDOWS\System32
+76150000 shcore.dll             6.2.19041.1645      C:\WINDOWS\System32
+761e0000 clbcatq.dll            2001.12.10941.16384 C:\WINDOWS\System32
+763d0000 KERNEL32.DLL           6.2.19041.1889      C:\WINDOWS\System32
+764c0000 GDI32.dll              6.2.19041.1620      C:\WINDOWS\System32
+764f0000 advapi32.dll           6.2.19041.1682      C:\WINDOWS\System32
+76570000 win32u.dll             6.2.19041.1889      C:\WINDOWS\System32
+76590000 IMM32.DLL              6.2.19041.546       C:\WINDOWS\System32
+765d0000 KERNELBASE.dll         6.2.19041.1889      C:\WINDOWS\System32
+767f0000 ucrtbase.dll           6.2.19041.789       C:\WINDOWS\System32
+76910000 shell32.dll            6.2.19041.1806      C:\WINDOWS\System32
+76ed0000 msvcp_win.dll          6.2.19041.789       C:\WINDOWS\System32
+76f50000 gdi32full.dll          6.2.19041.1865      C:\WINDOWS\System32
+77120000 MSCTF.dll              6.2.19041.1806      C:\WINDOWS\System32
+77220000 SHLWAPI.dll            6.2.19041.1706      C:\WINDOWS\System32
+77270000 combase.dll            6.2.19041.1741      C:\WINDOWS\System32
+775f0000 comdlg32.dll           6.2.19041.1806      C:\WINDOWS\System32
+776b0000 ntdll.dll              6.2.19041.1806      C:\WINDOWS\SYSTEM32
+7a380000 TextShaping.dll                            C:\WINDOWS\SYSTEM32
+
+processes:
+0000 Idle                                   0 0    0
+0004 System                                 0 0    0
+007c Registry                               0 0    0
+0278 smss.exe                               0 0    0
+0344 csrss.exe                              0 0    0
+03ac wininit.exe                            0 0    0
+03b4 csrss.exe                              1 0    0
+03f4 services.exe                           0 0    0
+0058 lsass.exe                              0 0    0
+0404 winlogon.exe                           1 0    0
+0464 svchost.exe                            0 0    0
+0488 fontdrvhost.exe                        0 0    0
+0484 fontdrvhost.exe                        1 0    0
+04ac WUDFHost.exe                           0 0    0
+0514 WUDFHost.exe                           0 0    0
+0520 svchost.exe                            0 0    0
+056c svchost.exe                            0 0    0
+05b0 dwm.exe                                1 0    0
+0638 svchost.exe                            0 0    0
+0640 svchost.exe                            0 0    0
+0650 svchost.exe                            0 0    0
+06fc svchost.exe                            0 0    0
+0704 svchost.exe                            0 0    0
+070c svchost.exe                            0 0    0
+0718 svchost.exe                            0 0    0
+072c svchost.exe                            0 0    0
+07c8 IntelCpHDCPSvc.exe                     0 0    0
+07d0 svchost.exe                            0 0    0
+07d8 svchost.exe                            0 0    0
+03a4 svchost.exe                            0 0    0
+06cc svchost.exe                            0 0    0
+08b8 IntelCpHeciSvc.exe                     0 0    0
+091c svchost.exe                            0 0    0
+0948 svchost.exe                            0 0    0
+0970 svchost.exe                            0 0    0
+09c0 svchost.exe                            0 0    0
+0a2c NVDisplay.Container.exe                0 0    0
+0a58 svchost.exe                            0 0    0
+0aa0 svchost.exe                            0 0    0
+0ad0 svchost.exe                            0 0    0
+0ac8 svchost.exe                            0 0    0
+0adc svchost.exe                            0 0    0
+0b60 svchost.exe                            0 0    0
+0b88 svchost.exe                            0 0    0
+0bb0 Memory Compression                     0 0    0
+0bd8 igfxCUIService.exe                     0 0    0
+0be4 svchost.exe                            0 0    0
+0bac svchost.exe                            0 0    0
+0c04 svchost.exe                            0 0    0
+0ca8 svchost.exe                            0 0    0
+0cf4 NVDisplay.Container.exe                1 0    0
+0d10 svchost.exe                            0 0    0
+0d48 RtkAudioService64.exe                  0 0    0
+0da4 svchost.exe                            0 0    0
+0dac svchost.exe                            0 0    0
+0db4 svchost.exe                            0 0    0
+0e58 svchost.exe                            0 0    0
+0ea0 svchost.exe                            0 0    0
+0ec8 WmiPrvSE.exe                           0 0    0
+0f08 svchost.exe                            0 0    0
+0f60 spoolsv.exe                            0 0    0
+0f90 svchost.exe                            0 0    0
+0fb8 svchost.exe                            0 0    0
+1050 RAVBg64.exe                            1 0    0
+1078 sihost.exe                             1 38   19   normal       C:\Windows\System32
+10a4 svchost.exe                            1 0    1    normal       C:\Windows\System32
+10ac svchost.exe                            1 0    1    normal       C:\Windows\System32
+10dc PresentationFontCache.exe              0 0    0
+112c svchost.exe                            1 4    4    normal       C:\Windows\System32
+1134 svchost.exe                            0 0    0
+1140 mDNSResponder.exe                      0 0    0
+1148 AppleMobileDeviceService.exe           0 0    0
+1150 schedul2.exe                           0 0    0
+1160 AdminService.exe                       0 0    0
+116c armsvc.exe                             0 0    0
+1178 AGSService.exe                         0 0    0
+1180 AGMService.exe                         0 0    0
+11d0 afcdpsrv.exe                           0 0    0
+11f0 svchost.exe                            0 0    0
+1214 svchost.exe                            0 0    0
+121c DYMOConnectPnPService.exe              0 0    0
+1240 esif_uf.exe                            0 0    0
+129c GfExperienceService.exe                0 0    0
+12ac ibguard.exe                            0 0    0
+12d8 FoxitPDFEditorUpdateService.exe        0 0    0
+12fc OneApp.IGCC.WinService.exe             0 0    0
+1320 svchost.exe                            0 0    0
+13c4 KillerService.exe                      0 0    0
+13cc KillerAnalyticsService.exe             0 0    0
+0cdc dptf_helper.exe                        1 0    2    normal       C:\Windows\System32\Intel\DPTF
+141c taskhostw.exe                          1 10   6    normal       C:\Windows\System32
+143c anti_ransomware_service.exe            0 0    0
+1464 DropboxUpdate.exe                      0 0    0
+1474 mms_mini.exe                           0 0    0
+148c ibserver.exe                           0 0    0
+1494 NvNetworkService.exe                   0 0    0
+14a4 svchost.exe                            0 0    0
+14c8 QcomWlanSrvx64.exe                     0 0    0
+1500 svchost.exe                            0 0    0
+1524 svchost.exe                            0 0    0
+152c RstMwService.exe                       0 0    0
+1538 svchost.exe                            0 0    0
+158c TeamViewer_Service.exe                 0 0    0
+1598 KillerNetworkService.exe               0 0    0
+1608 WavesSysSvc64.exe                      0 0    0
+1654 svchost.exe                            0 0    0
+165c MsMpEng.exe                            0 0    0
+1694 svchost.exe                            0 0    0
+1734 svchost.exe                            0 0    0
+17b4 svchost.exe                            0 0    0
+1848 svchost.exe                            0 0    0
+18a4 WmiPrvSE.exe                           0 0    0
+1a20 schedhlp.exe                           1 0    4    normal       C:\Program Files (x86)\Common Files\Acronis\Schedule2
+1a90 unsecapp.exe                           0 0    0
+1ad0 svchost.exe                            0 0    0
+1758 ctfmon.exe                             1 0    0
+1c20 igfxEM.exe                             1 10   13   normal       C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_7208949846a9b9dc
+1c38 svchost.exe                            0 0    0
+14b0 explorer.exe                           1 1059 664  normal       C:\Windows
+1e9c svchost.exe                            0 0    0
+1ea0 svchost.exe                            0 0    0
+07ec svchost.exe                            0 0    0
+210c svchost.exe                            0 0    0
+2148 svchost.exe                            0 0    0
+22c8 svchost.exe                            1 0    12   normal       C:\Windows\System32
+2144 StartMenuExperienceHost.exe            1 21   31   normal       C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy
+1f50 RuntimeBroker.exe                      1 40   5    normal       C:\Windows\System32
+2604 RuntimeBroker.exe                      1 38   5    normal       C:\Windows\System32
+2690 svchost.exe                            0 0    0
+29c0 LockApp.exe                            1 6    19   normal       C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy
+2a20 RuntimeBroker.exe                      1 70   13   normal       C:\Windows\System32
+2c28 svchost.exe                            0 0    0
+2dac svchost.exe                            0 0    0
+2e54 NisSrv.exe                             0 0    0
+2edc dllhost.exe                            0 0    0
+2f88 TextInputHost.exe                      1 0    23   normal       C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy
+3068 SecurityHealthSystray.exe              1 7    5    normal       C:\Windows\System32
+308c SecurityHealthService.exe              0 0    0
+30f8 NvBackend.exe                          1 2    12   normal       C:\Program Files (x86)\NVIDIA Corporation\Update Core
+3170 RAVBg64.exe                            1 5    13   normal       C:\Program Files\Realtek\Audio\HDA
+3198 unsecapp.exe                           1 0    3    normal       C:\Windows\System32\wbem
+31d4 RtkNGUI64.exe                          1 31   26   normal       C:\Program Files\Realtek\Audio\HDA
+320c WavesSvc64.exe                         1 15   41   normal       C:\Program Files\Waves\MaxxAudio
+32e4 Snagit32.exe                           1 196  65   normal       C:\Program Files\TechSmith\Snagit 2021
+32fc crashpad_handler.exe                   1 2    4    normal       C:\Program Files\TechSmith\Snagit 2021
+3380 AdobeCollabSync.exe                    1 12   7    normal       C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat
+2f2c svchost.exe                            0 0    0
+2c48 AdobeCollabSync.exe                    1 0    2    normal       C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat
+32d0 SnagPriv.exe                           1 0    0
+3410 DYMOConnectLauncher.exe                1 0    2    normal       C:\Program Files (x86)\DYMO\DYMO Connect
+36d4 svchost.exe                            0 0    0
+3748 SnagitEditor.exe                       1 489  346  normal       C:\Program Files\TechSmith\Snagit 2021
+0ab8 crashpad_handler.exe                   1 2    4    below normal C:\Program Files\TechSmith\Snagit 2021
+3a94 Teams.exe                              1 20   51   normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+3ab8 slack.exe                              1 20   42   normal       C:\Users\edequ\AppData\Local\slack\app-4.28.171
+3bac Cortana.exe                            1 0    9    normal       C:\Program Files\WindowsApps\Microsoft.549981C3F5F10_4.2204.13303.0_x64__8wekyb3d8bbwe
+3bbc iCloudServices.exe                     1 329  37   normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+1c44 slack.exe                              1 2    4    normal       C:\Users\edequ\AppData\Local\slack\app-4.28.171
+3980 Teams.exe                              1 7    18   above normal C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+3528 Teams.exe                              1 0    1    normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+3014 iCloudCKKS.exe                         1 2    19   normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+2a7c slack.exe                              1 2    9    above normal C:\Users\edequ\AppData\Local\slack\app-4.28.171
+3ab0 Teams.exe                              1 0    0    normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+3c04 slack.exe                              1 0    1    normal       C:\Users\edequ\AppData\Local\slack\app-4.28.171
+3c1c RuntimeBroker.exe                      1 0    2    normal       C:\Windows\System32
+3d38 APSDaemon.exe                          1 2    7    normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+3df4 Teams.exe                              1 0    1    normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+3e20 slack.exe                              1 0    0    idle         C:\Users\edequ\AppData\Local\slack\app-4.28.171
+3f94 svchost.exe                            1 0    1    normal       C:\Windows\System32
+3b94 svchost.exe                            0 0    0
+3f54 secd.exe                               1 2    4    normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+3adc Teams.exe                              1 0    0    normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+4010 iCloudDrive.exe                        1 16   40   normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+40fc iCloudPhotos.exe                       1 8    40   normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+4330 ApplePhotoStreams.exe                  1 5    21   normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+487c TrueImageMonitor.exe                   1 19   30   normal       C:\Program Files (x86)\Acronis\TrueImageHome
+49a4 acrotray.exe                           1 45   11   normal       C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat
+4a14 jusched.exe                            1 0    2    normal       C:\Program Files (x86)\Common Files\Java\Java Update
+4a2c DYMO.WebApi.Win.Host.exe               1 15   13   normal       C:\Program Files (x86)\DYMO\DYMO Connect
+4b18 proton-bridge.exe                      1 31   32   normal       C:\Users\edequ\AppData\Local\protonmail\bridge\updates\2.1.3
+4b54 tib_mounter_monitor.exe                1 0    1    normal       C:\Program Files (x86)\Common Files\Acronis\TibMounter
+1460 IAStorIcon.exe                         1 23   15   normal       C:\Program Files\Intel\Intel(R) Rapid Storage Technology
+0738 Todoist.exe                            1 22   57   normal       C:\Users\edequ\AppData\Local\Programs\todoist
+314c Todoist.exe                            1 2    4    normal       C:\Users\edequ\AppData\Local\Programs\todoist
+4758 Todoist.exe                            1 6    15   above normal C:\Users\edequ\AppData\Local\Programs\todoist
+4a8c Todoist.exe                            1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\todoist
+4514 Todoist.exe                            1 0    1    idle         C:\Users\edequ\AppData\Local\Programs\todoist
+15a0 svchost.exe                            1 0    1    normal       C:\Windows\System32
+1fb0 ShellExperienceHost.exe                1 20   73   normal       C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy
+4ad0 RuntimeBroker.exe                      1 40   6    normal       C:\Windows\System32
+202c Todoist.exe                            1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\todoist
+3cf4 DCCService.exe                         0 0    0
+3cd0 Dell.D3.WinSvc.exe                     0 0    0
+411c DFSSvc.exe                             0 0    0
+4044 DellSupportAssistRemedationService.exe 0 0    0
+4630 ServiceShell.exe                       0 0    0
+2560 DellDataVaultWiz.exe                   0 0    0
+41b8 IAStorDataMgrSvc.exe                   0 0    0
+1448 jhi_service.exe                        0 0    0
+2ffc PRSvc.exe                              0 0    0
+4b24 SgrmBroker.exe                         0 0    0
+4abc svchost.exe                            0 0    0
+0b84 SupportAssistAgent.exe                 0 0    0
+0884 syncagentsrv.exe                       0 0    0
+0b4c svchost.exe                            0 0    0
+482c DellDataVault.exe                      0 0    0
+2ddc ApplicationFrameHost.exe               1 48   32   normal       C:\Windows\System32
+39c8 UserOOBEBroker.exe                     1 0    1    normal       C:\Windows\System32\oobe
+13ac svchost.exe                            0 0    0
+4174 Calculator.exe                         1 0    20   normal       C:\Program Files\WindowsApps\microsoft.windowscalculator_10.2103.8.0_x64__8wekyb3d8bbwe
+43c0 RuntimeBroker.exe                      1 0    1    normal       C:\Windows\System32
+36f8 jucheck.exe                            1 7    6    normal       C:\Program Files (x86)\Common Files\Java\Java Update
+2fa8 DFS.Common.Agent.exe                   1 0    3    normal       C:\Program Files\Dell\Dell Foundation Services
+1eb0 conhost.exe                            1 13   9    normal       C:\Windows\System32
+1068 Screencast-O-Matic.exe                 1 0    0
+3d94 Screencast-O-Matic.exe                 1 0    0
+4fb4 taskhostw.exe                          1 42   6    normal       C:\Windows\System32
+27b8 svchost.exe                            0 0    0
+10c4 Video.UI.exe                           1 0    7    normal       C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.22041.10091.0_x64__8wekyb3d8bbwe
+2d9c RuntimeBroker.exe                      1 0    1    normal       C:\Windows\System32
+1880 Todoist.exe                            1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\todoist
+0ba4 Evernote.exe                           1 82   84   normal       C:\Users\edequ\AppData\Local\Programs\Evernote
+2d94 Evernote.exe                           1 11   27   above normal C:\Users\edequ\AppData\Local\Programs\Evernote
+257c Evernote.exe                           1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\Evernote
+3e98 Evernote.exe                           1 2    4    normal       C:\Users\edequ\AppData\Local\Programs\Evernote
+0228 Evernote.exe                           1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\Evernote
+364c Evernote.exe                           1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\Evernote
+3284 Evernote.exe                           1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\Evernote
+4f88 Evernote.exe                           1 0    1    idle         C:\Users\edequ\AppData\Local\Programs\Evernote
+23f4 svchost.exe                            1 0    6    normal       C:\Windows\System32
+5148 svchost.exe                            0 0    0
+0f24 Teams.exe                              1 5    28   normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+5224 Teams.exe                              1 0    0    normal       C:\Users\edequ\AppData\Local\Microsoft\Teams\current
+0254 appupdater.exe                         1 0    0
+1b60 MusNotifyIcon.exe                      1 9    4    below normal C:\Windows\System32
+53e4 svchost.exe                            0 0    0
+5ad8 svchost.exe                            0 0    0
+572c MpCopyAccelerator.exe                  0 0    0
+6cd0 svchost.exe                            0 0    0
+6d08 audiodg.exe                            0 0    0
+18f4 GExpertsDebugWindow.exe                1 68   47   normal       C:\Program Files (x86)\GExperts for RAD Studio XE3
+573c sam.exe                                1 9    15   normal       C:\Program Files (x86)\Dolphin\Sam
+55e4 sam.alva_bc6.exe                       1 9    9    normal       C:\Program Files (x86)\Dolphin\Sam\alva_bc6
+66dc sam.samsapi5.exe                       1 2    5    normal       C:\Program Files (x86)\Dolphin\Sam\samsapi5
+4f40 sam.vbraille.exe                       1 2    3    normal       C:\Program Files (x86)\Dolphin\Sam\vbraille2
+6138 sam.VocExpr.exe                        1 2    4    normal       C:\Program Files (x86)\Dolphin\Sam\VocExpr
+69bc SearchApp.exe                          1 1    32   normal       C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy
+58f8 Folge.exe                              1 22   52   normal       C:\Users\edequ\AppData\Local\Programs\Folge
+550c Folge.exe                              1 2    4    normal       C:\Users\edequ\AppData\Local\Programs\Folge
+04fc Folge.exe                              1 6    9    above normal C:\Users\edequ\AppData\Local\Programs\Folge
+665c Folge.exe                              1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\Folge
+5a7c Folge.exe                              1 0    1    normal       C:\Users\edequ\AppData\Local\Programs\Folge
+62b4 MoUsoCoreWorker.exe                    0 0    0
+6d78 SearchApp.exe                          1 21   61   normal       C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy
+518c DbxSvc.exe                             0 0    0
+1310 RuntimeBroker.exe                      1 0    4    normal       C:\Windows\System32
+574c Dropbox.exe                            1 76   118  normal       C:\Program Files (x86)\Dropbox\Client
+2914 Dropbox.exe                            1 2    4    normal       C:\Program Files (x86)\Dropbox\Client
+7184 Dropbox.exe                            1 0    1    normal       C:\Program Files (x86)\Dropbox\Client
+309c Dropbox.exe                            1 0    1    normal       C:\Program Files (x86)\Dropbox\Client
+634c Dropbox.exe                            1 2    2    above normal C:\Program Files (x86)\Dropbox\Client
+2c18 Dropbox.exe                            1 0    0    normal       C:\Program Files (x86)\Dropbox\Client
+49f8 OfficeClickToRun.exe                   0 0    0
+4e64 AppVShNotify.exe                       1 0    1    normal       C:\Program Files\Common Files\microsoft shared\ClickToRun
+11e4 ONENOTEM.EXE                           1 16   9    normal       C:\Program Files\Microsoft Office\root\Office16
+64d0 SearchIndexer.exe                      0 0    0
+6e00 DataExchangeHost.exe                   1 0    1    above normal C:\Windows\System32
+6df8 Dropbox.exe                            1 0    0    normal       C:\Program Files (x86)\Dropbox\Client
+7f28 CCleaner64.exe                         1 0    0
+7978 SystemSettings.exe                     1 18   39   normal       C:\Windows\ImmersiveControlPanel
+81b4 CompPkgSrv.exe                         1 0    1    normal       C:\Windows\System32
+679c OneDrive.exe                           1 221  95   normal       C:\Program Files\Microsoft OneDrive
+5da4 AcrobatNotificationClient.exe          1 0    8    normal       C:\Program Files\WindowsApps\AcrobatNotificationClient_1.0.4.0_x86__e1rzdqpraam7r
+4460 RuntimeBroker.exe                      1 0    1    normal       C:\Windows\System32
+5fd4 msedge.exe                             1 23   81   normal       C:\Program Files (x86)\Microsoft\Edge\Application
+7270 msedge.exe                             1 2    4    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+828c msedge.exe                             1 11   15   above normal C:\Program Files (x86)\Microsoft\Edge\Application
+78e8 msedge.exe                             1 0    1    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+458c msedge.exe                             1 0    1    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+5dec msedge.exe                             1 0    0    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+30e0 msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+82c8 msedge.exe                             1 0    0    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+20e8 PhoneExperienceHost.exe                1 11   26   normal       C:\Program Files\WindowsApps\Microsoft.YourPhone_1.22072.207.0_x64__8wekyb3d8bbwe
+7cb0 RuntimeBroker.exe                      1 0    1    normal       C:\Windows\System32
+5794 WmiPrvSE.exe                           0 0    0
+6ad8 iCloudIE.exe                           1 16   31   normal       C:\Program Files\WindowsApps\AppleInc.iCloud_13.4.101.0_x86__nzyj5cx40ttqa\iCloud
+4468 svchost.exe                            0 0    0
+7d84 bds.exe                                1 3316 1138 normal       C:\Program Files (x86)\Embarcadero\RAD Studio\10.0\bin
+6830 msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+8378 msedge.exe                             1 0    5    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+8240 msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+5174 msedge.exe                             1 0    1    normal       C:\Program Files (x86)\Microsoft\Edge\Application
+26a0 svchost.exe                            0 0    0
+5cdc Microsoft.Photos.exe                   1 0    11   normal       C:\Program Files\WindowsApps\Microsoft.Windows.Photos_2022.30070.26007.0_x64__8wekyb3d8bbwe
+0748 RuntimeBroker.exe                      1 36   14   normal       C:\Windows\System32
+2e00 qtcreator.exe                          1 123  65   normal       C:\Qt\Tools\QtCreator\bin
+2484 qtcreator_processlauncher.exe          1 0    3    normal       C:\Qt\Tools\QtCreator\bin
+7bd8 conhost.exe                            1 0    1    normal       C:\Windows\System32
+7dfc clangbackend.exe                       1 0    4    normal       C:\Qt\Tools\QtCreator\bin
+5930 conhost.exe                            1 0    1    normal       C:\Windows\System32
+25fc msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+5854 msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+0fa8 msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+0890 msedge.exe                             1 0    0    idle         C:\Program Files (x86)\Microsoft\Edge\Application
+5760 atom.exe                               1 17   36   normal       C:\Users\edequ\AppData\Local\atom\app-1.60.0
+7b90 atom.exe                               1 0    4    normal       C:\Users\edequ\AppData\Local\atom\app-1.60.0
+77f0 atom.exe                               1 6    13   above normal C:\Users\edequ\AppData\Local\atom\app-1.60.0
+6adc atom.exe                               1 0    1    normal       C:\Users\edequ\AppData\Local\atom\app-1.60.0
+3e9c atom.exe                               1 0    6    idle         C:\Users\edequ\AppData\Local\atom\app-1.60.0
+5058 atom.exe                               1 0    1    normal       C:\Users\edequ\AppData\Local\atom\app-1.60.0
+6214 braillestudio.exe                      1 282  185  normal       C:\Program Files (x86)\BrailleStudio60
+5430 svchost.exe                            0 0    0
+792c svchost.exe                            0 0    0
+1d9c svchost.exe                            0 0    0
+5850 svchost.exe                            0 0    0
+0474 svchost.exe                            0 0    0
+2d34 SearchProtocolHost.exe                 1 0    1    idle         C:\Windows\System32
+4d28 SearchFilterHost.exe                   0 0    0
+44e4 SearchProtocolHost.exe                 0 0    0
+2e64 smartscreen.exe                        1 0    4    normal       C:\Windows\System32
+608c bpeditor.exe                           1 118  105  normal       C:\Users\edequ\Dropbox\Software development\braillepieditor\Win32\Debug
+
+hardware:
++ {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+  - Adobe PDF
+  - Fax
+  - Foxit PDF Editor Printer
+  - Microsoft Print to PDF
+  - Microsoft XPS Document Writer
+  - OneNote (Desktop)
+  - OneNote for Windows 10
+  - Print to Evernote
+  - Root Print Queue
+  - Snagit 2021
++ {36fc9e60-c465-11cf-8056-444553540000}
+  - Intel(R) USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)
+  - USB Composite Device
+  - USB Root Hub (USB 3.0)
++ {4d36e966-e325-11ce-bfc1-08002be10318}
+  - ACPI x64-based PC
++ {4d36e967-e325-11ce-bfc1-08002be10318}
+  - NVMe PM961 NVMe SAMSU
++ {4d36e968-e325-11ce-bfc1-08002be10318}
+  - Intel(R) HD Graphics 630 (driver 27.20.100.9664)
+  - NVIDIA GeForce GTX 1050 (driver 30.0.15.1272)
++ {4d36e96b-e325-11ce-bfc1-08002be10318}
+  - HID Keyboard Device
+  - Standard PS/2 Keyboard
++ {4d36e96c-e325-11ce-bfc1-08002be10318}
+  - Camo (driver 4.65.0.11562)
+  - Intel(R) Display Audio (driver 10.27.0.10)
+  - NVIDIA Virtual Audio Device (Wave Extensible) (WDM) (driver 4.16.0.0)
+  - Realtek Audio (driver 6.0.9228.1)
++ {4d36e96e-e325-11ce-bfc1-08002be10318}
+  - Generic PnP Monitor
++ {4d36e96f-e325-11ce-bfc1-08002be10318}
+  - HID-compliant mouse
+  - HID-compliant mouse
+  - PS/2 Compatible Mouse
++ {4d36e970-e325-11ce-bfc1-08002be10318}
+  - Realtek PCIE CardReader (driver 10.0.22000.21350)
++ {4d36e972-e325-11ce-bfc1-08002be10318}
+  - Bluetooth Device (Personal Area Network)
+  - Killer Wireless-n/a/ac 1535 Wireless Network Adapter (driver 12.0.0.1118)
+  - Microsoft Kernel Debug Network Adapter
+  - Microsoft Wi-Fi Direct Virtual Adapter
+  - Microsoft Wi-Fi Direct Virtual Adapter #2
+  - WAN Miniport (IKEv2)
+  - WAN Miniport (IP)
+  - WAN Miniport (IPv6)
+  - WAN Miniport (L2TP)
+  - WAN Miniport (Network Monitor)
+  - WAN Miniport (PPPOE)
+  - WAN Miniport (PPTP)
+  - WAN Miniport (SSTP)
++ {4d36e97b-e325-11ce-bfc1-08002be10318}
+  - Intel(R) Chipset SATA/PCIe RST Premium Controller (driver 16.8.3.1003)
+  - Microsoft Storage Spaces Controller
++ {4d36e97d-e325-11ce-bfc1-08002be10318}
+  - ACPI Fixed Feature Button
+  - ACPI Lid
+  - ACPI Power Button
+  - ACPI Processor Aggregator
+  - ACPI Sleep Button
+  - ACPI Thermal Zone
+  - Charge Arbitration Driver
+  - Composite Bus Enumerator
+  - Dell Data Vault Control Device (driver 2.0.6.0)
+  - Dell System Analyzer Control Device (driver 3.0.1.3)
+  - Detection Verification (driver 1.0.174.0)
+  - High precision event timer
+  - Intel(R) 100 Series/C230 Series Chipset Family LPC Controller (HM175) - A152 (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #1 - A110 (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #13 - A11C (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #15 - A11E (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #2 - A111 (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family PMC - A121 (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family SMBus - A123 (driver 10.1.1.40)
+  - Intel(R) 100 Series/C230 Series Chipset Family Thermal subsystem - A131 (driver 10.1.1.38)
+  - Intel(R) Dynamic Platform and Thermal Framework Generic Participant (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Generic Participant (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Generic Participant (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Generic Participant (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Generic Participant (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Generic Participant (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Manager (driver 8.3.10209.6897)
+  - Intel(R) Dynamic Platform and Thermal Framework Processor Participant (driver 8.3.10209.6897)
+  - Intel(R) Management Engine Interface #1 (driver 2102.100.0.1044)
+  - Intel(R) Power Engine Plug-in
+  - Intel(R) Serial IO I2C Host Controller - A160 (driver 30.100.2010.1)
+  - Intel(R) Serial IO I2C Host Controller - A161 (driver 30.100.2010.1)
+  - Intel(R) Smart Sound Technology (Intel(R) SST) Audio Controller (driver 9.21.0.4260)
+  - Intel(R) Smart Sound Technology (Intel(R) SST) OED (driver 9.21.4260.1)
+  - Intel(R) Xeon(R) E3 - 1200 v6/7th Gen Intel(R) Core(TM) Host Bridge/DRAM Registers - 5910 (driver 10.1.1.38)
+  - Intel(R) Xeon(R) E3 - 1200/1500 v5/6th Gen Intel(R) Core(TM) PCIe Controller (x16) - 1901 (driver 10.1.1.38)
+  - Legacy device
+  - Microsoft ACPI-Compliant Embedded Controller
+  - Microsoft ACPI-Compliant System
+  - Microsoft Basic Display Driver
+  - Microsoft Basic Render Driver
+  - Microsoft Hyper-V Virtualization Infrastructure Driver
+  - Microsoft System Management BIOS Driver
+  - Microsoft UEFI-Compliant System
+  - Microsoft Virtual Drive Enumerator
+  - Microsoft Windows Management Interface for ACPI
+  - Microsoft Windows Management Interface for ACPI
+  - Microsoft Windows Management Interface for ACPI
+  - Microsoft Windows Management Interface for ACPI
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - NDIS Virtual Network Adapter Enumerator
+  - Numeric data processor
+  - PCI Express Root Complex
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - Remote Desktop Device Redirector Bus
+  - System CMOS/real time clock
+  - System timer
+  - UMBus Root Bus Enumerator
+  - Volume Manager
++ {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+  - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
++ {5c4c3332-344d-483c-8739-259e934c9cc8}
+  - Intel(R) Dynamic Application Loader Host Interface (driver 1.41.2021.121)
+  - Intel(R) Dynamic Application Loader Host Interface (driver 1.41.2021.121)
+  - Intel(R) Graphics Command Center (driver 27.20.100.9664)
+  - Intel(R) Graphics Control Panel (driver 27.20.100.9664)
+  - Intel(R) iCLS Client (driver 1.63.1155.1)
+  - Intel(R) iCLS Client (driver 1.63.1155.1)
+  - Intel(R) Management and Security Application Local Management (driver 2130.1.16.1)
+  - Intel(R) Management and Security Application Local Management (driver 2130.1.16.1)
+  - Intel(R) Pinning Shell Extensions (driver 16.8.3.1003)
+  - Killer Networking Software (driver 3.0.4000.0)
++ {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+  - Bluetooth
+  - Microsoft Device Association Root Enumerator
+  - Microsoft GS Wavetable Synth
+  - Microsoft Radio Device Enumeration Bus
+  - Microsoft RRAS Root Enumerator
+  - Wi-Fi
++ {72631e54-78a4-11d0-bcf7-00aa00b7b32a}
+  - Microsoft AC Adapter
+  - Microsoft ACPI-Compliant Control Method Battery
++ {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+  - Converted Portable Device Control device
+  - HID-compliant consumer control device
+  - HID-compliant system controller
+  - HID-compliant touch pad
+  - HID-compliant vendor-defined device
+  - HID-compliant wireless radio controls
+  - I2C HID Device
+  - Intel(R) HID Event Filter (driver 2.2.1.377)
+  - Microsoft Input Configuration Device
+  - Portable Device Control device
+  - USB Input Device
++ {c166523c-fe0c-4a94-a586-f1a80cfbbf3e}
+  - Microphone (Camo)
+  - Microphone (Realtek Audio)
+  - Speakers/Headphones (Realtek Audio)
++ {ca3e7ab9-b4c3-4ae6-8251-579ef933890f}
+  - EOS Webcam Utility (driver 16.16.0.56)
+  - Integrated Webcam
++ {d94ee5d8-d189-4994-83d2-f68d7d41b0e6}
+  - Trusted Platform Module 2.0
++ {e0cbf06c-cd8b-4647-bb8a-263b43f0f974}
+  - Bluetooth Device (RFCOMM Protocol TDI)
+  - Bluetooth LE Generic Attribute Service
+  - Device Information Service
+  - Generic Access Profile
+  - Generic Attribute Profile
+  - LE-Bose Color II SoundLink
+  - Microsoft Bluetooth Enumerator
+  - Microsoft Bluetooth LE Enumerator
+  - Qualcomm Atheros QCA61x4 Bluetooth (driver 10.0.0.1118)
++ {f2e7dd72-6468-4e36-b6f1-6488f42c1b52}
+  - System Firmware 1.23.1 (driver 0.1.23.1)
+
+cpu registers:
+eax = 03d0c6d0
+ebx = 00000000
+ecx = 00000000
+edx = 020cf2f0
+esi = 03d3401c
+edi = 03c925bc
+eip = 00567132
+esp = 0019fbe8
+ebp = 0019fc40
+
+stack dump:
+0019fbe8  32 71 56 00 de fa ed 0e - 01 00 00 00 07 00 00 00  2qV.............
+0019fbf8  fc fb 19 00 32 71 56 00 - d0 c6 d0 03 00 00 00 00  ....2qV.........
+0019fc08  1c 40 d3 03 bc 25 c9 03 - 40 fc 19 00 18 fc 19 00  .@...%..@.......
+0019fc18  1c 40 d3 03 00 00 00 00 - 6f 71 56 00 48 fc 19 00  .@......oqV.H...
+0019fc28  ec 9a 40 00 40 fc 19 00 - 00 00 00 00 00 00 00 00  ..@.@...........
+0019fc38  14 2b a6 00 00 00 00 00 - b0 fc 19 00 ce 31 a9 00  .+...........1..
+0019fc48  54 fc 19 00 ec 9a 40 00 - b0 fc 19 00 cc fc 19 00  T.....@.........
+0019fc58  ec 9a 40 00 b0 fc 19 00 - c0 4a ce 03 00 00 00 00  ..@......J......
+0019fc68  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0019fc78  00 00 00 00 00 00 00 00 - 00 00 00 00 c0 4a ce 03  .............J..
+0019fc88  00 00 00 00 1c 40 d3 03 - bc 25 c9 03 07 00 00 00  .....@...%......
+0019fc98  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0019fca8  50 68 d2 03 d0 35 c8 03 - 1c fd 19 00 e4 1c 67 00  Ph...5........g.
+0019fcb8  48 fd 19 00 00 00 00 00 - da 32 67 00 01 00 00 00  H........2g.....
+0019fcc8  4b 45 67 00 24 fd 19 00 - ec 9a 40 00 1c fd 19 00  KEg.$.....@.....
+0019fcd8  11 01 00 00 12 10 3c 00 - 7f 0d 5b 05 00 00 00 00  ......<...[.....
+0019fce8  95 90 40 00 e0 0d d0 03 - 4f 93 40 00 ec 11 57 76  ..@.....O.@...Wv
+0019fcf8  81 b5 ba 75 00 00 00 00 - 01 00 00 00 2c fe 19 00  ...u........,...
+0019fd08  00 00 00 00 00 a0 2e 00 - 00 be cf 03 2c fe 19 00  ............,...
+0019fd18  a0 2b cf 03 40 fd 19 00 - 98 44 67 00 58 fe 19 00  .+..@....Dg.X...
+
+disassembling:
+[...]
+00567119        jz      loc_567132
+0056711b 1795   mov     ecx, [$ab2df0]
+00567121        mov     dl, 1
+00567123        mov     eax, [$44d3f8]
+00567128        call    -$10c28d ($45aea0)     ; System.SysUtils.Exception.CreateRes
+0056712d      > call    -$15d522 ($409c10)     ; System.@RaiseExcept
+00567132 1796   pop     esi
+00567133        pop     ebx
+00567134        ret
+

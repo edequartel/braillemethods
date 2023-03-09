@@ -1,0 +1,12 @@
+//6_1_geluid_getal.ps
+//6_1_geluid_getal.ps from: 1 span: 10 maxanswer: 20 spreiding: 3 step: 1
+<@cuckoo.wav>#1,2,3#1
+<@cuckoo.wav> <@cuckoo.wav>#1,2,3#2
+<@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav>#2,3,4#3
+<@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav>#4,5,6#4
+<@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav>#5,6,7#5
+<@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav>#6,7,8#6
+<@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav>#7,8,9#7
+<@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav>#8,9,10#8
+<@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav>#7,8,9#9
+<@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav> <@cuckoo.wav>#8,9,10#10

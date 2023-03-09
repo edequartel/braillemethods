@@ -1,0 +1,2 @@
+//20_2_dubbelen_bijna.ps
+//20_2_dubbelen_bijna.ps from: 10 span: 20 maxanswer: 20 spreiding: 3 step: 1

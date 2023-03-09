@@ -1,0 +1,2 @@
+//25_3_optellen_en_aftrekken_bijna_dubbel_en_bijna_halveer.ps
+//25_3_optellen_en_aftrekken_bijna_dubbel_en_bijna_halveer.ps from: 1 span: 20 maxanswer: -1 spreiding: -1 step: -1

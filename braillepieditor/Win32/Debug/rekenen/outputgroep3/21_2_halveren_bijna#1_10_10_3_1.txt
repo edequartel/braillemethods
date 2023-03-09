@@ -1,0 +1,9 @@
+//21_2_halveren_bijna.ps
+//21_2_halveren_bijna.ps from: 1 span: 10 maxanswer: 10 spreiding: 3 step: 1
+2-0#2,3,4#2
+4-1#1,2,3#3
+4-3#1,2,3#1
+6-2#3,4,5#4
+6-4#0,1,2#2
+8-3#5,6,7#5
+8-5#3,4,5#3

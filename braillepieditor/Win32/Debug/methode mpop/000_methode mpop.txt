@@ -1,0 +1,125 @@
+//=== b ===
+b
+b#b b b b b
+$b
+@$b
+//=== ab ===
+b a
+b#a b b a b
+$a
+@$a
+//=== lab ===
+a b l
+b#a b b b a
+$a
+@$b
+//=== klab ===
+l k a b
+l#k l k b l
+$b
+@$k
+//=== mklab ===
+m b l a k
+a#a a m b a
+$a
+@$b
+//=== pmklab ===
+k m a p b
+m#m a b m p
+$b
+@$m
+//=== epmklab ===
+b k e p a
+p#k p m p m
+$a
+@$e
+//=== depmklab ===
+b m a e l
+p#k l a p e
+$b
+@$p
+//=== gdepmklab ===
+p l k g m
+a#p a m d g
+$m
+@$a
+//=== igdepmklab ===
+b a m l i
+m#m m p m a
+$p
+@$e
+//=== sigdepmklab ===
+e i p d a
+l#g l k d g
+$b
+@$a
+//=== tsigdepmklab ===
+g t s i m
+k#s k g g d
+$k
+@$m
+//=== vtsigdepmklab ===
+s e a d l
+s#a l k s d
+$d
+@$d
+//=== nvtsigdepmklab ===
+g e b p n
+t#t b l k e
+$i
+@$i
+//=== onvtsigdepmklab ===
+o n i g p
+s#s v m t e
+$d
+@$e
+//=== ronvtsigdepmklab ===
+e o i v a
+n#n e v v e
+$s
+@$i
+//=== uronvtsigdepmklab ===
+g i a o s
+e#e g p d g
+$k
+@$l
+//=== huronvtsigdepmklab ===
+h k v u m
+s#s s m l s
+$e
+@$p
+//=== whuronvtsigdepmklab ===
+l h k i d
+u#g s n u t
+$t
+@$g
+//=== fwhuronvtsigdepmklab ===
+o r b e l
+p#s k o p t
+$f
+@$h
+//=== zfwhuronvtsigdepmklab ===
+m v i u l
+r#g b r u z
+$t
+@$i
+//=== jzfwhuronvtsigdepmklab ===
+p i j o n
+r#s m o r j
+$s
+@$h
+//=== cjzfwhuronvtsigdepmklab ===
+p h n b a
+a#v i a n r
+$d
+@$k
+//=== xcjzfwhuronvtsigdepmklab ===
+c v s e i
+a#f t a a g
+$f
+@$b
+//=== qyxcjzfwhuronvtsigdepmklab ===
+m a l t q
+t#t h t w n
+$a
+@$g

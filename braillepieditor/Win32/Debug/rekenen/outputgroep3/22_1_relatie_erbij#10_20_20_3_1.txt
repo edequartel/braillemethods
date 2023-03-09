@@ -1,0 +1,4 @@
+//22_1_relatie_erbij.ps
+//22_1_relatie_erbij.ps from: 10 span: 20 maxanswer: 20 spreiding: 3 step: 1
+10+10=20 dus 20-10#9,10,11#10
+10+10=20 dus 20-10#9,10,11#10

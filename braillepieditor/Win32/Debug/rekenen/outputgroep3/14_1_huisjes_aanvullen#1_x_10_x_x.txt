@@ -1,0 +1,11 @@
+//14_1_huisjes_aanvullen.ps
+//14_1_huisjes_aanvullen.ps from: 1 span: -1 maxanswer: 10 spreiding: -1 step: -1
+10##<1>,10
+10##<2>,10
+10##<3>,10
+10##<4>,10
+10##<5>,10
+10##<6>,10
+10##<7>,10
+10##<8>,10
+10##<9>,10

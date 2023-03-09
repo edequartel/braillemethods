@@ -1,0 +1,12 @@
+//4_1_rangtelwoorden.ps
+//4_1_rangtelwoorden.ps from: -1 span: -1 maxanswer: -1 spreiding: -1 step: -1
+eerste#1,2,3,4,5,6,7,8,9,10#1
+tweede#1,2,3,4,5,6,7,8,9,10#2
+derde#1,2,3,4,5,6,7,8,9,10#3
+vierde#1,2,3,4,5,6,7,8,9,10#4
+vijfde#1,2,3,4,5,6,7,8,9,10#5
+zesde#1,2,3,4,5,6,7,8,9,10#6
+zevende#1,2,3,4,5,6,7,8,9,10#7
+achtste#1,2,3,4,5,6,7,8,9,10#8
+negende#1,2,3,4,5,6,7,8,9,10#9
+tiende#1,2,3,4,5,6,7,8,9,10#10

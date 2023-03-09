@@ -1,0 +1,6 @@
+//14_2_hoeveelheden_aanvullen.ps
+//14_2_hoeveelheden_aanvullen.ps from: 1 span: -1 maxanswer: 5 spreiding: -1 step: -1
+1#1,2,3,4#4
+2#1,2,3,4#3
+3#1,2,3,4#2
+4#1,2,3,4#1

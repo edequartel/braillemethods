@@ -1,0 +1,9 @@
+var i,j:integer;
+begin
+    ed.clear;
+    for i:=0 to 9 do writeln(inttostr(i));
+    for i:=1 to 9 do writeln(inttostr(i*10));
+    for j:=1 to 9 do 
+     for i:=1 to 9 do writeln(inttostr(j*10+i));
+end.
+

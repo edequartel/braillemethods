@@ -1,0 +1,113 @@
+//11_1_plaats_getallenlijn.ps
+//11_1_plaats_getallenlijn.ps from: 1 span: 10 maxanswer: 20 spreiding: 3 step: 1
+//width: 3
+1#1,2,3#1
+2#1,2,3#2
+3#1,2,3#3
+// not in train 4#1,2,3#4
+// not in train 5#1,2,3#5
+// not in train 6#1,2,3#6
+// not in train 7#1,2,3#7
+// not in train 8#1,2,3#8
+// not in train 9#1,2,3#9
+// not in train 10#1,2,3#10
+
+2#2,3,4#2
+3#2,3,4#3
+4#2,3,4#4
+// not in train 5#2,3,4#5
+// not in train 6#2,3,4#6
+// not in train 7#2,3,4#7
+// not in train 8#2,3,4#8
+// not in train 9#2,3,4#9
+// not in train 10#2,3,4#10
+// not in train 11#2,3,4#11
+
+3#3,4,5#3
+4#3,4,5#4
+5#3,4,5#5
+// not in train 6#3,4,5#6
+// not in train 7#3,4,5#7
+// not in train 8#3,4,5#8
+// not in train 9#3,4,5#9
+// not in train 10#3,4,5#10
+// not in train 11#3,4,5#11
+// not in train 12#3,4,5#12
+
+4#4,5,6#4
+5#4,5,6#5
+6#4,5,6#6
+// not in train 7#4,5,6#7
+// not in train 8#4,5,6#8
+// not in train 9#4,5,6#9
+// not in train 10#4,5,6#10
+// not in train 11#4,5,6#11
+// not in train 12#4,5,6#12
+// not in train 13#4,5,6#13
+
+5#5,6,7#5
+6#5,6,7#6
+7#5,6,7#7
+// not in train 8#5,6,7#8
+// not in train 9#5,6,7#9
+// not in train 10#5,6,7#10
+// not in train 11#5,6,7#11
+// not in train 12#5,6,7#12
+// not in train 13#5,6,7#13
+// not in train 14#5,6,7#14
+
+6#6,7,8#6
+7#6,7,8#7
+8#6,7,8#8
+// not in train 9#6,7,8#9
+// not in train 10#6,7,8#10
+// not in train 11#6,7,8#11
+// not in train 12#6,7,8#12
+// not in train 13#6,7,8#13
+// not in train 14#6,7,8#14
+// not in train 15#6,7,8#15
+
+7#7,8,9#7
+8#7,8,9#8
+9#7,8,9#9
+// not in train 10#7,8,9#10
+// not in train 11#7,8,9#11
+// not in train 12#7,8,9#12
+// not in train 13#7,8,9#13
+// not in train 14#7,8,9#14
+// not in train 15#7,8,9#15
+// not in train 16#7,8,9#16
+
+8#8,9,10#8
+9#8,9,10#9
+10#8,9,10#10
+// not in train 11#8,9,10#11
+// not in train 12#8,9,10#12
+// not in train 13#8,9,10#13
+// not in train 14#8,9,10#14
+// not in train 15#8,9,10#15
+// not in train 16#8,9,10#16
+// not in train 17#8,9,10#17
+
+9#9,10,11#9
+10#9,10,11#10
+11#9,10,11#11
+// not in train 12#9,10,11#12
+// not in train 13#9,10,11#13
+// not in train 14#9,10,11#14
+// not in train 15#9,10,11#15
+// not in train 16#9,10,11#16
+// not in train 17#9,10,11#17
+// not in train 18#9,10,11#18
+
+10#10,11,12#10
+11#10,11,12#11
+12#10,11,12#12
+// not in train 13#10,11,12#13
+// not in train 14#10,11,12#14
+// not in train 15#10,11,12#15
+// not in train 16#10,11,12#16
+// not in train 17#10,11,12#17
+// not in train 18#10,11,12#18
+// not in train 19#10,11,12#19
+

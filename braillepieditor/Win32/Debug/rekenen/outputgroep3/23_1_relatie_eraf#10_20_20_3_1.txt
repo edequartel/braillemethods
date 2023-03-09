@@ -1,0 +1,6 @@
+//23_1_relatie_eraf.ps
+//23_1_relatie_eraf.ps from: 10 span: 20 maxanswer: 20 spreiding: 3 step: 1
+20-10=10 dus 10+10#19,20,21#20
+20-10=10 dus 10+10#20,21,22#20
+
+

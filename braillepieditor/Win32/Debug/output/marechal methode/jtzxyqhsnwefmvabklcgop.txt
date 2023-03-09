@@ -1,0 +1,26 @@
+abcefghjklmnopqstvwxyz
+;lees letters jtzxyqhsnwefmvabklcgop
+y   m   j   p   k   n   b   h   t   g
+h v z e x p t b q l y a o k
+m w k j b l t n a o e z y p
+;zoek letters jtzxyqhsnwefmvabklcgop
+g#k   z   v   j   w   q   y   c   g   e
+m#o   a   b   f   t   j   f   s   m   k
+a#e k b w m s q v c h g t a n
+b#f k l f g a b f k s m z b c
+;lees woorden jtzxyqhsnwefmvabklcgop
+stappen   pap   ajax   eetzaal   afgaf
+aalmoes poetst eten afkap loes taboe
+weglok ontpop steek lastpak kwek ooghoek
+;zoek woorden jtzxyqhsnwefmvabklcgop
+opwel#opwel   koken   knal   wegval
+wachten#wachten   talg   zoen   boeven
+we#we poolvos ex gegevens zwoeg toonloos
+man#man ploeg schoolslag ach haast vol
+;type letters jtzxyqhsnwefmvabklcgop
+$t   s   y   x   l   w   g   n   a   h
+$o m w q f a e b h x n p k v
+$j w o f e a e l
+;type woorden jtzxyqhsnwefmvabklcgop
+$foef
+$schat sok mest

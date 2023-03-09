@@ -1,0 +1,101 @@
+//19_1_erbij.ps
+//19_1_erbij.ps from: 1 span: 10 maxanswer: 10 spreiding: 3 step: -1
+1+0#GetSet Error: desired groter dan grootste waarde:1>=-9#1
+0+1#GetSet Error: desired groter dan grootste waarde:1>=-9#1
+
+1+1#GetSet Error: desired groter dan grootste waarde:2>=-9#2
+
+1+2#GetSet Error: desired groter dan grootste waarde:3>=-9#3
+2+1#GetSet Error: desired groter dan grootste waarde:3>=-9#3
+
+1+3#GetSet Error: desired groter dan grootste waarde:4>=-9#4
+3+1#GetSet Error: desired groter dan grootste waarde:4>=-9#4
+
+2+0#GetSet Error: desired groter dan grootste waarde:2>=-9#2
+0+2#GetSet Error: desired groter dan grootste waarde:2>=-9#2
+
+2+1#GetSet Error: desired groter dan grootste waarde:3>=-9#3
+1+2#GetSet Error: desired groter dan grootste waarde:3>=-9#3
+
+2+2#GetSet Error: desired groter dan grootste waarde:4>=-9#4
+
+2+3#GetSet Error: desired groter dan grootste waarde:5>=-9#5
+3+2#GetSet Error: desired groter dan grootste waarde:5>=-9#5
+
+3+0#GetSet Error: desired groter dan grootste waarde:3>=-9#3
+0+3#GetSet Error: desired groter dan grootste waarde:3>=-9#3
+
+3+1#GetSet Error: desired groter dan grootste waarde:4>=-9#4
+1+3#GetSet Error: desired groter dan grootste waarde:4>=-9#4
+
+3+2#GetSet Error: desired groter dan grootste waarde:5>=-9#5
+2+3#GetSet Error: desired groter dan grootste waarde:5>=-9#5
+
+3+3#GetSet Error: desired groter dan grootste waarde:6>=-9#6
+
+4+0#GetSet Error: desired groter dan grootste waarde:4>=-9#4
+0+4#GetSet Error: desired groter dan grootste waarde:4>=-9#4
+
+4+1#GetSet Error: desired groter dan grootste waarde:5>=-9#5
+1+4#GetSet Error: desired groter dan grootste waarde:5>=-9#5
+
+4+2#GetSet Error: desired groter dan grootste waarde:6>=-9#6
+2+4#GetSet Error: desired groter dan grootste waarde:6>=-9#6
+
+4+3#GetSet Error: desired groter dan grootste waarde:7>=-9#7
+3+4#GetSet Error: desired groter dan grootste waarde:7>=-9#7
+
+5+0#GetSet Error: desired groter dan grootste waarde:5>=-9#5
+0+5#GetSet Error: desired groter dan grootste waarde:5>=-9#5
+
+5+1#GetSet Error: desired groter dan grootste waarde:6>=-9#6
+1+5#GetSet Error: desired groter dan grootste waarde:6>=-9#6
+
+5+2#GetSet Error: desired groter dan grootste waarde:7>=-9#7
+2+5#GetSet Error: desired groter dan grootste waarde:7>=-9#7
+
+5+3#GetSet Error: desired groter dan grootste waarde:8>=-9#8
+3+5#GetSet Error: desired groter dan grootste waarde:8>=-9#8
+
+6+0#GetSet Error: desired groter dan grootste waarde:6>=-9#6
+0+6#GetSet Error: desired groter dan grootste waarde:6>=-9#6
+
+6+1#GetSet Error: desired groter dan grootste waarde:7>=-9#7
+1+6#GetSet Error: desired groter dan grootste waarde:7>=-9#7
+
+6+2#GetSet Error: desired groter dan grootste waarde:8>=-9#8
+2+6#GetSet Error: desired groter dan grootste waarde:8>=-9#8
+
+6+3#GetSet Error: desired groter dan grootste waarde:9>=-9#9
+3+6#GetSet Error: desired groter dan grootste waarde:9>=-9#9
+
+7+0#GetSet Error: desired groter dan grootste waarde:7>=-9#7
+0+7#GetSet Error: desired groter dan grootste waarde:7>=-9#7
+
+7+1#GetSet Error: desired groter dan grootste waarde:8>=-9#8
+1+7#GetSet Error: desired groter dan grootste waarde:8>=-9#8
+
+7+2#GetSet Error: desired groter dan grootste waarde:9>=-9#9
+2+7#GetSet Error: desired groter dan grootste waarde:9>=-9#9
+
+7+3#GetSet Error: desired groter dan grootste waarde:10>=-9#10
+3+7#GetSet Error: desired groter dan grootste waarde:10>=-9#10
+
+8+0#GetSet Error: desired groter dan grootste waarde:8>=-9#8
+0+8#GetSet Error: desired groter dan grootste waarde:8>=-9#8
+
+8+1#GetSet Error: desired groter dan grootste waarde:9>=-9#9
+1+8#GetSet Error: desired groter dan grootste waarde:9>=-9#9
+
+8+2#GetSet Error: desired groter dan grootste waarde:10>=-9#10
+2+8#GetSet Error: desired groter dan grootste waarde:10>=-9#10
+
+9+0#GetSet Error: desired groter dan grootste waarde:9>=-9#9
+0+9#GetSet Error: desired groter dan grootste waarde:9>=-9#9
+
+9+1#GetSet Error: desired groter dan grootste waarde:10>=-9#10
+1+9#GetSet Error: desired groter dan grootste waarde:10>=-9#10
+
+10+0#GetSet Error: desired groter dan grootste waarde:10>=-9#10
+0+10#GetSet Error: desired groter dan grootste waarde:10>=-9#10
+
