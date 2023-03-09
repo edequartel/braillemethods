@@ -303,7 +303,7 @@
             "name" : "hoofdletters",
             "letters" : "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z",
             "antiletters" : "",
-            "words" : "AAP NOOT APPEL BAAL JAS KRAAN BEL",
+            "words" : "a b c AAP NOOT APPEL BAAL JAS KRAAN BEL",
             "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
