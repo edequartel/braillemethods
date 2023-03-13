@@ -533,7 +533,7 @@
         "lesson" : [
           {
             "id" : 0,
-            "name" : "a n k l m e\n",
+            "name" : "anklme\n",
             "letters" : "a n k l m e",
             "antiletters" : "",
             "words" : "aa-l a-l b-a b-aa-l b-a-l l-a l-a-l",
@@ -554,7 +554,7 @@
           },
           {
             "id" : 1,
-            "name" : "a n k l m e p",
+            "name" : "anklmep",
             "letters" : "a n k l m e p",
             "antiletters" : "",
             "words" : "aa-k- k-aa-k k-a-m k-m m-a m-aa-k m-a-k m-a-m m-a-m-a m-a-m-m-a",
@@ -575,7 +575,7 @@
           },
           {
             "id" : 2,
-            "name" : "a n k l m e p o",
+            "name" : "anklmepo",
             "letters" : "a n k l m e p o",
             "antiletters" : "",
             "words" : "aa-k aa-l a-l b-a b-aa-l b-a-k b-a-l b-a-l-k k-aa-k k-aa-l k-a-l-k k-l-a-k l-a l-a-k l-a-l",
