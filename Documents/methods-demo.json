@@ -9,91 +9,55 @@
     "method" : [
       {
         "id" : 0,
-        "name" : "Met punt op pad+",
+        "name" : "Met punt op pad+2",
         "developer" : "Bartiméus Education",
         "information" : "Voor kinderen. ",
         "letters" : "b a l k m aa p e d ee g i s t v n o oo r u uu h w ie f ui z ei j ij c sch oe eu ou au ch ng nk aai ooi oei oor eur eer eeuw ieuw",
-        "comments" : "xxx",
+        "comments" : "",
         "lesson" : [
           {
             "id" : 0,
             "name" : "bal",
             "letters" : "a b l",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "we beginnen hier met de eerste letters, b a l\nvanuit deze letters bouwen we verder",
-            "information" : "met punt op pad blz. 10",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "met punt op pad blz. 10"
           },
           {
             "id" : 1,
             "name" : "kam",
             "letters" : "k a m",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "…",
-            "information" : "..",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : ".."
           },
           {
             "id" : 2,
             "name" : "kam+",
             "letters" : "k a m",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "…",
-            "information" : "..",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : ".."
           },
           {
             "id" : 3,
             "name" : "aap",
             "letters" : "a a p",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           },
           {
             "id" : 4,
@@ -130,181 +94,100 @@
             "id" : 0,
             "name" : "abkl",
             "letters" : "a b k l",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           },
           {
             "id" : 1,
             "name" : "cgop",
             "letters" : "c g o p",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           },
           {
             "id" : 2,
             "name" : "cgop+",
             "letters" : "a b k l c g o p",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           },
           {
             "id" : 3,
             "name" : "efmv",
             "letters" : "e f m v",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           },
           {
             "id" : 4,
             "name" : "efmv+",
             "letters" : "b a l c g o p e f m v",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           },
           {
             "id" : 5,
             "name" : "alfabet",
             "letters" : "a b c d e f g h i j k l m n o p q r s t u v w x y z",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           },
           {
             "id" : 6,
             "name" : "cijfers",
             "letters" : "1 2 3 4 5 6 7 8 9 0",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           },
           {
             "id" : 7,
             "name" : "leestekens",
             "letters" : "# $ % & , .",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           },
           {
             "id" : 8,
             "name" : "hoofdletters",
             "letters" : "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           }
         ]
       },
@@ -463,101 +346,56 @@
             "id" : 0,
             "name" : "bal",
             "letters" : "a b l",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "we beginnen hier met de eerste letters, b a l\nvanuit deze letters bouwen we verder",
-            "information" : "met punt op pad blz. 10",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "met punt op pad blz. 10"
           },
           {
             "id" : 1,
             "name" : "kam",
             "letters" : "k a m",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "…",
-            "information" : "..",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : ".."
           },
           {
             "id" : 2,
             "name" : "kam+",
             "letters" : "k a m",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "…",
-            "information" : "..",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : ".."
           },
           {
             "id" : 3,
             "name" : "aap",
             "letters" : "a a p",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           },
           {
             "id" : 4,
             "name" : "aap+",
             "letters" : "a p b c k",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           }
         ]
       },
@@ -573,8 +411,6 @@
             "id" : 0,
             "name" : "abkl",
             "letters" : "a b k l ",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "a b k l a l k k l b b k a k",
               "l k b a a b k k l k l l a b",
@@ -590,21 +426,12 @@
               "klabak kabaal kalk kaak baal"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           },
           {
             "id" : 1,
             "name" : "cgop",
             "letters" : "c g o p",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "c g o p c g o p o g c p c p",
               "o o c p o g c g o c c g o c",
@@ -620,21 +447,12 @@
               "o g g p p g c p c o p p c c"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           },
           {
             "id" : 2,
             "name" : "efmv",
             "letters" : "e f m v",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "aap lag kaap kap laag kalk",
               "lag blaag gal klaag gala pal",
@@ -650,21 +468,12 @@
               "kok olga polka galop goal ook"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           },
           {
             "id" : 3,
             "name" : "idur",
             "letters" : "i d u r",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "e f m v m f e m f v v m f e",
               "f f e v e e m e v m m f e f",
@@ -679,14 +488,7 @@
               "m o e b f g a c f g b k o m"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           }
         ]
       }
@@ -712,101 +514,56 @@
             "id" : 0,
             "name" : "bal",
             "letters" : "a b l",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "we beginnen hier met de eerste letters, b a l\nvanuit deze letters bouwen we verder",
-            "information" : "met punt op pad blz. 10",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "met punt op pad blz. 10"
           },
           {
             "id" : 1,
             "name" : "kam",
             "letters" : "k a m",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "…",
-            "information" : "..",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : ".."
           },
           {
             "id" : 2,
             "name" : "kam+",
             "letters" : "k a m",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "…",
-            "information" : "..",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : ".."
           },
           {
             "id" : 3,
             "name" : "aap",
             "letters" : "a a p",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           },
           {
             "id" : 4,
             "name" : "aap+",
             "letters" : "a p b c k",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "bal bal bal la bla la",
               "bla lab l b a a la"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           }
         ]
       },
@@ -822,8 +579,6 @@
             "id" : 0,
             "name" : "abkl",
             "letters" : "a b k l ",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "a b k l a l k k l b b k a k",
               "l k b a a b k k l k l l a b",
@@ -839,21 +594,12 @@
               "klabak kabaal kalk kaak baal"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           },
           {
             "id" : 1,
             "name" : "cgop",
             "letters" : "c g o p",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "c g o p c g o p o g c p c p",
               "o o c p o g c g o c c g o c",
@@ -869,21 +615,12 @@
               "o g g p p g c p c o p p c c"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           },
           {
             "id" : 2,
             "name" : "efmv",
             "letters" : "e f m v",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "aap lag kaap kap laag kalk",
               "lag blaag gal klaag gala pal",
@@ -899,21 +636,12 @@
               "kok olga polka galop goal ook"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           },
           {
             "id" : 3,
             "name" : "idur",
             "letters" : "i d u r",
-            "antiletters" : "",
-            "allwords" : "",
             "sentence" : [
               "e f m v m f e m f v v m f e",
               "f f e v e e m e v m m f e f",
@@ -928,14 +656,7 @@
               "m o e b f g a c f g b k o m"
             ],
             "comments" : "…",
-            "information" : "…",
-            "voice" : [
-              "bal.mp3",
-              "bla.mp3"
-            ],
-            "audio" : [
-              "bal.mp3"
-            ]
+            "information" : "…"
           }
         ]
       }
