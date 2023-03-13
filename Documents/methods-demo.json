@@ -60,7 +60,7 @@
           {
             "id" : 2,
             "name" : "kam+",
-            "letters" : "k a m",
+            "letters" : "a b l k a m",
             "antiletters" : "",
             "words" : "aa-k aa-l a-l b-a b-aa-l b-a-k b-a-l b-a-l-k k-aa-k k-aa-l k-a-l-k k-l-a-k l-a l-a-k l-a-l",
             "allwords" : "",
@@ -102,7 +102,7 @@
           {
             "id" : 4,
             "name" : "aap+",
-            "letters" : "a p b c k",
+            "letters" : "a b l k a m p",
             "antiletters" : "",
             "words" : "aa-k aa-l aa-p a-l k-aa-k k-aa-l k-aa-p k-a-l-k k-a-l-m k-a-m k-a-m-p k-a-p k-l-a-k k-l-a-m k-l-a-m-p k-l-a-p k-m l-a l-a-k l-a-l l-a-m l-a-m-a l-a-m-p l-a-p m-a m-aa-k m-aa-l m-a-k m-a-l m-a-m m-a-m-a m-a-m-m-a m-a-p p-a p-a-a-l p-a-k p-a-l p-a-l-m p-a-p p-a-p-a p-a-p-p-a p-l-a-k",
             "allwords" : "",
@@ -194,8 +194,8 @@
           },
           {
             "id" : 2,
-            "name" : "efmv",
-            "letters" : "e f m v",
+            "name" : "cgop+",
+            "letters" : "a b k l c g op",
             "antiletters" : "",
             "words" : "la lama maal mal kam af laf kap blaf blaam kalf klam mal vaal vak vaak valk vlak lava eb elk lel bel kelk abel faam vlag vlam gaf gaaf cake egaal vlaag beklaag fabel mag maag malaga melk mol bof bef bom eg leg plek klom klem kop kom me klop vol volk vel om op of el cel velg vlek fakkel gek gebak leek beek pek leef geel cello bagage kogel kegel bevel vogel",
             "allwords" : "",
@@ -225,8 +225,8 @@
           },
           {
             "id" : 3,
-            "name" : "idur",
-            "letters" : "i d u r",
+            "name" : "efmv",
+            "letters" : "e f m v",
             "antiletters" : "",
             "words" : "ar kar bar bad klad klaar aai raak kraal dal dak barak krab kil klik blik bil gil bulk ik raam vaar raap daad kraag raar dar glad kraai lui kade lade lid bid kou de kei bed draak rib bril kerk pil dik uil leuk eik berk gul mul mug muf mud film dor boor rug dom erg berg korf koud iep koor pril april braille pedaal mei ramp radio adder dorp rui cider vader uk drie vier mier piep mooi deur duur geur prei ruik kruik diep firma marmer prik prima rover ceder lucifer droog dader ruif brief deurbel rammelaar kouder proper droger mooier duurder duivel ruimer duiker papaver klaploper rug broodbakker guur vlieger decor ui fakkeldrager reclame verkoper oeroud druk oordeel kleur roomklopper goed",
             "allwords" : "",
