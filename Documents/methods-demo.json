@@ -292,6 +292,66 @@
             ],
             "comments" : "",
             "information" : ""
+          },
+          {
+            "id" : 5,
+            "name" : "vuur",
+            "letters" : "vuur",
+            "sentence" : [
+              "e f m v m f e m f v v m f e",
+              "f f e v e e m e v m m f e f",
+              "e c c e c e e e c e c c e c",
+              "e o e o e o e e o e o e o o",
+              "f b b b f b f b f f b f b f",
+              "f g f g f g f g f g f f f g",
+              "k m o k o k m k m k o k o m",
+              "l v p l v l p l p l v l v p",
+              "m p m p p m m m p m p p p m",
+              "a b k l c g o p e f m v l p",
+              "m o e b f g a c f g b k o m"
+            ],
+            "comments" : "",
+            "information" : ""
+          },
+          {
+            "id" : 6,
+            "name" : "vuur+",
+            "letters" : "boomroosvisvuur",
+            "sentence" : [
+              "e f m v m f e m f v v m f e",
+              "f f e v e e m e v m m f e f",
+              "e c c e c e e e c e c c e c",
+              "e o e o e o e e o e o e o o",
+              "f b b b f b f b f f b f b f",
+              "f g f g f g f g f g f f f g",
+              "k m o k o k m k m k o k o m",
+              "l v p l v l p l p l v l v p",
+              "m p m p p m m m p m p p p m",
+              "a b k l c g o p e f m v l p",
+              "m o e b f g a c f g b k o m"
+            ],
+            "comments" : "",
+            "information" : ""
+          },
+          {
+            "id" : 7,
+            "name" : "pim+",
+            "letters" : "boomroosvisvuurpim",
+            "sentence" : [
+              "e f m v m f e m f v v m f e",
+              "f f e v e e m e v m m f e f",
+              "e c c e c e e e c e c c e c",
+              "e o e o e o e e o e o e o o",
+              "f b b b f b f b f f b f b f",
+              "f g f g f g f g f g f f f g",
+              "k m o k o k m k m k o k o m",
+              "l v p l v l p l p l v l v p",
+              "m p m p p m m m p m p p p m",
+              "a b k l c g o p e f m v l p",
+              "m o e b f g a c f g b k o m"
+            ],
+            "comments" : "",
+            "information" : ""
           }
         ]
       }
