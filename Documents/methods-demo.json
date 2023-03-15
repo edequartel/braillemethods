@@ -18,7 +18,7 @@
           {
             "id" : 0,
             "name" : "bal",
-            "letters" : "a b l",
+            "letters" : "bal",
             "sentence" : [],
             "comments" : "",
             "information" : ""
@@ -26,7 +26,7 @@
           {
             "id" : 1,
             "name" : "kam",
-            "letters" : "k a m",
+            "letters" : "kam",
             "sentence" : [],
             "comments" : "…",
             "information" : ".."
@@ -34,7 +34,7 @@
           {
             "id" : 2,
             "name" : "kam+",
-            "letters" : "a b l k a m",
+            "letters" : "balkam",
             "sentence" : [],
             "comments" : "",
             "information" : ""
@@ -42,7 +42,7 @@
           {
             "id" : 3,
             "name" : "aap",
-            "letters" : "a a p",
+            "letters" : "aap",
             "sentence" : [],
             "comments" : "",
             "information" : ""
@@ -50,7 +50,39 @@
           {
             "id" : 4,
             "name" : "aap+",
-            "letters" : "a b l k a m p",
+            "letters" : "balkamaap",
+            "sentence" : [],
+            "comments" : "",
+            "information" : ""
+          },
+          {
+            "id" : 5,
+            "name" : "bel",
+            "letters" : "bel",
+            "sentence" : [],
+            "comments" : "",
+            "information" : ""
+          },
+          {
+            "id" : 6,
+            "name" : "bel+",
+            "letters" : "balkamaapbel",
+            "sentence" : [],
+            "comments" : "",
+            "information" : ""
+          },
+          {
+            "id" : 7,
+            "name" : "deeg",
+            "letters" : "deeg",
+            "sentence" : [],
+            "comments" : "",
+            "information" : ""
+          },
+          {
+            "id" : 7,
+            "name" : "deeg +",
+            "letters" : "balkamaapbeldeeg",
             "sentence" : [],
             "comments" : "",
             "information" : ""
@@ -62,7 +94,7 @@
         "name" : "Maréchal",
         "developer" : "VISIO",
         "information" : "Voor mensen die kunnen lezen en schrijven. ",
-        "letters" : "b a l k m aa p e d ee g i s t v n o oo r u uu h w ie f ui z ei j ij c sch oe eu ou au ch ng nk aai ooi oei oor eur eer eeuw ieuw",
+        "letters" : "",
         "comments" : "",
         "lesson" : [
           {
@@ -165,24 +197,22 @@
         "name" : "Dot by dot",
         "developer" : "Bartiméus Education",
         "information" : "Voor kinderen. ",
-        "letters" : "b a l k m aa p e d ee g i s t v n o oo r u uu h w ie f ui z ei j ij c sch oe eu ou au ch ng nk aai ooi oei oor eur eer eeuw ieuw",
+        "letters" : "",
         "comments" : "",
         "lesson" : [
           {
             "id" : 0,
             "name" : "bal",
-            "letters" : "a b l",
+            "letters" : "bal",
             "sentence" : [],
-            "comments" : "we beginnen hier met de eerste letters, b a l\nvanuit deze letters bouwen we verder",
-            "information" : "met punt op pad blz. 10"
+            "comments" : "",
+            "information" : ""
           },
           {
             "id" : 1,
             "name" : "kam",
-            "letters" : "k a m",
+            "letters" : "kam",
             "antiletters" : "",
-            "words" : "car boat house cat hat",
-            "allwords" : "",
             "sentence" : [],
             "comments" : "…",
             "information" : ".."
@@ -190,7 +220,7 @@
           {
             "id" : 2,
             "name" : "kam+",
-            "letters" : "a b l k m",
+            "letters" : "balkam",
             "sentence" : [],
             "comments" : "…",
             "information" : ".."
@@ -198,7 +228,7 @@
           {
             "id" : 3,
             "name" : "aap",
-            "letters" : "a a p",
+            "letters" : "aap",
             "sentence" : [],
             "comments" : "…",
             "information" : "…"
