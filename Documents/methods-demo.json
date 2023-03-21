@@ -97,90 +97,103 @@
         "letters" : "",
         "comments" : "",
         "lesson" : [
-          {
-            "id" : 0,
-            "name" : "abkl",
-            "letters" : "a b k l",
-            "sentence" : [
-              "a b k l a l k k l b b k a k",
-              "l k b a a b k k l k l l a b",
-              "a b a b b a b a a b a a b b",
-              "a k k a a a k a k k a a k a",
-              "b k b b b k b k b k k b k k",
-              "b b l l l b l b l b l b b l",
-              "k l k l k l l k l k k k l k",
-              "al la aak aal ka lak laak bak",
-              "kaak bal baak baal balk kalk",
-              "kabaal klabak blaak lak kaal",
-              "kalk balk aak bak baal blaak",
-              "klabak kabaal kalk kaak baal"
-            ],
-            "comments" : "",
-            "information" : ""
-          },
-          {
-            "id" : 1,
-            "name" : "cgop",
-            "letters" : "c g o p",
-            "sentence" : [
-              "c g o p c g o p o g c p c p",
-              "o o c p o g c g o c c g o c",
-              "a c a c a c c a c a a c c a",
-              "b g b g b b g b g g b g g b",
-              "c g g c g g g c g c c c g c",
-              "k o k o k k o k o o k o o k",
-              "l p l p l p l l l p p p p l",
-              "a b c b c a a c b a a b b a",
-              "a b k l c g o p a c b g k o",
-              "k g b o k k p l l k p l p o",
-              "o l o o k l l p g c b a c a",
-              "o g g p p g c p c o p p c c"
-            ],
-            "comments" : "",
-            "information" : ""
-          },
-          {
-            "id" : 2,
-            "name" : "cgop+",
-            "letters" : "a b k l c g op",
-            "sentence" : [
-              "aap lag kaap kap laag kalk",
-              "lag blaag gal klaag gala pal",
-              "paal lak plak bok lok kok klok",
-              "blok lol kolk bol lokaal bob",
-              "plag plaag pa bokaal bak",
-              "gaap galg opa opaal globaal op",
-              "kop ook kapok log pook klop",
-              "gok olga goal polka kook look",
-              "kool galop pop polo loog boog",
-              "koog loop pool koop cacao col",
-              "coca cola poog pook globaal",
-              "kok olga polka galop goal ook"
-            ],
-            "comments" : "",
-            "information" : ""
-          },
-          {
-            "id" : 3,
-            "name" : "efmv",
-            "letters" : "e f m v",
-            "sentence" : [
-              "e f m v m f e m f v v m f e",
-              "f f e v e e m e v m m f e f",
-              "e c c e c e e e c e c c e c",
-              "e o e o e o e e o e o e o o",
-              "f b b b f b f b f f b f b f",
-              "f g f g f g f g f g f f f g",
-              "k m o k o k m k m k o k o m",
-              "l v p l v l p l p l v l v p",
-              "m p m p p m m m p m p p p m",
-              "a b k l c g o p e f m v l p",
-              "m o e b f g a c f g b k o m"
-            ],
-            "comments" : "",
-            "information" : ""
-          }
-        ]
+            {
+              "id": 0,
+              "name": "abkl",
+              "letters": "abkl",
+              "sentence": [],
+              "comments": "",
+              "information": ""
+            },
+            {
+              "id": 1,
+              "name": "cgop",
+              "letters": "cgop",
+              "sentence": [],
+              "comments": "",
+              "information": ""
+            },
+            {
+              "id": 2,
+              "name": "cgop+",
+              "letters": "abklcgop",
+              "sentence": [],
+              "comments": "",
+              "information": ""
+            },
+            {
+              "id": 3,
+              "name": "efmv",
+              "letters": "efmv",
+              "sentence": [],
+              "comments": "",
+              "information": ""
+            },
+            {
+              "id": 4,
+              "name": "efmv+",
+              "letters": "abklcgopefmv",
+              "sentence": [],
+              "comments": "",
+              "information": ""
+            },
+            {
+              "id": 5,
+              "name": "idur",
+              "letters": "idur",
+              "sentence": [],
+              "comments": "",
+              "information": ""
+            },
+            {
+              "id": 6,
+              "name": "idur+",
+              "letters": "abklcgopefmvidur",
+              "sentence": [],
+              "comments": "",
+              "information": ""
+            },
+            {
+              "id": 7,
+              "name": "hsnw+",
+              "letters": "abklcgopefmvidurhsnw",
+              "sentence": [],
+              "comments": "",
+              "information": ""
+            },
+            {
+              "id": 8,
+              "name": "gklm+",
+              "letters": "abklcgopefmvidurhsnwgklm",
+              "sentence": [],
+              "comments": "",
+              "information": ""
+            },
+            {
+              "id": 9,
+              "name": "vbchu+",
+              "letters": "abklcgopefmvidurhsnwgklmvbchu",
+              "sentence": [],
+              "comments": "",
+              "information": ""
+            },
+            {
+              "id": 10,
+              "name": "jtz+",
+              "letters": "abklcgopefmvidurhsnwgklmvbchujtz",
+              "sentence": [],
+              "comments": "",
+              "information": ""
+            },
+            {
+              "id": 11,
+              "name": "xyqé+",
+              "letters": "abklcgopefmvidurhsnwgklmvbchujtzxyqé",
+              "sentence": [],
+              "comments": "",
+              "information": ""
+            }
+          ]
       },
       {
         "id" : 2,
@@ -192,257 +205,129 @@
         "lesson" : [
             {
               "id": 0,
-              "name": "boom",
-              "letters": "boom",
-              "sentence": [],
+              "name": "boom roos",
+              "letters": "boomroos",
+              "sentence": "[]",
               "comments": "?",
               "information": "?"
             },
             {
               "id": 1,
-              "name": "roos",
-              "letters": "roos",
-              "sentence": [],
+              "name": "vis vuur",
+              "letters": "visvuur",
+              "sentence": "[]",
               "comments": "?",
               "information": "?"
             },
             {
               "id": 2,
-              "name": "vis",
-              "letters": "vis",
-              "sentence": [],
+              "name": "mus pim",
+              "letters": "muspim",
+              "sentence": "[]",
               "comments": "?",
               "information": "?"
             },
             {
               "id": 3,
-              "name": "vuur",
-              "letters": "vuur",
-              "sentence": [],
+              "name": "school raam",
+              "letters": "schoolraam",
+              "sentence": "[]",
               "comments": "?",
               "information": "?"
             },
             {
               "id": 4,
-              "name": "mus",
-              "letters": "mus",
-              "sentence": [],
+              "name": "kees miep",
+              "letters": "keesmiep",
+              "sentence": "[]",
               "comments": "?",
               "information": "?"
             },
             {
               "id": 5,
-              "name": "pim",
-              "letters": "pim",
-              "sentence": [],
+              "name": "bel boek",
+              "letters": "belboek",
+              "sentence": "[]",
               "comments": "?",
               "information": "?"
             },
             {
               "id": 6,
-              "name": "school",
-              "letters": "school",
-              "sentence": [],
+              "name": "oom bram",
+              "letters": "oombram",
+              "sentence": "[]",
               "comments": "?",
               "information": "?"
             },
             {
               "id": 7,
-              "name": "raam",
-              "letters": "raam",
-              "sentence": [],
+              "name": "eet aap",
+              "letters": "eetaap",
+              "sentence": "[]",
               "comments": "?",
               "information": "?"
             },
             {
               "id": 8,
-              "name": "kees",
-              "letters": "kees",
-              "sentence": [],
+              "name": "pet wim",
+              "letters": "petwim",
+              "sentence": "[]",
               "comments": "?",
               "information": "?"
             },
             {
               "id": 9,
-              "name": "miep",
-              "letters": "miep",
-              "sentence": [],
+              "name": "bus kar",
+              "letters": "buskar",
+              "sentence": "[]",
               "comments": "?",
               "information": "?"
             },
             {
               "id": 10,
-              "name": "bel",
-              "letters": "bel",
-              "sentence": [],
+              "name": "tol net",
+              "letters": "tolnet",
+              "sentence": "[]",
               "comments": "?",
               "information": "?"
             },
             {
               "id": 11,
-              "name": "boek",
-              "letters": "boek",
-              "sentence": [],
+              "name": "vaar weeg",
+              "letters": "vaarweeg",
+              "sentence": "[]",
               "comments": "?",
               "information": "?"
             },
             {
               "id": 12,
-              "name": "oom",
-              "letters": "oom",
-              "sentence": [],
+              "name": "loop ik",
+              "letters": "loopik",
+              "sentence": "[]",
               "comments": "?",
               "information": "?"
             },
             {
               "id": 13,
-              "name": "bram",
-              "letters": "bram",
-              "sentence": [],
+              "name": "zit een",
+              "letters": "ziteen",
+              "sentence": "[]",
               "comments": "?",
               "information": "?"
             },
             {
               "id": 14,
-              "name": "eet",
-              "letters": "eet",
-              "sentence": [],
+              "name": "twee drie",
+              "letters": "tweedrie",
+              "sentence": "[]",
               "comments": "?",
               "information": "?"
             },
             {
               "id": 15,
-              "name": "aap",
-              "letters": "aap",
-              "sentence": [],
-              "comments": "?",
-              "information": "?"
-            },
-            {
-              "id": 16,
-              "name": "pet",
-              "letters": "pet",
-              "sentence": [],
-              "comments": "?",
-              "information": "?"
-            },
-            {
-              "id": 17,
-              "name": "wim",
-              "letters": "wim",
-              "sentence": [],
-              "comments": "?",
-              "information": "?"
-            },
-            {
-              "id": 18,
-              "name": "bus",
-              "letters": "bus",
-              "sentence": [],
-              "comments": "?",
-              "information": "?"
-            },
-            {
-              "id": 19,
-              "name": "kar",
-              "letters": "kar",
-              "sentence": [],
-              "comments": "?",
-              "information": "?"
-            },
-            {
-              "id": 20,
-              "name": "tol",
-              "letters": "tol",
-              "sentence": [],
-              "comments": "?",
-              "information": "?"
-            },
-            {
-              "id": 21,
-              "name": "net",
-              "letters": "net",
-              "sentence": [],
-              "comments": "?",
-              "information": "?"
-            },
-            {
-              "id": 22,
-              "name": "vaar",
-              "letters": "vaar",
-              "sentence": [],
-              "comments": "?",
-              "information": "?"
-            },
-            {
-              "id": 23,
-              "name": "weeg",
-              "letters": "weeg",
-              "sentence": [],
-              "comments": "?",
-              "information": "?"
-            },
-            {
-              "id": 24,
-              "name": "loop",
-              "letters": "loop",
-              "sentence": [],
-              "comments": "?",
-              "information": "?"
-            },
-            {
-              "id": 25,
-              "name": "ik",
-              "letters": "ik",
-              "sentence": [],
-              "comments": "?",
-              "information": "?"
-            },
-            {
-              "id": 26,
-              "name": "zit",
-              "letters": "zit",
-              "sentence": [],
-              "comments": "?",
-              "information": "?"
-            },
-            {
-              "id": 27,
-              "name": "een",
-              "letters": "een",
-              "sentence": [],
-              "comments": "?",
-              "information": "?"
-            },
-            {
-              "id": 28,
-              "name": "twee",
-              "letters": "twee",
-              "sentence": [],
-              "comments": "?",
-              "information": "?"
-            },
-            {
-              "id": 29,
-              "name": "drie",
-              "letters": "drie",
-              "sentence": [],
-              "comments": "?",
-              "information": "?"
-            },
-            {
-              "id": 30,
-              "name": "vier",
-              "letters": "vier",
-              "sentence": [],
-              "comments": "?",
-              "information": "?"
-            },
-            {
-              "id": 31,
-              "name": "vijf",
-              "letters": "vijf",
-              "sentence": [],
+              "name": "vier vijf",
+              "letters": "viervijf",
+              "sentence": "[]",
               "comments": "?",
               "information": "?"
             }

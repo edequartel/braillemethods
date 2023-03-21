@@ -1,0 +1,98 @@
+[
+    {
+      "id": 0,
+      "name": "abkl",
+      "letters": "abkl",
+      "sentence": "[]",
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 1,
+      "name": "cgop",
+      "letters": "cgop",
+      "sentence": "[]",
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 2,
+      "name": "cgop+",
+      "letters": "abklcgop",
+      "sentence": "[]",
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 3,
+      "name": "efmv",
+      "letters": "efmv",
+      "sentence": "[]",
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 4,
+      "name": "efmv+",
+      "letters": "abklcgopefmv",
+      "sentence": "[]",
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 5,
+      "name": "idur",
+      "letters": "idur",
+      "sentence": "[]",
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 6,
+      "name": "idur+",
+      "letters": "abklcgopefmvidur",
+      "sentence": "[]",
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 7,
+      "name": "hsnw+",
+      "letters": "abklcgopefmvidurhsnw",
+      "sentence": "[]",
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 8,
+      "name": "gklm+",
+      "letters": "abklcgopefmvidurhsnwgklm",
+      "sentence": "[]",
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 9,
+      "name": "vbchu+",
+      "letters": "abklcgopefmvidurhsnwgklmvbchu",
+      "sentence": "[]",
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 10,
+      "name": "jtz+",
+      "letters": "abklcgopefmvidurhsnwgklmvbchujtz",
+      "sentence": "[]",
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 11,
+      "name": "xyqé+",
+      "letters": "abklcgopefmvidurhsnwgklmvbchujtzxyqé",
+      "sentence": "[]",
+      "comments": "?",
+      "information": "?"
+    }
+  ]
