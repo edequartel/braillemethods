@@ -1,0 +1,258 @@
+[
+    {
+      "id": 0,
+      "name": "boom",
+      "letters": "boom",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 1,
+      "name": "roos",
+      "letters": "roos",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 2,
+      "name": "vis",
+      "letters": "vis",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 3,
+      "name": "vuur",
+      "letters": "vuur",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 4,
+      "name": "mus",
+      "letters": "mus",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 5,
+      "name": "pim",
+      "letters": "pim",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 6,
+      "name": "school",
+      "letters": "school",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 7,
+      "name": "raam",
+      "letters": "raam",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 8,
+      "name": "kees",
+      "letters": "kees",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 9,
+      "name": "miep",
+      "letters": "miep",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 10,
+      "name": "bel",
+      "letters": "bel",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 11,
+      "name": "boek",
+      "letters": "boek",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 12,
+      "name": "oom",
+      "letters": "oom",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 13,
+      "name": "bram",
+      "letters": "bram",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 14,
+      "name": "eet",
+      "letters": "eet",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 15,
+      "name": "aap",
+      "letters": "aap",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 16,
+      "name": "pet",
+      "letters": "pet",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 17,
+      "name": "wim",
+      "letters": "wim",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 18,
+      "name": "bus",
+      "letters": "bus",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 19,
+      "name": "kar",
+      "letters": "kar",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 20,
+      "name": "tol",
+      "letters": "tol",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 21,
+      "name": "net",
+      "letters": "net",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 22,
+      "name": "vaar",
+      "letters": "vaar",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 23,
+      "name": "weeg",
+      "letters": "weeg",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 24,
+      "name": "loop",
+      "letters": "loop",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 25,
+      "name": "ik",
+      "letters": "ik",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 26,
+      "name": "zit",
+      "letters": "zit",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 27,
+      "name": "een",
+      "letters": "een",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 28,
+      "name": "twee",
+      "letters": "twee",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 29,
+      "name": "drie",
+      "letters": "drie",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 30,
+      "name": "vier",
+      "letters": "vier",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    },
+    {
+      "id": 31,
+      "name": "vijf",
+      "letters": "vijf",
+      "sentence": [],
+      "comments": "?",
+      "information": "?"
+    }
+  ]
