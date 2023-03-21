@@ -207,7 +207,7 @@
               "id": 0,
               "name": "boom roos",
               "letters": "boomroos",
-              "sentence": "[]",
+              "sentence": [],
               "comments": "?",
               "information": "?"
             },
@@ -215,7 +215,7 @@
               "id": 1,
               "name": "vis vuur",
               "letters": "visvuur",
-              "sentence": "[]",
+              "sentence": [],
               "comments": "?",
               "information": "?"
             },
@@ -223,7 +223,7 @@
               "id": 2,
               "name": "mus pim",
               "letters": "muspim",
-              "sentence": "[]",
+              "sentence": [],
               "comments": "?",
               "information": "?"
             },
@@ -231,7 +231,7 @@
               "id": 3,
               "name": "school raam",
               "letters": "schoolraam",
-              "sentence": "[]",
+              "sentence": [],
               "comments": "?",
               "information": "?"
             },
@@ -239,7 +239,7 @@
               "id": 4,
               "name": "kees miep",
               "letters": "keesmiep",
-              "sentence": "[]",
+              "sentence": [],
               "comments": "?",
               "information": "?"
             },
@@ -247,7 +247,7 @@
               "id": 5,
               "name": "bel boek",
               "letters": "belboek",
-              "sentence": "[]",
+              "sentence": [],
               "comments": "?",
               "information": "?"
             },
@@ -255,7 +255,7 @@
               "id": 6,
               "name": "oom bram",
               "letters": "oombram",
-              "sentence": "[]",
+              "sentence": [],
               "comments": "?",
               "information": "?"
             },
@@ -263,7 +263,7 @@
               "id": 7,
               "name": "eet aap",
               "letters": "eetaap",
-              "sentence": "[]",
+              "sentence": [],
               "comments": "?",
               "information": "?"
             },
@@ -271,7 +271,7 @@
               "id": 8,
               "name": "pet wim",
               "letters": "petwim",
-              "sentence": "[]",
+              "sentence": [],
               "comments": "?",
               "information": "?"
             },
@@ -279,7 +279,7 @@
               "id": 9,
               "name": "bus kar",
               "letters": "buskar",
-              "sentence": "[]",
+              "sentence": [],
               "comments": "?",
               "information": "?"
             },
@@ -287,7 +287,7 @@
               "id": 10,
               "name": "tol net",
               "letters": "tolnet",
-              "sentence": "[]",
+              "sentence": [],
               "comments": "?",
               "information": "?"
             },
@@ -295,7 +295,7 @@
               "id": 11,
               "name": "vaar weeg",
               "letters": "vaarweeg",
-              "sentence": "[]",
+              "sentence": [],
               "comments": "?",
               "information": "?"
             },
@@ -303,7 +303,7 @@
               "id": 12,
               "name": "loop ik",
               "letters": "loopik",
-              "sentence": "[]",
+              "sentence": [],
               "comments": "?",
               "information": "?"
             },
@@ -311,7 +311,7 @@
               "id": 13,
               "name": "zit een",
               "letters": "ziteen",
-              "sentence": "[]",
+              "sentence": [],
               "comments": "?",
               "information": "?"
             },
@@ -319,7 +319,7 @@
               "id": 14,
               "name": "twee drie",
               "letters": "tweedrie",
-              "sentence": "[]",
+              "sentence": [],
               "comments": "?",
               "information": "?"
             },
@@ -327,7 +327,7 @@
               "id": 15,
               "name": "vier vijf",
               "letters": "viervijf",
-              "sentence": "[]",
+              "sentence": [],
               "comments": "?",
               "information": "?"
             }
