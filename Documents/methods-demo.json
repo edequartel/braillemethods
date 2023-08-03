@@ -9,7 +9,7 @@
     "method" : [
       {
         "id" : 0,
-        "name" : "Met punt op pad+",
+        "name" : "Kind",
         "developer" : "Bartiméus Education",
         "information" : "Voor kinderen. ",
         "letters" : "",
@@ -91,7 +91,7 @@
       },
       {
         "id" : 1,
-        "name" : "Maréchal",
+        "name" : "Lezer",
         "developer" : "VISIO",
         "information" : "Voor mensen die kunnen lezen en schrijven. ",
         "letters" : "",
