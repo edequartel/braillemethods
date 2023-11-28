@@ -9,7 +9,7 @@
     "method" : [
       {
         "id" : 0,
-        "name" : "Met punt op pad+",
+        "name" : "Kinderen",
         "developer" : "Bartiméus Education",
         "information" : "Voor kinderen. ",
         "letters" : "",
@@ -91,7 +91,7 @@
       },
       {
         "id" : 1,
-        "name" : "Maréchal",
+        "name" : "Volwassen",
         "developer" : "VISIO",
         "information" : "Voor mensen die kunnen lezen en schrijven. ",
         "letters" : "",
@@ -197,7 +197,7 @@
       },
       {
         "id" : 2,
-        "name" : "Boom roos vis",
+        "name" : "Vintage",
         "developer" : "Zwijsen",
         "information" : "",
         "letters" : "",
